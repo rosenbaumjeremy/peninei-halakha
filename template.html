@@ -300,7 +300,7 @@ const BT={s:{en:{doc:'Hilchot Shabbat Notes',bk:'Shabbat'},he:{doc:'סיכומי
   foot:'מקור: הרב אליעזר מלמד, <em>פניני הלכה – כשרות</em>, פרקים כ–לז. לטקסט המלא בספריא: <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Kashrut.20.1?lang=he">פניני הלכה, כשרות</a>.'}}};
 const $=id=>document.getElementById(id);
 const q=$('q'),jump=$('jump'),empty=$('empty');
-let lang='en',ch=1,mode='notes',cur='all',mixSet=null;
+let lang='en',ch=1,mode='notes',cur='all',mixSet=null,secOpen=true;
 // phone tables
 document.querySelectorAll('.chap table').forEach(t=>{
  const hs=[...t.querySelectorAll('th')].map(th=>th.textContent.trim());
@@ -311,9 +311,9 @@ document.querySelectorAll('.chap table').forEach(t=>{
 document.querySelectorAll('.chap section').forEach(s=>s.dataset.h=s.innerHTML);
 const chapEl=(l,n)=>document.querySelector(`.chap[data-book="${book}"][data-lang="${l}"][data-ch="${n}"]`);
 function rail(){
- const secs=n=>{if(n!==ch||mixSet||mode!=='notes')return '';const el=chapEl(lang,n);if(!el)return '';
+ const secs=n=>{if(n!==ch||mixSet||mode!=='notes'||!secOpen)return '';const el=chapEl(lang,n);if(!el)return '';
   return '<ul class="secs">'+[...el.querySelectorAll('section')].map(s=>`<li><button class="sec${cur===s.id?' on':''}" data-s="${s.id}">${short(s.querySelector('h2').textContent)}</button></li>`).join('')+'</ul>';};
- $('rail').innerHTML=NUMS.map(n=>{const on=n===ch&&!mixSet;return `<button class="chb${on?' on':''}" data-c="${n}"${on?' aria-current="page"':''}><b>${lang==='he'?HEB[n]:n}</b><span>${CHX[n].t[lang]}</span></button>`+secs(n);}).join('')+
+ $('rail').innerHTML=NUMS.map(n=>{const on=n===ch&&!mixSet;return `<button class="chb${on?' on':''}" data-c="${n}"${on?' aria-current="page"':''}${on&&mode==='notes'?` aria-expanded="${secOpen}"`:''}><b>${lang==='he'?HEB[n]:n}</b><span>${CHX[n].t[lang]}</span></button>`+secs(n);}).join('')+
   `<button class="chb mix${mixSet?' on':''}" data-c="mix">${T[lang].mix}</button>`;
  $('chsel').innerHTML=NUMS.map(n=>`<option value="${n}"${n===ch&&!mixSet?' selected':''}>${T[lang].ch(n)} · ${CHX[n].t[lang]}</option>`).join('')+`<option value="mix"${mixSet?' selected':''}>${T[lang].mix}</option>`;
 }
@@ -451,9 +451,9 @@ function renderBook(){
 function hash(){try{if(view==='home'){history.replaceState(null,'','#'+lang);return;}history.replaceState(null,'','#'+lang+'-'+(book==='k'?'k':'')+(mixSet?'mix':ch)+(mode==='quiz'&&!mixSet?'-quiz':''))}catch(e){}}
 function goCh(c){
  if(c==='mix'){const all=[];NUMS.forEach(n=>CHX[n].quiz.forEach((x,i)=>all.push({c:n,i})));mixSet=true;mode='quiz';}
- else{mixSet=null;ch=+c;cur='all';q.value='';}
+ else{mixSet=null;ch=+c;cur='all';q.value='';secOpen=true;}
  view='book';render();hash();window.scrollTo(0,0);}
-$('rail').addEventListener('click',e=>{const s=e.target.closest('.sec');if(s){cur='all';q.value='';renderNotes();const t=$(s.dataset.s);if(t)t.scrollIntoView({behavior:calm()?'auto':'smooth',block:'start'});$('rail').querySelectorAll('.sec').forEach(x=>x.classList.toggle('on',x===s));return;}const b=e.target.closest('.chb');if(b)goCh(b.dataset.c);});
+$('rail').addEventListener('click',e=>{const s=e.target.closest('.sec');if(s){cur='all';q.value='';renderNotes();const t=$(s.dataset.s);if(t)t.scrollIntoView({behavior:calm()?'auto':'smooth',block:'start'});$('rail').querySelectorAll('.sec').forEach(x=>x.classList.toggle('on',x===s));return;}const b=e.target.closest('.chb');if(!b)return;if(b.dataset.c!=='mix'&&+b.dataset.c===ch&&!mixSet&&mode==='notes'&&view==='book'){secOpen=!secOpen;rail();$('rail').querySelector('.chb.on')?.focus();return;}goCh(b.dataset.c);});
 $('chsel').addEventListener('change',e=>goCh(e.target.value));
 jump.addEventListener('change',()=>{cur='all';renderNotes();const id=jump.value;
  if(id!=='all')$(id).scrollIntoView({behavior:'smooth',block:'start'});});
