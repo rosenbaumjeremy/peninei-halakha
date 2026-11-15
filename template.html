@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hilchot Shabbat Notes</title>
+<title>Peninei Halakha Notes</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700&family=Heebo:wght@400;500;700&display=swap" rel="stylesheet">
@@ -153,17 +153,65 @@ footer a{color:var(--gold)}
  .stack td{display:flex;justify-content:space-between;gap:12px;border:0;padding:4px 0}
  .stack td::before{content:attr(data-l);color:var(--soft);font-size:13px;flex:0 0 42%}.stack td .v{flex:1}
  .stack td:first-child{font-size:16px}.stack td:first-child::before{content:none}}
+/* home page + side toolbar */
+.logo-btn{border:0;background:none;padding:0;cursor:pointer;display:flex;flex:none;border-radius:8px}
+.logo-btn:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.hero h1{cursor:pointer}
+.homeview{padding:clamp(24px,5vw,56px) max(5vw,16px) clamp(32px,6vw,72px)}
+.home-in{max-width:980px;margin:auto}
+.hlede{font-size:18px;color:var(--soft);margin:0 0 22px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:20px}
+.card{display:flex;flex-direction:column;align-items:flex-start;gap:10px;text-align:start;font:inherit;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-top:6px solid var(--wine);border-radius:16px;padding:24px;cursor:pointer;transition:transform .15s,box-shadow .15s}
+.card:hover{transform:translateY(-2px);box-shadow:0 10px 28px #00000022}
+.card:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.cicon{width:58px;height:58px;border-radius:14px;background:var(--wine);display:grid;place-items:center}
+.cicon svg{width:36px;height:36px}
+.cname{font:700 clamp(28px,4vw,36px)/1.1 "Frank Ruhl Libre",serif;color:light-dark(var(--wine),#f2c4cc)}
+.cheb{font:500 22px "Frank Ruhl Libre",serif;color:var(--soft);margin-inline-start:10px}
+.cmeta{font-size:14px;font-weight:600;color:var(--soft)}
+.cdesc{font-size:16px;line-height:1.55}
+.cgo{margin-top:4px;font-weight:700;color:light-dark(var(--wine),#f2c4cc)}
+.layout{display:grid;grid-template-columns:280px minmax(0,1fr);max-width:1260px;margin:auto}
+.layout[hidden],.homeview[hidden]{display:none}
+.side{border-inline-end:1px solid var(--line);background:var(--panel)}
+.side-in{position:sticky;top:0;max-height:100vh;overflow-y:auto;padding:16px 12px 28px}
+.back{border:0;background:none;color:light-dark(var(--wine),#f2c4cc);font:600 14px Heebo,sans-serif;padding:6px 8px;cursor:pointer;border-radius:8px;min-height:36px}
+.back:hover{background:color-mix(in srgb,var(--wine) 8%,transparent)}
+.back:focus-visible,#rail button:focus-visible{outline:3px solid var(--gold);outline-offset:1px}
+.sbook{font:700 26px/1.1 "Frank Ruhl Libre",serif;margin:6px 8px 12px;color:var(--ink)}
+#rail .chb{display:flex;width:100%;align-items:baseline;gap:10px;background:none;border:0;border-radius:8px;color:var(--ink);padding:7px 10px;min-height:38px;white-space:normal;text-align:start;font-size:15px;line-height:1.3;cursor:pointer}
+#rail .chb b{color:light-dark(var(--wine),var(--gold));min-width:1.7em;flex:none}
+#rail .chb:hover{background:color-mix(in srgb,var(--wine) 9%,transparent)}
+#rail .chb.on{background:var(--wine);color:#fff}
+#rail .chb.on b{color:var(--gold)}
+#rail .chb.mix{margin-top:12px;border:1px solid var(--line);font-weight:600}
+#rail .chb.mix.on{border-color:var(--wine)}
+.secs{list-style:none;margin:4px 0 10px;margin-inline-start:22px;padding:0;padding-inline-start:8px;border-inline-start:2px solid var(--gold)}
+.secs li{margin:0}
+.sec{display:block;width:100%;border:0;background:none;color:var(--soft);font:14px/1.3 Heebo,sans-serif;text-align:start;padding:5px 8px;border-radius:6px;cursor:pointer}
+.sec:hover,.sec.on{color:var(--ink);background:color-mix(in srgb,var(--gold) 22%,transparent)}
+.content{min-width:0}
+.side #chsel{display:none}
+@media(min-width:901px){#jump{display:none!important}}
+@media(max-width:900px){
+ .layout{display:block}
+ .side{border-inline-end:0;border-bottom:1px solid var(--line)}
+ .side-in{position:static;max-height:none;overflow:visible;padding:10px 16px;display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px}
+ .sbook{margin:0;font-size:22px}
+ #rail{display:none}
+ .side #chsel{display:block;flex:1 1 100%;color:var(--ink);background:var(--bg);border-color:var(--line)}
+}
 </style>
 </head>
 <body>
 <header class="hero">
  <div class="hero-in">
-  <svg class="logo" viewBox="0 0 48 48" aria-hidden="true">
+  <button class="logo-btn" id="home-btn" aria-label="Home"><svg class="logo" viewBox="0 0 48 48" aria-hidden="true">
    <rect x="6" y="30" width="36" height="9" rx="2" fill="#e5ad3e"/><rect x="6" y="30" width="5" height="9" fill="#b07f1f"/>
    <rect x="9" y="20" width="32" height="9" rx="2" fill="#fbf1ee"/><rect x="9" y="20" width="5" height="9" fill="#d9c9c4"/>
    <rect x="7" y="10" width="30" height="9" rx="2" fill="#c98a3a"/><rect x="7" y="10" width="5" height="9" fill="#9b6526"/>
    <rect x="16" y="13.5" width="16" height="2" rx="1" fill="#fbf1ee" opacity=".7"/><rect x="18" y="23.5" width="16" height="2" rx="1" fill="#6a1d2c" opacity=".35"/><rect x="15" y="33.5" width="20" height="2" rx="1" fill="#6a1d2c" opacity=".35"/>
-  </svg>
+  </svg></button>
   <div class="htext">
    <h1 data-t="title"></h1>
    <p class="kick" data-t="kick"></p>
@@ -174,7 +222,10 @@ footer a{color:var(--gold)}
   </div>
  </div>
 </header>
-<nav class="rail" aria-label="Chapters"><div class="rail-in" id="rail"></div><select id="chsel" aria-label="Chapter"></select></nav>
+<section id="homeview" class="homeview" hidden><div class="home-in"><p class="hlede" id="hlede"></p><div class="cards" id="cards"></div></div></section>
+<div class="layout" id="bookview" hidden>
+<aside class="side" aria-label="Chapters"><div class="side-in"><button class="back" id="back"></button><p class="sbook" id="sbook"></p><select id="chsel" aria-label="Chapter"></select><nav id="rail"></nav></div></aside>
+<div class="content">
 <nav class="bar" aria-label="View">
  <div class="bar-in">
   <div class="mode" role="group">
@@ -199,12 +250,18 @@ footer a{color:var(--gold)}
   <div id="game" aria-live="polite"></div>
  </div>
 </main>
+</div>
+</div>
 <footer><div data-t="foot"></div></footer>
 <script>
 {
 const CH={{DATA}};
-const NUMS=Object.keys(CH).map(Number).sort((a,b)=>a-b);
-const HEB=['','א','ב','ג','ד','ה','ו','ז','ח','ט','י','יא','יב','יג','יד','טו','טז','יז','יח','יט','כ','כא','כב','כג'];
+const CHK={{DATAK}};
+const BK={s:CH,k:CHK};
+const numsOf=b=>Object.keys(BK[b]).map(Number).sort((x,y)=>x-y);
+let book='s',view='home',CHX=CH,NUMS=numsOf('s');
+function setBook(b){book=b;CHX=BK[b];NUMS=numsOf(b);}
+const HEB=['','א','ב','ג','ד','ה','ו','ז','ח','ט','י','יא','יב','יג','יד','טו','טז','יז','יח','יט','כ','כא','כב','כג','כד','כה','כו','כז','כח','כט','ל','לא','לב','לג','לד','לה','לו','לז'];
 const T={
  en:{kick:'<a href="https://ph.yhb.org.il/en/">Peninei Halakha</a> · Shabbat, chapters 1–23 · not a psak',title:"Hilchot Shabbat: my study notes",
   lede:"From the meaning of Shabbat through Muktzeh, summarized section by section, with a quiz for every chapter to check what stuck.",
@@ -234,6 +291,13 @@ const T={
   howMany:"כמה שאלות?",allN:n=>`כולן (${n})`,from:"מאילו פרקים?",none:"אף אחד",order:"סדר השאלות",mixed:"מעורבב",inOrder:"לפי הסדר",inChOrder:"לפי סדר הפרקים",
   willDraw:(n,m)=>`ייבחרו ${n} שאלות באקראי מתוך ${m} שבמאגר.`,pick:"בחרו לפחות פרק אחד.",start:"להתחלת החידון",
   foot:'מקור: הרב אליעזר מלמד, <em>פניני הלכה – שבת</em>, פרקים א–כג. לטקסט המלא בספריא: <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Shabbat.1.1?lang=bi">פניני הלכה, שבת</a>.'}};
+const BT={s:{en:{doc:'Hilchot Shabbat Notes',bk:'Shabbat'},he:{doc:'סיכומי הלכות שבת',bk:'שבת'}},
+ k:{en:{doc:'Hilchot Kashrut Notes',bk:'Kashrut',title:'Hilchot Kashrut: my study notes',
+  kick:'<a href="https://ph.yhb.org.il/en/">Peninei Halakha</a> · Kashrut, chapters 20–37 · not a psak',
+  foot:'Source: Rav Eliezer Melamed, <em>Peninei Halakha – Kashrut</em>, chapters 20–37, summarized from the Hebrew. Read the full text on Sefaria: <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Kashrut.20.1?lang=he">Peninei Halakhah, Kashrut</a>.'},
+ he:{doc:'סיכומי הלכות כשרות',bk:'כשרות',title:'הלכות כשרות: הסיכומים שלי',
+  kick:'<a href="https://ph.yhb.org.il/">פניני הלכה</a> · כשרות, פרקים כ–לז · לא פסק הלכה',
+  foot:'מקור: הרב אליעזר מלמד, <em>פניני הלכה – כשרות</em>, פרקים כ–לז. לטקסט המלא בספריא: <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Kashrut.20.1?lang=he">פניני הלכה, כשרות</a>.'}}};
 const $=id=>document.getElementById(id);
 const q=$('q'),jump=$('jump'),empty=$('empty');
 let lang='en',ch=1,mode='notes',cur='all',mixSet=null;
@@ -245,11 +309,13 @@ document.querySelectorAll('.chap table').forEach(t=>{
  const w=document.createElement('div');w.className='tw';t.before(w);w.append(t);
 });
 document.querySelectorAll('.chap section').forEach(s=>s.dataset.h=s.innerHTML);
-const chapEl=(l,n)=>document.querySelector(`.chap[data-lang="${l}"][data-ch="${n}"]`);
+const chapEl=(l,n)=>document.querySelector(`.chap[data-book="${book}"][data-lang="${l}"][data-ch="${n}"]`);
 function rail(){
- $('rail').innerHTML=NUMS.map(n=>`<button class="chb${n===ch&&!mixSet?' on':''}" data-c="${n}"><b>${lang==='he'?HEB[n]:n}</b><span>${CH[n].t[lang]}</span></button>`).join('')+
+ const secs=n=>{if(n!==ch||mixSet||mode!=='notes')return '';const el=chapEl(lang,n);if(!el)return '';
+  return '<ul class="secs">'+[...el.querySelectorAll('section')].map(s=>`<li><button class="sec${cur===s.id?' on':''}" data-s="${s.id}">${short(s.querySelector('h2').textContent)}</button></li>`).join('')+'</ul>';};
+ $('rail').innerHTML=NUMS.map(n=>{const on=n===ch&&!mixSet;return `<button class="chb${on?' on':''}" data-c="${n}"${on?' aria-current="page"':''}><b>${lang==='he'?HEB[n]:n}</b><span>${CHX[n].t[lang]}</span></button>`+secs(n);}).join('')+
   `<button class="chb mix${mixSet?' on':''}" data-c="mix">${T[lang].mix}</button>`;
- $('chsel').innerHTML=NUMS.map(n=>`<option value="${n}"${n===ch&&!mixSet?' selected':''}>${T[lang].ch(n)} · ${CH[n].t[lang]}</option>`).join('')+`<option value="mix"${mixSet?' selected':''}>${T[lang].mix}</option>`;
+ $('chsel').innerHTML=NUMS.map(n=>`<option value="${n}"${n===ch&&!mixSet?' selected':''}>${T[lang].ch(n)} · ${CHX[n].t[lang]}</option>`).join('')+`<option value="mix"${mixSet?' selected':''}>${T[lang].mix}</option>`;
 }
 function short(h){return h.replace(/\s*\(.*$/,'').replace(/:.*$/,'')}
 function buildChips(){
@@ -267,17 +333,17 @@ function hl(el,term){
 }
 function renderNotes(){
  const term=q.value.trim().toLowerCase();let shown=0;
- $('chead').textContent=term?'':T[lang].ch(ch);$('ctitle').textContent=term?'':CH[ch].t[lang];
+ $('chead').textContent=term?'':T[lang].ch(ch);$('ctitle').textContent=term?'':CHX[ch].t[lang];
  $('chead').hidden=$('ctitle').hidden=!!term;
  document.querySelectorAll('.chap').forEach(c=>{
-  const mine=c.dataset.lang===lang&&(term||+c.dataset.ch===ch);let any=0;
+  const mine=c.dataset.book===book&&c.dataset.lang===lang&&(term||+c.dataset.ch===ch);let any=0;
   c.querySelectorAll('section').forEach(s=>{
    s.innerHTML=s.dataset.h;
    const ok=mine&&(term?s.textContent.toLowerCase().includes(term):(cur==='all'||s.id===cur));
    s.hidden=!ok;if(ok){any++;shown++;if(term)hl(s,term);}
   });
   c.hidden=!any;const tag=c.querySelector('.ctag');tag.hidden=!term;
-  tag.textContent=T[lang].ch(+c.dataset.ch)+' · '+CH[c.dataset.ch].t[lang];
+  tag.textContent=T[lang].ch(+c.dataset.ch)+' · '+BK[c.dataset.book][c.dataset.ch].t[lang];
  });
  empty.hidden=shown>0;empty.textContent=T[lang].empty;
 }
@@ -288,17 +354,17 @@ const SETUP=new Map(),RUNS=new Map();
 const calm=()=>window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
 function qbest(k){try{return JSON.parse(localStorage.getItem('quiz-best:phs:'+k))||null}catch(e){return null}}
 function qsave(k,r){try{localStorage.setItem('quiz-best:phs:'+k,JSON.stringify(r))}catch(e){}}
-function gkey(){return mixSet?'all':String(ch)}
+function gkey(){return (book==='k'?'k':'')+(mixSet?'all':String(ch))}
 function setupOf(k){if(!SETUP.has(k))SETUP.set(k,{count:mixSet?20:QALL,chs:new Set(NUMS),mix:true});return SETUP.get(k)}
-function poolOf(st){return mixSet?NUMS.filter(n=>st.chs.has(n)).reduce((a,n)=>a+CH[n].quiz.length,0):CH[ch].quiz.length}
+function poolOf(st){return mixSet?NUMS.filter(n=>st.chs.has(n)).reduce((a,n)=>a+CHX[n].quiz.length,0):CHX[ch].quiz.length}
 function draw(st){
- const banks=(mixSet?NUMS.filter(n=>st.chs.has(n)):[ch]).map(n=>({c:n,qs:CH[n].quiz.map((_,i)=>i)}));
+ const banks=(mixSet?NUMS.filter(n=>st.chs.has(n)):[ch]).map(n=>({c:n,qs:CHX[n].quiz.map((_,i)=>i)}));
  const want=banks.map(()=>0);let left=Math.min(st.count,banks.reduce((a,b)=>a+b.qs.length,0));
  const ord=shuffle(banks.map((_,i)=>i));
  while(left>0)for(const i of ord){if(left>0&&want[i]<banks[i].qs.length){want[i]++;left--;}}
  let out=[];banks.forEach((b,i)=>shuffle(b.qs.slice()).slice(0,want[i]).sort((x,y)=>x-y).forEach(k=>out.push({c:b.c,i:k})));
  if(st.mix)out=shuffle(out);
- return out.map(x=>{const Q=CH[x.c].quiz[x.i],o=shuffle(Q.o.map((_,j)=>j));return {...x,ord:o,a:o.indexOf(Q.a)}});
+ return out.map(x=>{const Q=CHX[x.c].quiz[x.i],o=shuffle(Q.o.map((_,j)=>j));return {...x,ord:o,a:o.indexOf(Q.a)}});
 }
 function bestKey(k,n,st){let b=k+':'+n;if(mixSet&&st.chs.size<NUMS.length)b+=':'+[...st.chs].sort().join('+');return b}
 function startRun(){const k=gkey(),st=setupOf(k),qs=draw(st);RUNS.set(k,{qs,chosen:new Map(),bk:bestKey(k,qs.length,st)});}
@@ -319,7 +385,7 @@ function toast(host,text){const o=host.querySelector('.quiztoast');if(o)o.remove
 function gameView(){
  const L=T[lang],box=$('game'),k=gkey();
  $('qhead').textContent=mixSet?'':L.ch(ch);$('qhead').hidden=!!mixSet;
- $('qtitle').textContent=mixSet?L.mixT:CH[ch].t[lang];
+ $('qtitle').textContent=mixSet?L.mixT:CHX[ch].t[lang];
  document.querySelectorAll('.confetti').forEach(c=>c.remove());
  const run=RUNS.get(k);
  if(!run){const st=setupOf(k),max=poolOf(st),n=Math.min(st.count,max),sizes=mixSet?ALL_SIZES:CH_SIZES;
@@ -327,7 +393,7 @@ function gameView(){
   box.innerHTML=`<div class="sefersetup"><p class="quizintro">${L.rules(QP,QSF,QSB)}</p>
    <div class="label">${L.howMany}</div><div class="sefersizes">${sizes.filter(x=>x<max).map(x=>`<button class="chip${st.count===x?' on':''}" data-a="size" data-n="${x}">${x}</button>`).join('')}<button class="chip${allOn?' on':''}" data-a="size" data-n="${QALL}">${L.allN(max)}</button></div>
    ${mixSet?`<div class="label sefershead"><span>${L.from}</span><button class="linkish" data-a="chall">${L.all}</button><button class="linkish" data-a="chnone">${L.none}</button></div>
-   <div class="seferparashot">${NUMS.map(c=>`<button class="chip${st.chs.has(c)?' on':''}" data-a="ch" data-c="${c}">${lang==='he'?HEB[c]:c} · ${CH[c].t[lang]}<span class="chipcount">${CH[c].quiz.length}</span></button>`).join('')}</div>`:''}
+   <div class="seferparashot">${NUMS.map(c=>`<button class="chip${st.chs.has(c)?' on':''}" data-a="ch" data-c="${c}">${lang==='he'?HEB[c]:c} · ${CHX[c].t[lang]}<span class="chipcount">${CHX[c].quiz.length}</span></button>`).join('')}</div>`:''}
    <div class="label">${L.order}</div><div class="sefersizes"><button class="chip${st.mix?' on':''}" data-a="mix" data-m="1">${L.mixed}</button><button class="chip${!st.mix?' on':''}" data-a="mix" data-m="0">${mixSet?L.inChOrder:L.inOrder}</button></div>
    ${rec?`<p class="quizbestline">${L.best} (${n}): ${L.bestShort(rec.right,rec.total)} · ${L.pts(rec.points)}</p>`:''}
    <p class="sefernote">${mixSet&&!st.chs.size?L.pick:L.willDraw(n,max)}</p>
@@ -336,12 +402,12 @@ function gameView(){
  const total=run.qs.length,prior=qbest(run.bk);
  box.innerHTML=`<div class="quizintro"><p>${L.rules(QP,QSF,QSB)}</p>${prior?`<p class="quizbestline">${L.best}: ${L.bestShort(prior.right,prior.total)} · ${L.pts(prior.points)}</p>`:''}</div>
   <div class="quizbar" id="qbar"><div class="quizstats"><span class="quizpts" id="qpts"></span><span class="quizstreak" id="qstr"></span><span class="quizcount" id="qcnt"></span></div><button data-a="change">${L.change}</button><div class="quizprogress"><div class="fill" id="qfill"></div></div></div>
-  <ol class="quizlist">${run.qs.map((q,i)=>{const Q=CH[q.c].quiz[q.i];return `<li class="quizq" id="qi-${i}">${mixSet?`<div class="quiztags"><span class="quiztag">${L.ch(q.c)} · ${CH[q.c].t[lang]}</span></div>`:''}<p class="quizprompt">${Q.q[lang]}</p><div class="quizopts">${q.ord.map((j,x)=>`<button class="quizopt" data-k="${i}" data-x="${x}">${Q.o[j][lang]}</button>`).join('')}</div><div class="quizafter"></div></li>`}).join('')}</ol>
+  <ol class="quizlist">${run.qs.map((q,i)=>{const Q=CHX[q.c].quiz[q.i];return `<li class="quizq" id="qi-${i}">${mixSet?`<div class="quiztags"><span class="quiztag">${L.ch(q.c)} · ${CHX[q.c].t[lang]}</span></div>`:''}<p class="quizprompt">${Q.q[lang]}</p><div class="quizopts">${q.ord.map((j,x)=>`<button class="quizopt" data-k="${i}" data-x="${x}">${Q.o[j][lang]}</button>`).join('')}</div><div class="quizafter"></div></li>`}).join('')}</ol>
   <div class="quizresults" id="qres" hidden></div>`;
  run.qs.forEach((q,i)=>{if(run.chosen.has(i))show(run,i,false)});
  const t=update(run);if(t.done===total)finish(run,false);
 }
-function show(run,i,fresh){const L=T[lang],q=run.qs[i],Q=CH[q.c].quiz[q.i],li=$('qi-'+i),pick=run.chosen.get(i),good=pick===q.a;
+function show(run,i,fresh){const L=T[lang],q=run.qs[i],Q=CHX[q.c].quiz[q.i],li=$('qi-'+i),pick=run.chosen.get(i),good=pick===q.a;
  li.querySelectorAll('.quizopt').forEach((b,x)=>{b.disabled=true;b.classList.toggle('right',x===q.a);b.classList.toggle('wrong',x===pick&&!good);});
  li.classList.add(good?'got':'missed');
  if(fresh&&!calm()){li.classList.add(good?'pop':'shake');setTimeout(()=>li.classList.remove('pop','shake'),600);}
@@ -363,23 +429,31 @@ function pickOpt(btn){const k=gkey(),run=RUNS.get(k),i=+btn.dataset.k,x=+btn.dat
   if(t.streak===run.qs.length||[3,5,10,15,20,25,50].includes(t.streak))toast($('qbar'),T[lang].toast(t.streak,run.qs.length));}
  if(t.done===run.qs.length)finish(run,true);}
 function render(){
+ const home=view==='home';$('homeview').hidden=!home;$('bookview').hidden=home;
+ if(!home){renderBook();return;}
  document.documentElement.lang=lang;document.documentElement.dir=lang==='he'?'rtl':'ltr';
- document.querySelectorAll('[data-t]').forEach(e=>e.innerHTML=T[lang][e.dataset.t]);
+ document.querySelectorAll('[data-t]').forEach(e=>e.innerHTML=BT.home[lang][e.dataset.t]??T[lang][e.dataset.t]);
+ $('b-en').setAttribute('aria-pressed',lang==='en');$('b-he').setAttribute('aria-pressed',lang==='he');
+ document.title=BT.home[lang].doc;homeCards();}
+function renderBook(){
+ document.documentElement.lang=lang;document.documentElement.dir=lang==='he'?'rtl':'ltr';
+ document.querySelectorAll('[data-t]').forEach(e=>e.innerHTML=BT[book][lang][e.dataset.t]??T[lang][e.dataset.t]);
+ $('back').textContent=BT.home[lang].back;$('sbook').textContent=BT[book][lang].bk;
  $('b-en').setAttribute('aria-pressed',lang==='en');$('b-he').setAttribute('aria-pressed',lang==='he');
  $('m-notes').textContent=T[lang].notes;$('m-quiz').textContent=T[lang].quiz;
  $('m-notes').setAttribute('aria-pressed',mode==='notes');$('m-quiz').setAttribute('aria-pressed',mode==='quiz');
  q.placeholder=T[lang].q;q.setAttribute('aria-label',T[lang].q);q.hidden=mode!=='notes';
- document.title=lang==='he'?'סיכומי הלכות שבת':'Hilchot Shabbat Notes';
+ document.title=BT[book][lang].doc;
  rail();buildChips();
  $('notes').hidden=mode!=='notes';$('quiz').hidden=mode!=='quiz';
  if(mode==='notes')renderNotes();else gameView();
 }
-function hash(){try{history.replaceState(null,'','#'+lang+'-'+(mixSet?'mix':ch)+(mode==='quiz'&&!mixSet?'-quiz':''))}catch(e){}}
+function hash(){try{if(view==='home'){history.replaceState(null,'','#'+lang);return;}history.replaceState(null,'','#'+lang+'-'+(book==='k'?'k':'')+(mixSet?'mix':ch)+(mode==='quiz'&&!mixSet?'-quiz':''))}catch(e){}}
 function goCh(c){
- if(c==='mix'){const all=[];NUMS.forEach(n=>CH[n].quiz.forEach((x,i)=>all.push({c:n,i})));mixSet=true;mode='quiz';}
+ if(c==='mix'){const all=[];NUMS.forEach(n=>CHX[n].quiz.forEach((x,i)=>all.push({c:n,i})));mixSet=true;mode='quiz';}
  else{mixSet=null;ch=+c;cur='all';q.value='';}
- render();hash();}
-$('rail').addEventListener('click',e=>{const b=e.target.closest('.chb');if(b)goCh(b.dataset.c);});
+ view='book';render();hash();window.scrollTo(0,0);}
+$('rail').addEventListener('click',e=>{const s=e.target.closest('.sec');if(s){cur='all';q.value='';renderNotes();const t=$(s.dataset.s);if(t)t.scrollIntoView({behavior:calm()?'auto':'smooth',block:'start'});$('rail').querySelectorAll('.sec').forEach(x=>x.classList.toggle('on',x===s));return;}const b=e.target.closest('.chb');if(b)goCh(b.dataset.c);});
 $('chsel').addEventListener('change',e=>goCh(e.target.value));
 jump.addEventListener('change',()=>{cur='all';renderNotes();const id=jump.value;
  if(id!=='all')$(id).scrollIntoView({behavior:'smooth',block:'start'});});
@@ -397,11 +471,38 @@ $('game').addEventListener('click',e=>{const o=e.target.closest('.quizopt');if(o
  else if(v==='change'){RUNS.delete(k);gameView();$('quiz').scrollIntoView({block:'start'});return;}
  else if(v==='goto'){$('qi-'+a.dataset.k).scrollIntoView({behavior:calm()?'auto':'smooth',block:'center'});return;}
  gameView();});
+BT.home={
+ en:{doc:'Peninei Halakha Notes',title:'Peninei Halakha: my study notes',
+  kick:'<a href="https://ph.yhb.org.il/en/">Peninei Halakha</a> · Rav Eliezer Melamed · not a psak',
+  lede:'Choose a book. Every chapter has notes in English and Hebrew, plus a quiz to check what stuck.',
+  open:'Open the notes →',back:'← All books',chs:(r,n,q)=>`Chapters ${r} · ${n} chapters · ${q} quiz questions`,
+  foot:'Source: Rav Eliezer Melamed, <em>Peninei Halakha</em>. Full text on Sefaria: <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Shabbat.1.1?lang=bi">Shabbat</a> · <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Kashrut.20.1?lang=he">Kashrut</a>.'},
+ he:{doc:'סיכומי פניני הלכה',title:'פניני הלכה: הסיכומים שלי',
+  kick:'<a href="https://ph.yhb.org.il/">פניני הלכה</a> · הרב אליעזר מלמד · לא פסק הלכה',
+  lede:'בחרו ספר. לכל פרק סיכום בעברית ובאנגלית, ובוחן לבדוק מה נקלט.',
+  open:'לסיכומים ←',back:'→ כל הספרים',chs:(r,n,q)=>`פרקים ${r} · ${n} פרקים · ${q} שאלות בחידון`,
+  foot:'מקור: הרב אליעזר מלמד, <em>פניני הלכה</em>. לטקסט המלא בספריא: <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Shabbat.1.1?lang=bi">שבת</a> · <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Kashrut.20.1?lang=he">כשרות</a>.'}};
+const CARD={
+ s:{heb:'שבת',icon:'<svg viewBox="0 0 32 32" aria-hidden="true"><rect x="8" y="13" width="5" height="14" rx="1" fill="#fbf1ee"/><rect x="19" y="13" width="5" height="14" rx="1" fill="#fbf1ee"/><path d="M10.5 4.5c2.2 3 2.2 5.2 0 6.8-2.2-1.6-2.2-3.8 0-6.8zM21.5 4.5c2.2 3 2.2 5.2 0 6.8-2.2-1.6-2.2-3.8 0-6.8z" fill="#e5ad3e"/><rect x="5" y="27" width="22" height="2.2" rx="1.1" fill="#e5ad3e"/></svg>',
+  en:'The meaning of Shabbat, preparing for it, candles, kiddush and meals, havdala, the 39 melakhot, electricity, carrying and muktzeh.',
+  he:'משמעות השבת, ההכנות, הדלקת נרות, קידוש וסעודות, הבדלה, ל"ט המלאכות, חשמל, הוצאה ומוקצה.'},
+ k:{heb:'כשרות',icon:'<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 15h20v7a5 5 0 0 1-5 5H11a5 5 0 0 1-5-5z" fill="#fbf1ee"/><rect x="4" y="12.5" width="24" height="3" rx="1.5" fill="#e5ad3e"/><rect x="1.5" y="17" width="4.5" height="2.2" rx="1.1" fill="#fbf1ee"/><rect x="26" y="17" width="4.5" height="2.2" rx="1.1" fill="#fbf1ee"/><path d="M12 3.5c-1.6 2 1.6 3 0 5.3M16 2.5c-1.6 2 1.6 3 0 5.3M20 3.5c-1.6 2 1.6 3 0 5.3" stroke="#e5ad3e" stroke-width="1.7" fill="none" stroke-linecap="round"/></svg>',
+  en:'Terefot, blood and salting, insects, meat and milk, gentiles’ food and wine, dairy, tevilat kelim, kashering a kitchen, mixtures and the food industry.',
+  he:'טריפות, דם ומליחה, שרצים, בשר בחלב, מאכלי גויים ויינם, חלב ומוצריו, טבילת כלים, הכשרת מטבח, תערובות ותעשיית המזון.'}};
+function homeCards(){const L=lang;$('hlede').textContent=BT.home[L].lede;
+ $('cards').innerHTML=['s','k'].map(b=>{const n=numsOf(b),qs=n.reduce((a,c)=>a+BK[b][c].quiz.length,0),
+  r=L==='he'?HEB[n[0]]+'–'+HEB[n[n.length-1]]:n[0]+'–'+n[n.length-1];
+  return `<button class="card" data-b="${b}"><span class="cicon">${CARD[b].icon}</span><span class="cname">${BT[b][L].bk}${L==='en'?`<span class="cheb" lang="he">${CARD[b].heb}</span>`:''}</span><span class="cmeta">${BT.home[L].chs(r,n.length,qs)}</span><span class="cdesc">${CARD[b][L]}</span><span class="cgo">${BT.home[L].open}</span></button>`;}).join('');}
+function goHome(){view='home';mixSet=null;q.value='';render();hash();window.scrollTo(0,0);}
+$('cards').addEventListener('click',e=>{const c=e.target.closest('.card');if(!c)return;setBook(c.dataset.b);ch=NUMS[0];mixSet=null;mode='notes';cur='all';q.value='';view='book';render();hash();window.scrollTo(0,0);});
+$('back').addEventListener('click',goHome);$('home-btn').addEventListener('click',goHome);
+document.querySelector('.hero h1').addEventListener('click',goHome);
 $('b-en').addEventListener('click',()=>{lang='en';render();hash();});
 $('b-he').addEventListener('click',()=>{lang='he';render();hash();});
-function route(){const m=(location.hash||'').match(/^#(en|he)-(\d+|mix)(-quiz)?$/);
- if(m){lang=m[1];if(m[2]==='mix'){const all=[];NUMS.forEach(n=>CH[n].quiz.forEach((x,i)=>all.push({c:n,i})));mixSet=true;mode='quiz';}
-  else if(CH[m[2]]){ch=+m[2];mixSet=null;mode=m[3]?'quiz':'notes';}}
+function route(){const h=location.hash||'',m=h.match(/^#(en|he)-(k?)(\d+|mix)(-quiz)?$/);
+ if(m){view='book';lang=m[1];setBook(m[2]?'k':'s');if(m[3]==='mix'){mixSet=true;mode='quiz';}
+  else if(CHX[m[3]]){ch=+m[3];mixSet=null;mode=m[4]?'quiz':'notes';}else{ch=NUMS[0];}}
+ else{view='home';const l=h.match(/^#(en|he)$/);if(l)lang=l[1];}
  render();}
 addEventListener('hashchange',route);route();
 }
