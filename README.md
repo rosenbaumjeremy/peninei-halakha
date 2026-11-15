@@ -1,6 +1,6 @@
 # Peninei Halakha Notes
 
-Study notes on Shabbat ch. 1–23 and Kashrut ch. 20–37. Live site: https://rosenbaumjeremy.github.io/peninei-halakha/
+Study notes on Shabbat ch. 1–23 and Kashrut ch. 20–37. Live site: https://peninei-halakha.dailylearning.workers.dev/
 
 Bilingual (English / עברית) student notes and review quizzes on Rav Eliezer Melamed's *Peninei Halakha*:
 
