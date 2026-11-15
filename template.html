@@ -206,8 +206,8 @@ const CH={{DATA}};
 const NUMS=Object.keys(CH).map(Number).sort((a,b)=>a-b);
 const HEB=['','א','ב','ג','ד','ה','ו','ז','ח','ט','י','יא','יב','יג','יד','טו','טז','יז','יח','יט','כ','כא','כב','כג'];
 const T={
- en:{kick:'<a href="https://ph.yhb.org.il/en/">Peninei Halakha</a> · Shabbat, chapters 11–23 · not a psak',title:"Hilchot Shabbat: my study notes",
-  lede:"The melakhot from Borer through Muktzeh, summarized section by section, with a quiz for every chapter to check what stuck.",
+ en:{kick:'<a href="https://ph.yhb.org.il/en/">Peninei Halakha</a> · Shabbat, chapters 1–23 · not a psak',title:"Hilchot Shabbat: my study notes",
+  lede:"From the meaning of Shabbat through Muktzeh, summarized section by section, with a quiz for every chapter to check what stuck.",
   note:"These are a student's notes in my own words, not a psak. For a practical question, ask a rav.",
   q:"Search all chapters…",all:"All",jump:"Jump to section…",empty:"Nothing matches that search.",notes:"Notes",quiz:"Quiz",
   ch:n=>"Chapter "+n,mix:"Quiz on all chapters",mixT:"Quiz on all chapters",
@@ -219,9 +219,9 @@ const T={
   again:"Play again",change:"Change settings",right:["Correct!","Very good!","Excellent!","Exactly!","Well done!","Champion!"],wrong:["Not quite.","Almost.","Not this time.","A small slip."],
   howMany:"How many questions?",allN:n=>`All (${n})`,from:"From which chapters?",none:"None",order:"Order",mixed:"Mixed",inOrder:"In order",inChOrder:"In chapter order",
   willDraw:(n,m)=>`${n} questions will be drawn at random from the ${m} in the bank.`,pick:"Choose at least one chapter.",start:"Start the quiz",
-  foot:'Source: Rav Eliezer Melamed, <em>Peninei Halakha – Shabbat</em>, chapters 11–23. Read the full text on Sefaria: <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Shabbat.23.1?lang=bi">Peninei Halakhah, Shabbat</a> (English translation by Yeshivat Har Bracha).'},
- he:{kick:'<a href="https://ph.yhb.org.il/">פניני הלכה</a> · שבת, פרקים יא–כג · לא פסק הלכה',title:"הלכות שבת: הסיכומים שלי",
-  lede:"המלאכות מבורר ועד מוקצה, בסיכום סעיף אחר סעיף, עם בוחן לכל פרק כדי לבדוק מה נקלט.",
+  foot:'Source: Rav Eliezer Melamed, <em>Peninei Halakha – Shabbat</em>, chapters 1–23. Read the full text on Sefaria: <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Shabbat.1.1?lang=bi">Peninei Halakhah, Shabbat</a> (English translation by Yeshivat Har Bracha).'},
+ he:{kick:'<a href="https://ph.yhb.org.il/">פניני הלכה</a> · שבת, פרקים א–כג · לא פסק הלכה',title:"הלכות שבת: הסיכומים שלי",
+  lede:"ממשמעות השבת ועד מוקצה, בסיכום סעיף אחר סעיף, עם בוחן לכל פרק כדי לבדוק מה נקלט.",
   note:"אלו סיכומים של תלמיד בלשוני, לא פסק הלכה. לשאלה למעשה – לשאול רב.",
   q:"חיפוש בכל הפרקים…",all:"הכול",jump:"מעבר לסעיף…",empty:"אין תוצאות לחיפוש הזה.",notes:"סיכום",quiz:"חידון",
   ch:n=>"פרק "+HEB[n],mix:"חידון על כל הפרקים",mixT:"חידון על כל הפרקים",
@@ -233,10 +233,10 @@ const T={
   again:"לשחק שוב",change:"לשנות הגדרות",right:["נכון!","יפה מאוד!","מצוין!","בדיוק!","כל הכבוד!","אלוף!"],wrong:["לא בדיוק.","כמעט.","לא הפעם.","טעות קטנה."],
   howMany:"כמה שאלות?",allN:n=>`כולן (${n})`,from:"מאילו פרקים?",none:"אף אחד",order:"סדר השאלות",mixed:"מעורבב",inOrder:"לפי הסדר",inChOrder:"לפי סדר הפרקים",
   willDraw:(n,m)=>`ייבחרו ${n} שאלות באקראי מתוך ${m} שבמאגר.`,pick:"בחרו לפחות פרק אחד.",start:"להתחלת החידון",
-  foot:'מקור: הרב אליעזר מלמד, <em>פניני הלכה – שבת</em>, פרקים יא–כג. לטקסט המלא בספריא: <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Shabbat.23.1?lang=bi">פניני הלכה, שבת</a>.'}};
+  foot:'מקור: הרב אליעזר מלמד, <em>פניני הלכה – שבת</em>, פרקים א–כג. לטקסט המלא בספריא: <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Shabbat.1.1?lang=bi">פניני הלכה, שבת</a>.'}};
 const $=id=>document.getElementById(id);
 const q=$('q'),jump=$('jump'),empty=$('empty');
-let lang='en',ch=11,mode='notes',cur='all',mixSet=null;
+let lang='en',ch=1,mode='notes',cur='all',mixSet=null;
 // phone tables
 document.querySelectorAll('.chap table').forEach(t=>{
  const hs=[...t.querySelectorAll('th')].map(th=>th.textContent.trim());

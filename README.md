@@ -1,8 +1,8 @@
-# Peninei Halakha – Shabbat: study notes (ch. 11–23)
+# Peninei Halakha – Shabbat: study notes (ch. 1–23)
 
-Bilingual (English / עברית) student notes and review quizzes on Rav Eliezer Melamed's *Peninei Halakha – Shabbat*, chapters 11–23 (Borer through Muktzeh).
+Bilingual (English / עברית) student notes and review quizzes on Rav Eliezer Melamed's *Peninei Halakha – Shabbat*, chapters 1–23 (from the meaning of Shabbat through Muktzeh).
 
-These are a student's notes in my own words, not a psak. For practical questions, ask a rav. Full text: [Sefaria](https://www.sefaria.org/Peninei_Halakhah%2C_Shabbat.23.1?lang=bi).
+These are a student's notes in my own words, not a psak. For practical questions, ask a rav. Full text: [Sefaria](https://www.sefaria.org/Peninei_Halakhah%2C_Shabbat.1.1?lang=bi).
 
 ## Layout
 

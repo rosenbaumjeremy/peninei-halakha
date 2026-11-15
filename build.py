@@ -1,6 +1,7 @@
 import markdown,re,json,sys
 d=sys.argv[1]
-T={11:("Borer (Separating)","בורר"),12:("Food Preparation","הכנת מאכלים"),13:("Melakhot of Clothing","מלאכות הבגד"),
+T={1:("Introduction","פתיחה"),2:("Preparing for Shabbat","הכנות לשבת"),3:("Shabbat Times","זמני השבת"),4:("Lighting Shabbat Candles","הדלקת נרות שבת"),5:("Torah and Prayer on Shabbat","תורה ותפילה בשבת"),6:("Laws of Kiddush","הלכות קידוש"),7:("Shabbat Meals and Melaveh Malka","סעודות שבת ומלווה מלכה"),8:("Havdala and Motza'ei Shabbat","הבדלה ומוצאי שבת"),9:("Principles of the Melakhot","כללי המלאכות"),10:("Bishul (Cooking)","בישול"),
+11:("Borer (Separating)","בורר"),12:("Food Preparation","הכנת מאכלים"),13:("Melakhot of Clothing","מלאכות הבגד"),
 14:("Personal Grooming","הטיפול בגוף"),15:("Boneh and Soter","בונה וסותר"),16:("Mav'ir and Mekhabeh","מבעיר ומכבה"),
 17:("Electricity","חשמל ומכשיריו"),18:("Kotev, Moḥek, Tzove'a","כותב, מוחק וצובע"),19:("Agricultural Melakhot","מלאכות שבצומח"),
 20:("Animals","בעלי חיים"),21:("Hotza'ah (Carrying)","הוצאה"),22:("The Spirit of Shabbat","צביון השבת"),23:("Muktzeh","מוקצה")}
