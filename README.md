@@ -1,4 +1,6 @@
-# Peninei Halakha: study notes (Shabbat ch. 1–23, Kashrut ch. 20–37)
+# Peninei Halakha Notes
+
+Study notes on Shabbat ch. 1–23 and Kashrut ch. 20–37.
 
 Bilingual (English / עברית) student notes and review quizzes on Rav Eliezer Melamed's *Peninei Halakha*:
 
