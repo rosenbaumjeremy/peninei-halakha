@@ -1,0 +1,23 @@
+[
+{"q":{"en":"Which of these may be crumbled on Shabbat without any problem of Toḥen?","he":"מה מותר לפורר בשבת בלי חשש טוחן?"},
+ "o":[{"en":"Hot peppers","he":"פלפלים חריפים"},{"en":"Matza","he":"מצה"},{"en":"Raw coffee beans","he":"פולי קפה"},{"en":"A block of dried clay","he":"גוש טיט יבש"}],
+ "a":1,"w":{"en":"There's no grinding after grinding: matza, bread and chocolate were already ground.","he":"אין טחינה אחר טחינה: מצה, לחם ושוקולד כבר נטחנו."}},
+{"q":{"en":"Can you mash an avocado with a fork to eat right away?","he":"האם מותר למעוך אבוקדו במזלג לאכילה מיד?"},
+ "o":[{"en":"Yes, that's the halakha","he":"כן, כך ההלכה"},{"en":"Only with a grater","he":"רק בפומפייה"},{"en":"Never","he":"לעולם לא"},{"en":"Only if prepared before Shabbat","he":"רק אם הוכן לפני שבת"}],
+ "a":0,"w":{"en":"Mashing for immediate eating is derekh akhila; just not with a special tool.","he":"מעיכה לאכילה מיד היא דרך אכילה; רק לא בכלי מיוחד."}},
+{"q":{"en":"Why is mixing baby formula with water not Lash?","he":"מדוע הכנת תמ\"ל אינה לישה?"},
+ "o":[{"en":"Because it's for a baby","he":"כי זה בשביל תינוק"},{"en":"Because the powder dissolves and no mass forms","he":"כי האבקה נמסה ולא נוצר גוש"},{"en":"Because it's done with a shinui","he":"כי עושים בשינוי"},{"en":"Because it's warm","he":"כי הוא חם"}],
+ "a":1,"w":{"en":"If the liquid keeps its form and nothing binds together, there's no kneading.","he":"אם הנוזל נשאר נוזל ולא נוצר חיבור – אין לישה."}},
+{"q":{"en":"How should you make a loose (pourable) batter on Shabbat?","he":"איך מכינים בלילה רכה בשבת?"},
+ "o":[{"en":"Exactly as on a weekday","he":"בדיוק כמו בחול"},{"en":"It's forbidden in all cases","he":"אסור בכל מקרה"},{"en":"Reverse the order of ingredients and stir differently","he":"להפוך את סדר הנתינה ולערבב אחרת"},{"en":"Only with an electric mixer","he":"רק במיקסר"}],
+ "a":2,"w":{"en":"A loose mixture is rabbinic, so a shinui in order and stirring makes it permitted.","he":"בלילה רכה היא מדרבנן, ולכן בשינוי בסדר ובערבוב מותר."}},
+{"q":{"en":"You want lemonade. Where do you squeeze the lemon?","he":"רוצים לימונדה. לאן סוחטים את הלימון?"},
+ "o":[{"en":"Into an empty pitcher","he":"לכד ריק"},{"en":"Into a pitcher of water","he":"לכד עם מים"},{"en":"Into sugar, so the juice is absorbed","he":"לתוך סוכר שיספוג את המיץ"},{"en":"You can't make lemonade at all","he":"אי אפשר להכין לימונדה כלל"}],
+ "a":2,"w":{"en":"Squeezing into food just moves the juice from one food to another.","he":"סחיטה לתוך אוכל רק מעבירה את המיץ מאוכל לאוכל."}},
+{"q":{"en":"Mixing red and white wine: what's preferable le-khatchila?","he":"ערבוב יין אדום ולבן: מה עדיף לכתחילה?"},
+ "o":[{"en":"Pour the red into the white","he":"לשפוך אדום לתוך לבן"},{"en":"Pour the white into the red","he":"לשפוך לבן לתוך אדום"},{"en":"Never mix them","he":"לא לערבב כלל"},{"en":"It makes no difference","he":"אין הבדל"}],
+ "a":1,"w":{"en":"Most allow coloring drinks, but this way the color change isn't noticeable.","he":"רוב הפוסקים מתירים צביעת משקה, אבל כך השינוי אינו ניכר."}},
+{"q":{"en":"Salting radish slices on Shabbat:","he":"המלחת פרוסות צנון בשבת:"},
+ "o":[{"en":"Forbidden in all cases","he":"אסור בכל מקרה"},{"en":"Allowed one at a time, eating each right away, or with oil","he":"מותר אחת-אחת ולאכול מיד, או עם שמן"},{"en":"Allowed in large amounts for tomorrow","he":"מותר בכמות גדולה למחר"},{"en":"Only for Sephardim","he":"רק לספרדים"}],
+ "a":1,"w":{"en":"Salting many together looks like pickling; oil shows it's just seasoning.","he":"המלחת הרבה יחד נראית ככבישה; שמן מראה שזה רק תיבול."}}
+]

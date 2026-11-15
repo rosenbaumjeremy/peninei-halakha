@@ -1,0 +1,23 @@
+[
+{"q":{"en":"Biting your nails on Shabbat is:","he":"כסיסת ציפורניים בשבת:"},
+ "o":[{"en":"Permitted","he":"מותרת"},{"en":"A Torah prohibition","he":"איסור תורה"},{"en":"A rabbinic prohibition (Gozez with a shinui)","he":"איסור דרבנן (גוזז בשינוי)"},{"en":"Only forbidden for men","he":"אסורה רק לגברים"}],
+ "a":2,"w":{"en":"With a tool it's Torah; with teeth or hands it's a shinui, so rabbinic.","he":"בכלי – מהתורה; בשיניים או ביד זה שינוי – מדרבנן."}},
+{"q":{"en":"Which hair care is permitted on Shabbat?","he":"איזה טיפול בשיער מותר בשבת?"},
+ "o":[{"en":"Braiding","he":"קליעה"},{"en":"Putting hair in a ponytail","he":"לאסוף לקוקו"},{"en":"Hair spray","he":"ספריי לשיער"},{"en":"Curling peyot","he":"סלסול פאות"}],
+ "a":1,"w":{"en":"A ponytail doesn't create a structure; braiding, curling and spray resemble building.","he":"קוקו אינו יוצר מבנה; קליעה, סלסול וספריי דומים לבונה."}},
+{"q":{"en":"Which cosmetic may be used on Shabbat according to the halakha?","he":"באיזה תכשיר מותר להשתמש בשבת לפי ההלכה?"},
+ "o":[{"en":"Clear nail polish","he":"לק שקוף"},{"en":"Cream foundation","he":"מייקאפ קרמי"},{"en":"Loose powder with no adhesive","he":"פודרה בלי חומר מדביק"},{"en":"Clear lip gloss","he":"ליפ גלוס שקוף"}],
+ "a":2,"w":{"en":"Powder sits on the surface without sticking; shine counts as color.","he":"פודרה מונחת על העור בלי להידבק; ברק נחשב צבע."}},
+{"q":{"en":"Why is spreading hand cream forbidden?","he":"מדוע אסור למרוח קרם ידיים?"},
+ "o":[{"en":"Memare'aḥ: smoothing a substance onto a surface","he":"ממרח: החלקת חומר על משטח"},{"en":"Molid: making a new smell","he":"מוליד: יצירת ריח חדש"},{"en":"Because it's medicine","he":"כי זו תרופה"},{"en":"It isn't forbidden","he":"זה לא אסור"}],
+ "a":0,"w":{"en":"Even if absorbed, some stays smooth on the skin. Watery lotion is fine.","he":"גם אם נספג, חלק נשאר חלק על העור. תחליב נוזלי – מותר."}},
+{"q":{"en":"Brushing your teeth on Shabbat:","he":"צחצוח שיניים בשבת:"},
+ "o":[{"en":"Forbidden entirely","he":"אסור לגמרי"},{"en":"Ok with a toothbrush; better without toothpaste","he":"מותר במברשת; עדיף בלי משחה"},{"en":"Only with toothpaste","he":"רק עם משחה"},{"en":"Only with mouthwash","he":"רק עם מי פה"}],
+ "a":1,"w":{"en":"Primary view permits a toothbrush; toothpaste is avoided like thick soap.","he":"העיקר שמותר במברשת; ממשחה נמנעים כמו מסבון סמיך."}},
+{"q":{"en":"Which shower is allowed on Shabbat (under normal circumstances)?","he":"איזו רחיצה מותרת בשבת (במצב רגיל)?"},
+ "o":[{"en":"Full body in hot water heated before Shabbat","he":"כל הגוף במים חמים שהוחמו לפני שבת"},{"en":"Full body in lukewarm water below body temperature","he":"כל הגוף במים פושרים, פחות מחום הגוף"},{"en":"Limb by limb in hot water, covering the whole body","he":"אבר אבר במים חמים עד כל הגוף"},{"en":"None at all","he":"שום רחיצה"}],
+ "a":1,"w":{"en":"The decree is on hot water for most of the body; cold or lukewarm is fine.","he":"הגזירה היא על מים חמים לרוב הגוף; קרים או פושרים – מותר."}},
+{"q":{"en":"Immersing in a mikveh on Shabbat:","he":"טבילה במקווה בשבת:"},
+ "o":[{"en":"Forbidden like tevilat kelim","he":"אסורה כמו טבילת כלים"},{"en":"Permitted for a person","he":"מותרת לאדם"},{"en":"Only on Yom Tov","he":"רק ביום טוב"},{"en":"Only for women","he":"רק לנשים"}],
+ "a":1,"w":{"en":"A person may bathe in cold water anyway, so it doesn't look like fixing something.","he":"אדם רשאי לרחוץ בצונן ממילא, ולכן אין זה נראה כמתקן."}}
+]

@@ -1,0 +1,23 @@
+[
+{"q":{"en":"Dragging a chair across a dirt yard:","he":"גרירת כיסא בחצר עפר:"},
+ "o":[{"en":"Always forbidden","he":"אסורה תמיד"},{"en":"Allowed unless a furrow is certain","he":"מותרת אלא אם ודאי ייעשה חריץ"},{"en":"Allowed only when lifting is impossible","he":"מותרת רק כשאי אפשר להרים"},{"en":"Only rabbinically forbidden","he":"אסורה רק מדרבנן"}],
+ "a":1,"w":{"en":"Davar she-eino mitkaven is permitted; a certain result (psik reisha) isn't.","he":"דבר שאינו מתכוון מותר; פסיק רישיה – אסור."}},
+{"q":{"en":"Your sprinkler system was programmed before Shabbat to run on Shabbat:","he":"מערכת ההשקיה תוכנתה לפני שבת לפעול בשבת:"},
+ "o":[{"en":"Forbidden","he":"אסור"},{"en":"Permitted; no Jew does an action on Shabbat","he":"מותר; יהודי אינו עושה מעשה בשבת"},{"en":"Only if a non-Jew turns it on","he":"רק אם גוי מפעיל"},{"en":"Only in winter","he":"רק בחורף"}],
+ "a":1,"w":{"en":"You may even close it on Shabbat.","he":"ואפילו מותר לסגור בשבת."}},
+{"q":{"en":"Your child's ball is stuck in a tree branch. What's the halakha?","he":"הכדור של הילד נתקע בענף. מה הדין?"},
+ "o":[{"en":"Shake the tree gently","he":"לנענע את העץ בעדינות"},{"en":"Climb up carefully","he":"לטפס בזהירות"},{"en":"Leave it until after Shabbat","he":"להשאיר עד מוצאי שבת"},{"en":"Knock it down with a stick","he":"להפיל במקל"}],
+ "a":2,"w":{"en":"The Sages forbade using a tree in any way.","he":"חכמים אסרו כל שימוש באילן."}},
+{"q":{"en":"Which swing may you use on Shabbat?","he":"באיזו נדנדה מותר להשתמש בשבת?"},
+ "o":[{"en":"One tied directly to a branch","he":"קשורה ישירות לענף"},{"en":"One hung from a peg driven into the tree","he":"תלויה על יתד שנעוץ בעץ"},{"en":"One tied on one side to the tree","he":"קשורה מצד אחד לעץ"},{"en":"None","he":"אף אחת"}],
+ "a":1,"w":{"en":"Two steps removed from the tree (tzedadei tzedadin) wasn't included in the decree.","he":"צדדי צדדין לא נכללו בגזירה."}},
+{"q":{"en":"Someone gives you a bouquet with closed buds on Shabbat. What do you do?","he":"קיבלתם בשבת זר עם ניצנים סגורים. מה עושים?"},
+ "o":[{"en":"Put it in a vase of water","he":"לשים באגרטל עם מים"},{"en":"Put it in an empty vase","he":"לשים באגרטל ריק"},{"en":"It's muktzeh","he":"זה מוקצה"},{"en":"Cut the stems first","he":"לחתוך קודם את הגבעולים"}],
+ "a":1,"w":{"en":"Water would make buds open, which is Zore'a.","he":"מים יגרמו לניצנים להיפתח – זורע."}},
+{"q":{"en":"Smelling an etrog or apple still on the tree:","he":"הרחה באתרוג או תפוח המחוברים לעץ:"},
+ "o":[{"en":"Allowed","he":"מותרת"},{"en":"Forbidden, lest you pick it to eat","he":"אסורה, שמא יתלוש לאכול"},{"en":"Only for the beracha","he":"רק לברכה"},{"en":"Only with permission of the owner","he":"רק ברשות הבעלים"}],
+ "a":1,"w":{"en":"Fragrant flowers growing in the ground may be smelled.","he":"פרחים ריחניים מחוברים – מותר להריח."}},
+{"q":{"en":"Apples fell from your tree and scattered across the yard:","he":"תפוחים נפלו מהעץ והתפזרו בחצר:"},
+ "o":[{"en":"Gather them all into a basket","he":"לאסוף הכול לסל"},{"en":"Pick up a few to eat","he":"להרים כמה לאכול"},{"en":"Nothing, they're muktzeh","he":"כלום, מוקצה"},{"en":"Sweep them into a pile","he":"לטאטא לערמה"}],
+ "a":1,"w":{"en":"Gathering scattered fruit outdoors is rabbinically forbidden as a weekday activity. (Fruit that fell on Shabbat may be muktzeh; see ch. 23.)","he":"איסוף פירות מפוזרים בחוץ אסור מדרבנן כעובדין דחול. (פירות שנשרו בשבת עשויים להיות מוקצה; פרק כג.)"}}
+]

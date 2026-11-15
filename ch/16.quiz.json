@@ -1,0 +1,20 @@
+[
+{"q":{"en":"Turning up an existing gas flame on Shabbat:","he":"הגברת להבת גז קיימת בשבת:"},
+ "o":[{"en":"Allowed, since it's already lit","he":"מותר, כי כבר דולקת"},{"en":"A Torah prohibition of Hav'ara","he":"איסור תורה משום מבעיר"},{"en":"Only rabbinic","he":"רק מדרבנן"},{"en":"Allowed with a shinui","he":"מותר בשינוי"}],
+ "a":1,"w":{"en":"On Yom Tov you may raise a flame; on Shabbat it's Torah-forbidden.","he":"ביום טוב מותר להגדיל; בשבת – איסור תורה."}},
+{"q":{"en":"Reading alone by electric light on Shabbat:","he":"קריאה לבד לאור חשמל בשבת:"},
+ "o":[{"en":"Forbidden, like an oil lamp","he":"אסור, כמו נר שמן"},{"en":"Allowed, since electric light doesn't dim","he":"מותר, כי אור חשמל אינו מתעמעם"},{"en":"Only with a friend","he":"רק עם חבר"},{"en":"Only without a dimmer","he":"רק בלי עמעם"}],
+ "a":1,"w":{"en":"The decree was about tilting a dimming oil lamp. Tape a note on a dimmer le-khatchila.","he":"הגזירה הייתה על הטיית נר שמן שמתעמעם. לכתחילה להדביק פתק על עמעם."}},
+{"q":{"en":"The wind starts blowing toward your Shabbat candles. May you close the window?","he":"רוח מתחילה לנשוב לעבר נרות השבת. מותר לסגור את החלון?"},
+ "o":[{"en":"Yes, you're not acting on the flame","he":"כן, לא נוגעים בשלהבת"},{"en":"No, it affects the fire","he":"לא, זה משפיע על האש"},{"en":"Only a non-Jew may","he":"רק גוי"},{"en":"Only if the candles are wax","he":"רק בנרות שעווה"}],
+ "a":0,"w":{"en":"Closing just keeps the wind out (Rema 277:1).","he":"הסגירה רק מונעת את הרוח (רמ\"א רעז, א)."}},
+{"q":{"en":"A fire is burning a shed with no possible danger to anyone. What may you do?","he":"מחסן נשרף ואין שום חשש לאדם. מה מותר?"},
+ "o":[{"en":"Put it out with a hose","he":"לכבות בצינור"},{"en":"Place bags of water in its path (grama)","he":"להניח שקיות מים בדרך האש (גרמא)"},{"en":"Call the fire department in Israel","he":"להזעיק כבאים בארץ"},{"en":"Nothing at all","he":"שום דבר"}],
+ "a":1,"w":{"en":"For property loss, grama and hinting to a non-Jew are allowed; direct extinguishing isn't.","he":"בהפסד ממון – גרמא ורמז לגוי מותרים; כיבוי ישיר – לא."}},
+{"q":{"en":"A fire breaks out in an apartment building and everyone seems to be out. What now?","he":"פרצה שריפה בבניין מגורים ונראה שכולם יצאו. מה עושים?"},
+ "o":[{"en":"Ask a rav first","he":"קודם לשאול רב"},{"en":"Wait for Motzaei Shabbat","he":"לחכות למוצאי שבת"},{"en":"Treat it as danger to life: fight it and call the fire department","he":"להתייחס כסכנת נפשות: לכבות ולהזעיק כבאים"},{"en":"Only save food for Shabbat","he":"רק להציל אוכל לשבת"}],
+ "a":2,"w":{"en":"Even a doubt of danger overrides Shabbat; don't delay to ask.","he":"אפילו ספק סכנה דוחה שבת; לא מתעכבים לשאול."}},
+{"q":{"en":"Putting out a candle because the light bothers you is called:","he":"כיבוי נר כי האור מפריע נקרא:"},
+ "o":[{"en":"Melakha she-eina tzerikha le-gufah","he":"מלאכה שאינה צריכה לגופה"},{"en":"Grama","he":"גרמא"},{"en":"Mekalkel","he":"מקלקל"},{"en":"Psik reisha","he":"פסיק רישיה"}],
+ "a":0,"w":{"en":"Most Rishonim: rabbinic. Rambam: Torah. Either way it's forbidden.","he":"לרוב הראשונים מדרבנן, לרמב\"ם מהתורה. בכל מקרה אסור."}}
+]

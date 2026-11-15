@@ -1,0 +1,23 @@
+[
+{"q":{"en":"What are the three stages of Hotza'ah?","he":"מהם שלושת שלבי ההוצאה?"},
+ "o":[{"en":"Lifting, moving, putting down","he":"עקירה, העברה, הנחה"},{"en":"Opening, carrying, closing","he":"פתיחה, נשיאה, סגירה"},{"en":"Wearing, walking, stopping","he":"לבישה, הליכה, עמידה"},{"en":"Throwing, catching, holding","he":"זריקה, תפיסה, אחיזה"}],
+ "a":0,"w":{"en":"One person must do all three for a Torah violation.","he":"אדם אחד צריך לעשות את שלושתם כדי לעבור מהתורה."}},
+{"q":{"en":"A karmelit is:","he":"כרמלית היא:"},
+ "o":[{"en":"A Torah-defined public domain","he":"רשות הרבים מהתורה"},{"en":"An open area the Sages treated like a public domain","he":"שטח פתוח שחכמים דנו כרשות הרבים"},{"en":"A walled yard","he":"חצר מגודרת"},{"en":"A tiny exempt spot","he":"מקום פטור קטן"}],
+ "a":1,"w":{"en":"It can be fixed with a tzurat ha-petaḥ eruv.","he":"אפשר לתקנה בעירוב צורת הפתח."}},
+{"q":{"en":"You want to bring a friend a sweater and there's no eruv. What's allowed?","he":"רוצים להביא לחבר סוודר ואין עירוב. מה מותר?"},
+ "o":[{"en":"Carry it over your shoulder","he":"לשאת על הכתף"},{"en":"Wear it over your own clothes","he":"ללבוש מעל הבגדים"},{"en":"Put it in a bag","he":"לשים בשקית"},{"en":"Throw it to him","he":"לזרוק אליו"}],
+ "a":1,"w":{"en":"Anything worn the normal way of dressing is secondary to the body.","he":"כל מה שנלבש כדרך מלבוש טפל לגוף."}},
+{"q":{"en":"How can you take your house key out where there's no eruv?","he":"איך מוציאים מפתח בית במקום שאין עירוב?"},
+ "o":[{"en":"In your pocket","he":"בכיס"},{"en":"In your shoe","he":"בנעל"},{"en":"As a belt buckle on a shoelace","he":"כאבזם חגורה על שרוך"},{"en":"You can't at all","he":"אי אפשר כלל"}],
+ "a":2,"w":{"en":"Then it functions as part of your clothing.","he":"כך הוא משמש כחלק מהלבוש."}},
+{"q":{"en":"Why do most observant Jews carry with a city eruv despite the machloket?","he":"מדוע רוב שומרי המצוות מטלטלים בעירוב עירוני למרות המחלוקת?"},
+ "o":[{"en":"Because all poskim permit it","he":"כי כל הפוסקים מתירים"},{"en":"Because being strict is very hard, and combining views most poskim consider streets a karmelit","he":"כי להחמיר קשה מאוד, ובצירוף הדעות לרוב הפוסקים הרחובות כרמלית"},{"en":"Because carrying is only rabbinic","he":"כי הוצאה רק מדרבנן"},{"en":"Because of jewelry","he":"בגלל תכשיטים"}],
+ "a":1,"w":{"en":"Still, le-khatchila many avoid relying on it where streets exceed 16 amot.","he":"ועדיין לכתחילה רבים נמנעים לסמוך היכן שיש רחובות רחבים מ-16 אמה."}},
+{"q":{"en":"Wearing sunglasses without an eruv:","he":"משקפי שמש בלי עירוב:"},
+ "o":[{"en":"Always fine","he":"תמיד מותר"},{"en":"Forbidden, since you might remove them in the shade (unless needed constantly)","he":"אסור, שמא יוריד בצל (אלא אם צריך תמיד)"},{"en":"Only for women","he":"רק לנשים"},{"en":"Only if they're prescription","he":"רק אם הם עם מרשם"}],
+ "a":1,"w":{"en":"Clip-ons that flip up are fine.","he":"קליפס שמתרומם – מותר."}},
+{"q":{"en":"Someone in a wheelchair who propels himself, without an eruv:","he":"אדם בכיסא גלגלים שמניע בעצמו, בלי עירוב:"},
+ "o":[{"en":"May go out; the wheelchair is like his shoes","he":"מותר לצאת; הכיסא כמו נעליו"},{"en":"May not go out","he":"אסור לצאת"},{"en":"Only if pushed by a Jew","he":"רק אם יהודי דוחף"},{"en":"Only on Yom Tov","he":"רק ביום טוב"}],
+ "a":0,"w":{"en":"If he can't propel himself, a non-Jew may push him for a mitzva.","he":"אם אינו יכול להניע, גוי מותר לדחוף לצורך מצווה."}}
+]

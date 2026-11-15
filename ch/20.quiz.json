@@ -1,0 +1,23 @@
+[
+{"q":{"en":"Walking your dog on a leash in a public domain:","he":"הליכה עם כלב ברצועה ברשות הרבים:"},
+ "o":[{"en":"Forbidden, it's carrying","he":"אסורה, זו הוצאה"},{"en":"Allowed if you hold it within a tefaḥ of the end and it doesn't droop near the ground","he":"מותרת אם אוחזים בטפח האחרון והיא לא צונחת לקרקע"},{"en":"Allowed only without a collar","he":"מותרת רק בלי קולר"},{"en":"Allowed only in Israel","he":"מותרת רק בארץ"}],
+ "a":1,"w":{"en":"The leash is secondary to the dog; it just mustn't look carried.","he":"הרצועה טפלה לכלב; רק שלא תיראה כמשא."}},
+{"q":{"en":"Feeding stray cats on Shabbat:","he":"האכלת חתולים משוטטים בשבת:"},
+ "o":[{"en":"Forbidden; they aren't yours","he":"אסורה; אינם שלך"},{"en":"Proper, following God's mercy on all creatures","he":"ראויה, בדרכי ה' שרחמיו על כל מעשיו"},{"en":"Only cooked food","he":"רק אוכל מבושל"},{"en":"Only through a non-Jew","he":"רק ע\"י גוי"}],
+ "a":1,"w":{"en":"Unlike bees or doves, which manage on their own.","he":"בניגוד לדבורים ויונים שמסתדרים בעצמם."}},
+{"q":{"en":"A dairy cow will suffer if not milked, and no non-Jew is around:","he":"פרה תסבול אם לא תיחלב, ואין גוי:"},
+ "o":[{"en":"Let her suffer","he":"להניח לה לסבול"},{"en":"Milk into a clean pail to use","he":"לחלוב לדלי נקי לשימוש"},{"en":"Milk so the milk goes to waste","he":"לחלוב כך שהחלב יילך לאיבוד"},{"en":"Wait until nightfall","he":"לחכות לצאת השבת"}],
+ "a":2,"w":{"en":"Milking for waste is rabbinic; the Sages set it aside for animal suffering.","he":"חליבה לאיבוד היא מדרבנן; חכמים התירו משום צער בעלי חיים."}},
+{"q":{"en":"A bird flew into your living room. Can you shut the window?","he":"ציפור נכנסה לסלון. מותר לסגור את החלון?"},
+ "o":[{"en":"Yes, right away","he":"כן, מיד"},{"en":"Chase it out first; if it hides and you need to close, you may","he":"קודם לגרש; אם מסתתרת וצריך לסגור – מותר"},{"en":"Never","he":"לעולם לא"},{"en":"Only if it's a pet","he":"רק אם היא חיית מחמד"}],
+ "a":1,"w":{"en":"Without intent to trap and with no real capture, closing is ok.","he":"בלי כוונה לצוד ובלי צידה גמורה – מותר לסגור."}},
+{"q":{"en":"A scorpion that might be poisonous is in the house:","he":"עקרב שאולי ארסי נמצא בבית:"},
+ "o":[{"en":"Cover it only","he":"רק לכסות"},{"en":"You may kill it; possible danger to life","he":"מותר להרוג; ספק סכנת נפשות"},{"en":"Only a non-Jew may kill it","he":"רק גוי"},{"en":"Leave it","he":"להשאיר"}],
+ "a":1,"w":{"en":"Even if unsure whether it's poisonous.","he":"גם בספק אם ארסי."}},
+{"q":{"en":"Mosquitoes are buzzing in the bedroom. What's allowed?","he":"יתושים מזמזמים בחדר. מה מותר?"},
+ "o":[{"en":"Swat them","he":"להרוג"},{"en":"Spray insecticide directly at them","he":"לרסס ישירות עליהם"},{"en":"Spray into the room with a window open","he":"לרסס לחדר עם חלון פתוח"},{"en":"Trap them in a jar","he":"ללכוד בצנצנת"}],
+ "a":2,"w":{"en":"Then they won't necessarily die.","he":"כך הם לא בהכרח ימותו."}},
+{"q":{"en":"Picking up your pet cat that you always hold during the week:","he":"להרים את החתול שתמיד מחזיקים בחול:"},
+ "o":[{"en":"Forbidden; all animals are muktzeh","he":"אסור; כל בעלי החיים מוקצה"},{"en":"Allowed according to the halakha (lenient view)","he":"מותר לפי ההלכה (כמקילים)"},{"en":"Only with a shinui","he":"רק בשינוי"},{"en":"Only if it's sick","he":"רק אם חולה"}],
+ "a":1,"w":{"en":"Muktzeh is rabbinic; pets normally handled aren't set aside from use.","he":"מוקצה מדרבנן; חיה שרגילים לטלטל אינה מוקצית מדעת."}}
+]

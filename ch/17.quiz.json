@@ -1,0 +1,23 @@
+[
+{"q":{"en":"Turning on an incandescent light bulb is:","he":"הדלקת נורת להט היא:"},
+ "o":[{"en":"Rabbinic only","he":"מדרבנן בלבד"},{"en":"A Torah prohibition (Hav'ara)","he":"איסור תורה (מבעיר)"},{"en":"Allowed with a remote","he":"מותרת בשלט"},{"en":"Allowed if it's dark","he":"מותרת כשחשוך"}],
+ "a":1,"w":{"en":"Heating metal for a purpose is Torah-level Hav'ara; turning off is rabbinic.","he":"חימום מתכת לצורך הוא מבעיר מהתורה; כיבוי – מדרבנן."}},
+{"q":{"en":"Your timer turns the lights off at 11 PM and you want to learn until midnight. What may you do?","he":"שעון השבת מכבה ב-23:00 ורוצים ללמוד עד חצות. מה מותר?"},
+ "o":[{"en":"Nothing; you can't touch a timer","he":"כלום; אסור לגעת בשעון"},{"en":"Extend it so the lights stay on longer","he":"להאריך כך שהאור יידלק יותר זמן"},{"en":"Also make the morning lights go on earlier","he":"גם להקדים את הדלקת הבוקר"},{"en":"Turn the light switch on and off","he":"להדליק ולכבות במתג"}],
+ "a":1,"w":{"en":"Extending the current state is permitted (R. Shlomo Zalman Auerbach); making things happen earlier isn't.","he":"הארכת המצב הקיים מותרת (הגרש\"ז); הקדמה – לא."}},
+{"q":{"en":"You forgot to disable the fridge light. Which is a good solution?","he":"שכחתם לנתק את נורת המקרר. מה פתרון טוב?"},
+ "o":[{"en":"Open it quickly","he":"לפתוח מהר"},{"en":"Ask a non-Jew to open it for you directly","he":"לבקש מגוי לפתוח בשבילכם"},{"en":"Offer a non-Jew food so he opens it for himself, then take what you need","he":"להציע לגוי אוכל כדי שיפתח לעצמו, ואז לקחת"},{"en":"Unscrew the bulb yourself","he":"להוציא את הנורה בעצמכם"}],
+ "a":2,"w":{"en":"He opens it for his own benefit; then he may be asked to remove the bulb (a rabbinic matter).","he":"הוא פותח לטובתו; אחר כך מותר לבקש ממנו להוציא את הנורה (דרבנן)."}},
+{"q":{"en":"Riding a pre-programmed Shabbat elevator:","he":"נסיעה במעלית שבת מתוכנתת:"},
+ "o":[{"en":"Forbidden by everyone","he":"אסורה לכולם"},{"en":"Permitted according to the main view","he":"מותרת לפי העיקר"},{"en":"Only going down","he":"רק בירידה"},{"en":"Only with a non-Jew","he":"רק עם גוי"}],
+ "a":1,"w":{"en":"The rider does nothing and doesn't care about the sensors. Stringent ones are praised.","he":"הנוסע אינו עושה דבר ולא אכפת לו מהחיישנים. המחמיר תבוא עליו ברכה."}},
+{"q":{"en":"Walking past a street security camera on Shabbat:","he":"הליכה מול מצלמת אבטחה ברחוב בשבת:"},
+ "o":[{"en":"Forbidden","he":"אסור"},{"en":"Allowed; you have no interest in being recorded","he":"מותר; אין לך עניין להיות מצולם"},{"en":"Only with eyes closed","he":"רק בעיניים עצומות"},{"en":"Only at night","he":"רק בלילה"}],
+ "a":1,"w":{"en":"Unlike an automatic door, which you activate on purpose to get in.","he":"בניגוד לדלת אוטומטית שמפעילים בכוונה כדי להיכנס."}},
+{"q":{"en":"Your car alarm has been blaring at night and won't stop. What may you do?","he":"אזעקת הרכב מצפצפת בלילה ולא נפסקת. מה מותר?"},
+ "o":[{"en":"Nothing","he":"כלום"},{"en":"Turn it off normally","he":"לכבות כרגיל"},{"en":"Turn it off with a shinui (e.g., press the remote with a spoon)","he":"לכבות בשינוי (למשל ללחוץ על השלט בכפית)"},{"en":"Call the police","he":"להתקשר למשטרה"}],
+ "a":2,"w":{"en":"Turning off is rabbinic; with a shinui it's a shvut di-shvut, allowed for great need.","he":"כיבוי הוא מדרבנן; בשינוי זה שבות דשבות, מותר לצורך גדול."}},
+{"q":{"en":"Which grama device is acceptable in time of need?","he":"איזה מכשיר גרמא מקובל בשעת צורך?"},
+ "o":[{"en":"An elevator button that works via scanning","he":"כפתור מעלית שפועל בסורק"},{"en":"An electric scooter (kalno'it)","he":"קלנועית"},{"en":"An alarm key that arms the system after ten minutes","he":"מפתח שדורך את האזעקה אחרי עשר דקות"},{"en":"An automatic door with a delay of one second","he":"דלת אוטומטית עם השהיה של שנייה"}],
+ "a":2,"w":{"en":"Only a significant delay makes it real grama; quick weekday-like activation doesn't.","he":"רק השהיה משמעותית היא גרמא אמיתית; הפעלה מהירה כבחול – לא."}}
+]

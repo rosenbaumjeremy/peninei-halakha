@@ -1,0 +1,23 @@
+[
+{"q":{"en":"Why may you dry your hands on a towel on Shabbat?","he":"מדוע מותר לנגב ידיים במגבת בשבת?"},
+ "o":[{"en":"Because towels aren't clothing","he":"כי מגבת אינה בגד"},{"en":"Because the water dirties the towel rather than cleaning it","he":"כי המים מלכלכים את המגבת ולא מנקים"},{"en":"Only if it's a paper towel","he":"רק במגבת נייר"},{"en":"Only with a shinui","he":"רק בשינוי"}],
+ "a":1,"w":{"en":"Wetting that makes cloth dirtier isn't Kibus.","he":"הרטבה שמלכלכת אינה כיבוס."}},
+{"q":{"en":"A lot of water spilled on the floor. Which is NOT a permitted solution?","he":"נשפכו הרבה מים על הרצפה. מה אינו פתרון מותר?"},
+ "o":[{"en":"Using several towels","he":"להשתמש בכמה מגבות"},{"en":"Using paper towels","he":"להשתמש במגבות נייר"},{"en":"Soaking it all up with one towel and wringing it into the sink","he":"לספוג הכול במגבת אחת ולסחוט לכיור"},{"en":"Two people lifting a towel together","he":"שניים מרימים מגבת יחד"}],
+ "a":2,"w":{"en":"Wringing cloth is a Torah prohibition; the other options avoid it.","he":"סחיטת בד היא איסור תורה; האפשרויות האחרות נמנעות ממנה."}},
+{"q":{"en":"Which may be used on Shabbat?","he":"במה מותר להשתמש בשבת?"},
+ "o":[{"en":"A stapler","he":"שדכן"},{"en":"A paper clip","he":"מהדק"},{"en":"Tape to permanently join papers","he":"סלוטייפ לחיבור קבוע של דפים"},{"en":"Needle and thread for a quick fix","he":"מחט וחוט לתיקון מהיר"}],
+ "a":1,"w":{"en":"A paper clip holds from outside; a staple makes holes like two stitches.","he":"מהדק מחזיק מבחוץ; שדכן עושה חורים כמו שתי תפירות."}},
+{"q":{"en":"Tying shoelaces with a simple bow:","he":"קשירת שרוכים בעניבה פשוטה:"},
+ "o":[{"en":"Forbidden","he":"אסור"},{"en":"Allowed only for less than a week","he":"מותר רק לפחות משבוע"},{"en":"Allowed, since a bow isn't considered a knot","he":"מותר, כי עניבה אינה נחשבת קשר"},{"en":"Allowed only with a shinui","he":"מותר רק בשינוי"}],
+ "a":2,"w":{"en":"One pull undoes it, so it's not a knot at all, even long-term.","he":"משיכה אחת מתירה אותה, ולכן אינה קשר כלל, אפילו לזמן ארוך."}},
+{"q":{"en":"Your jacket got soaked in the rain. What's true?","he":"המעיל נרטב בגשם. מה נכון?"},
+ "o":[{"en":"You must take it off immediately","he":"חייבים להוריד מיד"},{"en":"You may wring it out gently","he":"מותר לסחוט בעדינות"},{"en":"You may keep wearing it, but don't wring it or hang it on a clothesline","he":"מותר להמשיך ללבוש, אבל לא לסחוט ולא לתלות על חבל כביסה"},{"en":"You may dry it next to a hot heater","he":"מותר לייבש ליד תנור חם"}],
+ "a":2,"w":{"en":"Wringing and heat-drying are Kibus/Libun; a clothesline looks like laundry.","he":"סחיטה וייבוש בחום הם כיבוס וליבון; חבל כביסה – מראית עין."}},
+{"q":{"en":"Folding your tallit after davening:","he":"קיפול טלית אחרי התפילה:"},
+ "o":[{"en":"Strictly forbidden","he":"אסור בהחלט"},{"en":"Allowed if not folded exactly on its original creases","he":"מותר אם לא מקפלים בדיוק על הקפלים המקוריים"},{"en":"Allowed only with two people","he":"מותר רק בשניים"},{"en":"Allowed only for a new tallit","he":"מותר רק בטלית חדשה"}],
+ "a":1,"w":{"en":"That's the middle view most poskim follow (SA 302:3).","he":"זו הדעה האמצעית שרוב הפוסקים נוקטים (שו\"ע שב, ג)."}},
+{"q":{"en":"Can you clean contact lenses on Shabbat?","he":"האם מותר לנקות עדשות מגע בשבת?"},
+ "o":[{"en":"Yes, they're non-absorbent and not clothing","he":"כן, הן אינן סופגות ואינן בגד"},{"en":"No, it's Kibus","he":"לא, זה כיבוס"},{"en":"Only soft lenses","he":"רק עדשות רכות"},{"en":"Only by rinsing, never rubbing","he":"רק שטיפה, בלי שפשוף"}],
+ "a":0,"w":{"en":"Same for pacifiers and bottle nipples.","he":"כך גם מוצצים ופטמות בקבוק."}}
+]

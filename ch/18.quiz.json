@@ -1,0 +1,23 @@
+[
+{"q":{"en":"A cake has \"Mazal Tov\" in frosting. How do you cut it?","he":"על עוגה כתוב \"מזל טוב\" בקצפת. איך חותכים?"},
+ "o":[{"en":"Right through the letters","he":"דרך האותיות"},{"en":"Between the letters","he":"בין האותיות"},{"en":"You can't serve it on Shabbat","he":"אי אפשר להגיש בשבת"},{"en":"Scrape the letters off first","he":"לגרד קודם את האותיות"}],
+ "a":1,"w":{"en":"Cutting through is rabbinic Moḥek; between them each letter stays whole, then you may eat it.","he":"חיתוך דרכן הוא מוחק מדרבנן; ביניהן כל אות נשארת שלמה, ואז אוכלים."}},
+{"q":{"en":"A doctor must write on Shabbat to save a life, and a short delay adds no danger. Best practice?","he":"רופא חייב לכתוב בשבת להצלת חיים, ועיכוב קצר אינו מוסיף סכנה. מה עדיף?"},
+ "o":[{"en":"Write normally in block letters","he":"לכתוב רגיל בדפוס"},{"en":"Use a Shabbat pen with a shinui, in cursive","he":"עט שבת בשינוי, בכתב יד"},{"en":"Never write","he":"לעולם לא לכתוב"},{"en":"Ask a non-Jew, even if it delays treatment","he":"לבקש מגוי, גם אם זה מעכב טיפול"}],
+ "a":1,"w":{"en":"Minimize to rabbinic-level writing when you can without risk.","he":"למעט לכתיבה מדרבנן כשאפשר בלי סיכון."}},
+{"q":{"en":"Doing a jigsaw puzzle on Shabbat:","he":"הרכבת פאזל בשבת:"},
+ "o":[{"en":"Fine for everyone","he":"מותר לכולם"},{"en":"Kids may be lenient; adults proper to avoid","he":"ילדים אפשר להקל; לגדולים ראוי להימנע"},{"en":"Torah prohibition","he":"איסור תורה"},{"en":"Only allowed if you finish it","he":"מותר רק אם משלימים"}],
+ "a":1,"w":{"en":"Most poskim consider connecting pieces into a picture rabbinic Kotev.","he":"רוב הפוסקים רואים בחיבור חלקים לתמונה כותב מדרבנן."}},
+{"q":{"en":"Polishing shoes with colorless polish:","he":"צחצוח נעליים במשחה שקופה:"},
+ "o":[{"en":"Fine, since there's no color","he":"מותר, אין צבע"},{"en":"Torah-forbidden; shine counts as color","he":"אסור מהתורה; ברק נחשב צבע"},{"en":"Allowed with a shinui","he":"מותר בשינוי"},{"en":"Only rabbinic","he":"רק מדרבנן"}],
+ "a":1,"w":{"en":"Plus Memare'aḥ if it's a cream. Wiping off dust is fine.","he":"ועוד ממרח אם זה קרם. ניגוב אבק – מותר."}},
+{"q":{"en":"Which is permitted?","he":"מה מותר?"},
+ "o":[{"en":"Writing in fog on a window","he":"כתיבה באדים על חלון"},{"en":"Marking a page with your fingernail","he":"סימון דף בציפורן"},{"en":"Dog-earing a page","he":"קיפול פינת דף"},{"en":"Using a rubber stamp","he":"שימוש בחותמת"}],
+ "a":2,"w":{"en":"The fold itself is the marker; it isn't engraving a sign.","he":"הקיפול עצמו הוא הסימן; אין כאן חריטה."}},
+{"q":{"en":"Opening a combination lock on Shabbat:","he":"פתיחת מנעול קודן בשבת:"},
+ "o":[{"en":"Kotev, forbidden","he":"כותב, אסור"},{"en":"Allowed; the numbers already exist and are just aligned","he":"מותר; הספרות כבר קיימות ורק מסדרים אותן"},{"en":"Only with a shinui","he":"רק בשינוי"},{"en":"Only for a mitzva","he":"רק למצווה"}],
+ "a":1,"w":{"en":"Tzitz Eliezer 13:44.","he":"ציץ אליעזר יג, מד."}},
+{"q":{"en":"Scouring a silver kiddush cup with polish on Shabbat:","he":"ליטוש גביע כסף בשבת:"},
+ "o":[{"en":"Allowed for kavod Shabbat","he":"מותר לכבוד שבת"},{"en":"Forbidden as Memaḥek","he":"אסור משום ממחק"},{"en":"Allowed with water only","he":"מותר רק במים"},{"en":"Allowed if done gently","he":"מותר בעדינות"}],
+ "a":1,"w":{"en":"Smoothing a surface; same for steel wool and sharpening knives.","he":"החלקת משטח; כך גם צמר פלדה והשחזת סכינים."}}
+]

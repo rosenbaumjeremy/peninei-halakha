@@ -1,0 +1,23 @@
+[
+{"q":{"en":"Which is permitted on Shabbat?","he":"מה מותר בשבת?"},
+ "o":[{"en":"Unscrewing a light bulb","he":"להוציא נורה מהשקע"},{"en":"Hanging a picture on an existing nail","he":"לתלות תמונה על מסמר קיים"},{"en":"Taking a window off its hinges","he":"להוריד חלון מציריו"},{"en":"Tightening a loose door handle","he":"להדק ידית דלת רופפת"}],
+ "a":1,"w":{"en":"A picture isn't part of the wall; the others are fixtures of the house.","he":"תמונה אינה חלק מהקיר; האחרים מחוברים לבית."}},
+{"q":{"en":"What is the key element of an ohel?","he":"מהו עיקר האוהל?"},
+ "o":[{"en":"The walls","he":"המחיצות"},{"en":"The roof","he":"הגג"},{"en":"The pegs","he":"היתדות"},{"en":"The door","he":"הפתח"}],
+ "a":1,"w":{"en":"So temporary walls are ok, but even a temporary roof a tefaḥ wide is not.","he":"לכן מחיצות ארעיות מותרות, אבל גג ארעי אפילו טפח – אסור."}},
+{"q":{"en":"Kids want a blanket fort over chairs. How can it be done?","he":"ילדים רוצים אוהל משמיכה על כיסאות. איך מותר?"},
+ "o":[{"en":"Set up the chairs, then throw the blanket over","he":"להעמיד כיסאות ואז לזרוק את השמיכה"},{"en":"Hold the blanket up first, then slide the chairs under","he":"להחזיק את השמיכה קודם ואז להכניס כיסאות"},{"en":"It's never allowed","he":"אסור בכל מקרה"},{"en":"Only outdoors","he":"רק בחוץ"}],
+ "a":1,"w":{"en":"Reversing the normal order makes a temporary ohel permitted.","he":"שינוי הסדר הרגיל מתיר אוהל ארעי."}},
+{"q":{"en":"Using an umbrella on Shabbat:","he":"שימוש במטרייה בשבת:"},
+ "o":[{"en":"Allowed if opened before Shabbat","he":"מותר אם נפתחה לפני שבת"},{"en":"Universally forbidden, as it resembles an ohel","he":"אסור לכל המנהגים, דומה לאוהל"},{"en":"Allowed in an eruv","he":"מותר בתוך עירוב"},{"en":"Allowed for children","he":"מותר לילדים"}],
+ "a":1,"w":{"en":"Unlike a brimmed hat, where the custom is lenient.","he":"בניגוד לכובע עם שוליים, שבו המנהג להקל."}},
+{"q":{"en":"Opening a can of tuna to eat on Shabbat:","he":"פתיחת קופסת טונה לאכילה בשבת:"},
+ "o":[{"en":"Forbidden as Boneh","he":"אסור משום בונה"},{"en":"Allowed, since the can is disposable like a nutshell","he":"מותר, כי הקופסה חד-פעמית כמו קליפת אגוז"},{"en":"Allowed only if reused","he":"מותר רק אם ישתמשו בה שוב"},{"en":"Allowed only for a sick person","he":"מותר רק לחולה"}],
+ "a":1,"w":{"en":"Forbidden only if you plan to reuse it as a container.","he":"אסור רק אם מתכוון להשתמש בה ככלי."}},
+{"q":{"en":"Your floor is dirty. What may you do?","he":"הרצפה מלוכלכת. מה מותר?"},
+ "o":[{"en":"Wash it with a pail of water","he":"לשטוף בדלי מים"},{"en":"Sweep it","he":"לטאטא"},{"en":"Sweep the dirt yard too","he":"לטאטא גם את חצר העפר"},{"en":"Nothing at all","he":"כלום"}],
+ "a":1,"w":{"en":"Sweeping a floor is for kavod Shabbat; washing and dirt yards are forbidden.","he":"טאטוא רצפה – לכבוד שבת; שטיפה וחצר עפר – אסור."}},
+{"q":{"en":"Cutting a cake into equal slices:","he":"חיתוך עוגה לחתיכות שוות:"},
+ "o":[{"en":"Meḥatekh, forbidden","he":"מחתך, אסור"},{"en":"Allowed; Meḥatekh doesn't apply to food","he":"מותר; אין מחתך באוכל"},{"en":"Allowed only with a shinui","he":"מותר רק בשינוי"},{"en":"Only for Yom Tov","he":"רק ביום טוב"}],
+ "a":1,"w":{"en":"Same for pills on their score line.","he":"כך גם כדורים לפי החריץ."}}
+]

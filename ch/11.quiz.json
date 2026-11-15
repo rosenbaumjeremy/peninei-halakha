@@ -1,0 +1,23 @@
+[
+{"q":{"en":"Peanuts are mixed with their shells. Which is permitted on Shabbat?","he":"בוטנים מעורבים בקליפות. מה מותר בשבת?"},
+ "o":[{"en":"Picking out the shells, then eating the peanuts","he":"להוציא את הקליפות ואז לאכול את הבוטנים"},{"en":"Picking out the peanuts by hand to eat now","he":"להוציא את הבוטנים ביד לאכול עכשיו"},{"en":"Picking out the peanuts to eat tomorrow","he":"להוציא את הבוטנים כדי לאכול מחר"},{"en":"Using a sorting gadget to eat now","he":"להשתמש במכשיר מיון לאכילה מיד"}],
+ "a":1,"w":{"en":"All three conditions are met: okhel from psolet, by hand, for now.","he":"כל שלושת התנאים מתקיימים: אוכל מתוך פסולת, ביד, לאלתר."}},
+{"q":{"en":"A chunk of chicken and a chunk of turkey are mixed together. For Borer they are:","he":"חתיכות עוף והודו מעורבות. לעניין ברירה הן:"},
+ "o":[{"en":"One type, since both are poultry","he":"מין אחד, כי שניהם עופות"},{"en":"Two types, since they taste different","he":"שני מינים, כי טעמם שונה"},{"en":"Not a mixture at all","he":"אינן תערובת כלל"},{"en":"One type only if cooked together","he":"מין אחד רק אם התבשלו יחד"}],
+ "a":1,"w":{"en":"Different taste = different type. Only different sizes of the same food are exempt.","he":"טעם שונה = מין שונה. רק גדלים שונים של אותו מין פטורים."}},
+{"q":{"en":"An eggshell fell into egg salad. What should you do?","he":"קליפת ביצה נפלה לסלט ביצים. מה עושים?"},
+ "o":[{"en":"Remove just the shell with a fork","he":"להוציא רק את הקליפה במזלג"},{"en":"Remove the shell together with a little egg salad","he":"להוציא את הקליפה עם מעט סלט"},{"en":"Nothing can be done; the salad is muktzeh","he":"אין מה לעשות; הסלט מוקצה"},{"en":"Strain the salad","he":"לסנן את הסלט"}],
+ "a":1,"w":{"en":"Taking a bit of food with it makes it okhel from okhel, not psolet from okhel.","he":"כשמוציאים עם מעט אוכל, זה אוכל מתוך אוכל ולא פסולת מתוך אוכל."}},
+{"q":{"en":"Can you strain pulp out of orange juice on Shabbat?","he":"האם מותר לסנן סיבים ממיץ תפוזים בשבת?"},
+ "o":[{"en":"No, straining is always Borer","he":"לא, סינון תמיד בורר"},{"en":"Only with a cloth","he":"רק בבד"},{"en":"Yes, because the juice is drinkable anyway","he":"כן, כי המיץ ראוי לשתייה בלאו הכי"},{"en":"Only if you drink it in the next hour","he":"רק אם שותים בשעה הקרובה"}],
+ "a":2,"w":{"en":"Straining a drink that's already drinkable only improves it slightly. The same goes for a Brita filter.","he":"סינון משקה שכבר ראוי רק משפר מעט. כך גם מסנן בריטה."}},
+{"q":{"en":"You want only the vegetables from a pot of soup. Which is allowed?","he":"רוצה רק את הירקות מהמרק. מה מותר?"},
+ "o":[{"en":"Tip the pot to pour off the broth","he":"להטות את הסיר ולשפוך את הנוזל"},{"en":"Use a slotted spoon and let it drain","he":"כף מחוררת ולתת לנוזל לטפטף"},{"en":"Lift the ladle along the side so it fills with vegetables","he":"להעלות את המצקת לאורך הדופן כך שתתמלא בירקות"},{"en":"Pour the broth back from the ladle","he":"לשפוך את הנוזל מהמצקת בחזרה"}],
+ "a":2,"w":{"en":"That just takes the food you want. Pouring off broth is psolet from okhel.","he":"כך רק לוקחים את האוכל הרצוי. שפיכת הנוזל היא פסולת מתוך אוכל."}},
+{"q":{"en":"Kids mixed the pieces of two board games. What's permitted?","he":"ילדים ערבבו חלקים של שני משחקים. מה מותר?"},
+ "o":[{"en":"Sort them back into their boxes","he":"למיין אותם בחזרה לקופסאות"},{"en":"Take out the pieces of the game they want to play now","he":"להוציא את חלקי המשחק שרוצים לשחק בו עכשיו"},{"en":"Nothing; games are muktzeh","he":"כלום; משחקים מוקצים"},{"en":"Remove the unwanted game's pieces","he":"להוציא את חלקי המשחק שלא רוצים"}],
+ "a":1,"w":{"en":"Borer applies to non-food too, but taking out what you'll use now is the normal way to play.","he":"ברירה שייכת גם בכלים, אבל להוציא מה שמשתמשים בו עכשיו זו דרך המשחק."}},
+{"q":{"en":"Cracking walnuts on Shabbat is:","he":"פיצוח אגוזים בשבת:"},
+ "o":[{"en":"Forbidden as Dash","he":"אסור משום דש"},{"en":"Permitted, since nuts are normally cracked right before eating","he":"מותר, כי אגוזים מפצחים סמוך לאכילה"},{"en":"Permitted only with a shinui","he":"מותר רק בשינוי"},{"en":"Forbidden as Mefarek","he":"אסור משום מפרק"}],
+ "a":1,"w":{"en":"Dash is commercial, end-of-harvest work. Green almond hulls are different.","he":"דש היא עבודה מסחרית בסוף הקציר. קליפת שקדים ירוקה – שונה."}}
+]

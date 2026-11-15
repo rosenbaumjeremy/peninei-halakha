@@ -1,0 +1,23 @@
+[
+{"q":{"en":"Guests showed up and you're short on food. How can you get some from a store owner?","he":"הגיעו אורחים וחסר אוכל. איך לקחת מבעל חנות?"},
+ "o":[{"en":"Ask the price and pay after Shabbat","he":"לשאול מחיר ולשלם במוצאי שבת"},{"en":"Ask as you would a neighbor, with no mention of buying or price","he":"לבקש כמו משכן, בלי להזכיר קנייה או מחיר"},{"en":"Weigh it and write it down","he":"לשקול ולרשום"},{"en":"It's never allowed","he":"אסור בכל מקרה"}],
+ "a":1,"w":{"en":"A hint about settling up later is ok; explicit commerce isn't.","he":"רמז לחשבון אחר כך – מותר; מסחר מפורש – לא."}},
+{"q":{"en":"Running on Shabbat is a mitzva when:","he":"ריצה בשבת היא מצווה כאשר:"},
+ "o":[{"en":"Exercising","he":"מתאמנים"},{"en":"Going to shul or a Torah class","he":"הולכים לבית כנסת או לשיעור"},{"en":"Catching a bus","he":"מספיקים אוטובוס"},{"en":"Never","he":"לעולם לא"}],
+ "a":1,"w":{"en":"Running for one's own needs is forbidden; jogging is a weekday activity.","he":"ריצה לצורכו אסורה; ג'וגינג הוא עובדין דחול."}},
+{"q":{"en":"Which statement is permitted on Shabbat?","he":"איזה משפט מותר לומר בשבת?"},
+ "o":[{"en":"\"Tomorrow I'll drive to Jerusalem.\"","he":"\"מחר אסע ברכב לירושלים.\""},{"en":"\"Please come with your cab after Shabbat.\"","he":"\"בוא בבקשה עם המונית אחרי שבת.\""},{"en":"\"Tomorrow I'll go to Jerusalem.\"","he":"\"מחר אלך לירושלים.\""},{"en":"\"Tomorrow I'll write him a letter.\"","he":"\"מחר אכתוב לו מכתב.\""}],
+ "a":2,"w":{"en":"\"Going\" is only a hint, since walking there isn't inherently forbidden.","he":"\"ללכת\" הוא רק רמז, כי הליכה לשם אינה אסורה מצד עצמה."}},
+{"q":{"en":"A waiter is paid for working only Shabbat lunch. What's the halakha?","he":"מלצר מקבל שכר על סעודת שבת בלבד. מה הדין?"},
+ "o":[{"en":"Fine, since waiting tables isn't a melakha","he":"מותר, מלצרות אינה מלאכה"},{"en":"Sekhar Shabbat: forbidden unless weekday hours were included in advance","he":"שכר שבת: אסור אלא אם הובלעו שעות חול מראש"},{"en":"Allowed if paid in cash","he":"מותר אם משולם במזומן"},{"en":"Allowed if he's not Jewish","he":"מותר אם הוא אינו יהודי"}],
+ "a":1,"w":{"en":"Havla'a: agree beforehand on work after Shabbat too.","he":"הבלעה: לסכם מראש גם עבודה אחרי שבת."}},
+{"q":{"en":"Clearing the table after se'uda shlishit, a few minutes before Shabbat ends:","he":"פינוי השולחן אחרי סעודה שלישית, דקות לפני צאת השבת:"},
+ "o":[{"en":"Fine, for kavod Shabbat","he":"מותר, לכבוד שבת"},{"en":"Forbidden; it's preparing for after Shabbat","he":"אסור; זו הכנה משבת לחול"},{"en":"Only with a shinui","he":"רק בשינוי"},{"en":"Only if a non-Jew helps","he":"רק בעזרת גוי"}],
+ "a":1,"w":{"en":"If plenty of Shabbat remains and the room will be used, clearing is fine.","he":"אם נשאר זמן רב בשבת ומשתמשים בחדר – מותר לפנות."}},
+{"q":{"en":"Weighing yourself on Shabbat:","he":"להישקל בשבת:"},
+ "o":[{"en":"Fine on a mechanical scale","he":"מותר במשקל מכני"},{"en":"Forbidden; measuring is a weekday activity","he":"אסור; מדידה היא עובדין דחול"},{"en":"Only after eating","he":"רק אחרי אוכל"},{"en":"Only on Yom Tov","he":"רק ביום טוב"}],
+ "a":1,"w":{"en":"For a mitzva (e.g., a baby's weight, medicine) measuring is allowed.","he":"לצורך מצווה (משקל תינוק, תרופה) מדידה מותרת."}},
+{"q":{"en":"Listening to a radio that was turned on before Shabbat:","he":"האזנה לרדיו שהודלק לפני שבת:"},
+ "o":[{"en":"Allowed, no melakha is done","he":"מותר, אין מלאכה"},{"en":"Forbidden by clear consensus","he":"אסור בהסכמה ברורה"},{"en":"Only for news","he":"רק לחדשות"},{"en":"Only quietly","he":"רק בשקט"}],
+ "a":1,"w":{"en":"Belittles Shabbat, weekday activity, benefit from desecration, risk of adjusting it.","he":"זלזול בשבת, עובדין דחול, הנאה מחילול, חשש כוונון."}}
+]

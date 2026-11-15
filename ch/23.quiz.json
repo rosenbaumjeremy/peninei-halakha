@@ -1,0 +1,23 @@
+[
+{"q":{"en":"Which category may be moved for its space (le-tzorekh mekomo)?","he":"איזה סוג מותר לטלטל לצורך מקומו?"},
+ "o":[{"en":"Muktzeh machmat gufo (a rock)","he":"מוקצה מחמת גופו (אבן)"},{"en":"Muktzeh machmat chesron kis (a camera)","he":"מוקצה מחמת חסרון כיס (מצלמה)"},{"en":"Kli she-melakhto le-isur (a hammer)","he":"כלי שמלאכתו לאיסור (פטיש)"},{"en":"None of them","he":"אף אחד"}],
+ "a":2,"w":{"en":"It may be moved for a permitted use or its space, but not to protect it.","he":"מותר לצורך גופו ומקומו, אבל לא מחמת שמירה."}},
+{"q":{"en":"You deliberately left coins on a table before Shabbat to stay there. The table is:","he":"השארתם בכוונה מטבעות על שולחן לפני שבת. השולחן:"},
+ "o":[{"en":"Not muktzeh","he":"אינו מוקצה"},{"en":"A basis le-davar ha-asur, unless the coins are negligible compared to it","he":"בסיס לדבר האסור, אלא אם המטבעות חסרי חשיבות לעומתו"},{"en":"Muktzeh only until the coins fall off","he":"מוקצה רק עד שהמטבעות ייפלו"},{"en":"Muktzeh only on Friday night","he":"מוקצה רק בליל שבת"}],
+ "a":1,"w":{"en":"Small change on a table is negligible, so it doesn't become a basis. A real basis stays muktzeh all Shabbat.","he":"מטבעות קטנים על שולחן בטלים ואינו נעשה בסיס. בסיס ממש נשאר מוקצה כל השבת."}},
+{"q":{"en":"Silver candlesticks and challot are on the table. Can you move the table?","he":"פמוטי כסף וחלות על השולחן. מותר להזיז את השולחן?"},
+ "o":[{"en":"Yes, the challot make it permitted","he":"כן, החלות מתירות"},{"en":"No, the silver candlesticks are more important, so it's a basis","he":"לא, הפמוטים חשובים יותר ולכן בסיס"},{"en":"Only after the candles go out","he":"רק אחרי שהנרות כבו"},{"en":"Only with a shinui","he":"רק בשינוי"}],
+ "a":1,"w":{"en":"With clay candlesticks the challot are more important and the table may be moved.","he":"בפמוטי חרס החלות חשובות יותר ומותר להזיז."}},
+{"q":{"en":"Moving a muktzeh item with your foot (be-gufo):","he":"הזזת מוקצה ברגל (בגופו):"},
+ "o":[{"en":"Forbidden","he":"אסור"},{"en":"Allowed, even to protect the muktzeh","he":"מותר, אפילו לצורך המוקצה"},{"en":"Allowed only for a permitted purpose","he":"מותר רק לצורך דבר המותר"},{"en":"Allowed only for a mitzva","he":"מותר רק למצווה"}],
+ "a":1,"w":{"en":"Min ha-tzad requires a permitted purpose; be-gufo doesn't.","he":"מן הצד מצריך צורך היתר; בגופו – לא."}},
+{"q":{"en":"A pot was on the plata when Shabbat began, food not yet edible. Is the food muktzeh?","he":"סיר היה על הפלטה בכניסת שבת והאוכל לא היה מוכן. האם מוקצה?"},
+ "o":[{"en":"Yes, it was unusable at bein ha-shmashot","he":"כן, לא היה ראוי בבין השמשות"},{"en":"No, you knew it would be ready, so it wasn't put out of mind","he":"לא, ידע שיהיה מוכן ולכן לא הקצה מדעתו"},{"en":"Only the pot is muktzeh","he":"רק הסיר מוקצה"},{"en":"Only for Ashkenazim","he":"רק לאשכנזים"}],
+ "a":1,"w":{"en":"Muktzeh needs both: unusable at bein ha-shmashot AND put out of mind.","he":"מוקצה צריך את שניהם: לא ראוי בבין השמשות וגם הקצה מדעתו."}},
+{"q":{"en":"You picked up scissors to clear your seat. What now?","he":"הרמתם מספריים כדי לפנות את הכיסא. מה עכשיו?"},
+ "o":[{"en":"Drop them immediately","he":"להניח מיד"},{"en":"You may put them away in their proper place","he":"מותר להחזיר אותם למקומם"},{"en":"Hold them until Shabbat ends","he":"להחזיק עד צאת השבת"},{"en":"Pass them to someone else","he":"להעביר למישהו אחר"}],
+ "a":1,"w":{"en":"Picked up permissibly, so you may finish moving it. Once you put it down, it's muktzeh again.","he":"הורם בהיתר ולכן מותר להמשיך. ברגע שהניח – חוזר להיות מוקצה."}},
+{"q":{"en":"Shells and pits are piling up on the Shabbat table. What's allowed?","he":"קליפות וגרעינים מצטברים על שולחן השבת. מה מותר?"},
+ "o":[{"en":"Nothing; they're muktzeh","he":"כלום; הם מוקצה"},{"en":"Clear them by hand into the trash (graf shel re'i)","he":"לפנות ביד לפח (גרף של רעי)"},{"en":"Only shake the tablecloth outside","he":"רק לנער את המפה בחוץ"},{"en":"Only a non-Jew may clear them","he":"רק גוי"}],
+ "a":1,"w":{"en":"Disgusting things bothering people may be removed directly.","he":"דבר מאוס שמפריע מותר לפנות ישירות."}}
+]
