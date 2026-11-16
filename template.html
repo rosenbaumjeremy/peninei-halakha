@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="he" dir="rtl">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -257,7 +257,9 @@ footer a{color:var(--gold)}
 {
 const CH={{DATA}};
 const CHK={{DATAK}};
-const BK={s:CH,k:CHK};
+const CHZ={{DATAZ}};
+const BK={s:CH,k:CHK,z:CHZ};
+const BPRE=b=>b==='s'?'':b;
 const numsOf=b=>Object.keys(BK[b]).map(Number).sort((x,y)=>x-y);
 let book='s',view='home',CHX=CH,NUMS=numsOf('s');
 function setBook(b){book=b;CHX=BK[b];NUMS=numsOf(b);}
@@ -297,10 +299,16 @@ const BT={s:{en:{doc:'Hilchot Shabbat Notes',bk:'Shabbat'},he:{doc:'סיכומי
   foot:'Source: Rav Eliezer Melamed, <em>Peninei Halakha – Kashrut</em>, chapters 20–37, summarized from the Hebrew. Read the full text on Sefaria: <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Kashrut.20.1?lang=he">Peninei Halakhah, Kashrut</a>.'},
  he:{doc:'סיכומי הלכות כשרות',bk:'כשרות',title:'הלכות כשרות: הסיכומים שלי',
   kick:'<a href="https://ph.yhb.org.il/">פניני הלכה</a> · כשרות, פרקים כ–לז · לא פסק הלכה',
-  foot:'מקור: הרב אליעזר מלמד, <em>פניני הלכה – כשרות</em>, פרקים כ–לז. לטקסט המלא בספריא: <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Kashrut.20.1?lang=he">פניני הלכה, כשרות</a>.'}}};
+  foot:'מקור: הרב אליעזר מלמד, <em>פניני הלכה – כשרות</em>, פרקים כ–לז. לטקסט המלא בספריא: <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Kashrut.20.1?lang=he">פניני הלכה, כשרות</a>.'}},
+ z:{en:{doc:'Ḥanuka & Purim Notes',bk:'Ḥanuka & Purim',title:'Ḥanuka & Purim: my study notes',
+  kick:'<a href="https://ph.yhb.org.il/en/">Peninei Halakha</a> · Zemanim, chapters 11–16 · not a psak',
+  foot:'Source: Rav Eliezer Melamed, <em>Peninei Halakha – Zemanim</em>, chapters 11–16 (Ḥanuka 11–13, Purim 14–16). Read the full text on Sefaria: <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Zemanim.11.1?lang=bi">Peninei Halakhah, Zemanim</a> (English translation by Yeshivat Har Bracha).'},
+ he:{doc:'סיכומי חנוכה ופורים',bk:'חנוכה ופורים',title:'חנוכה ופורים: הסיכומים שלי',
+  kick:'<a href="https://ph.yhb.org.il/">פניני הלכה</a> · זמנים, פרקים יא–טז · לא פסק הלכה',
+  foot:'מקור: הרב אליעזר מלמד, <em>פניני הלכה – זמנים</em>, פרקים יא–טז (חנוכה יא–יג, פורים יד–טז). לטקסט המלא בספריא: <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Zemanim.11.1?lang=he">פניני הלכה, זמנים</a>.'}}};
 const $=id=>document.getElementById(id);
 const q=$('q'),jump=$('jump'),empty=$('empty');
-let lang='en',ch=1,mode='notes',cur='all',mixSet=null,secOpen=true;
+let lang='he',ch=1,mode='notes',cur='all',mixSet=null,secOpen=true;
 // phone tables
 document.querySelectorAll('.chap table').forEach(t=>{
  const hs=[...t.querySelectorAll('th')].map(th=>th.textContent.trim());
@@ -354,7 +362,7 @@ const SETUP=new Map(),RUNS=new Map();
 const calm=()=>window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
 function qbest(k){try{return JSON.parse(localStorage.getItem('quiz-best:phs:'+k))||null}catch(e){return null}}
 function qsave(k,r){try{localStorage.setItem('quiz-best:phs:'+k,JSON.stringify(r))}catch(e){}}
-function gkey(){return (book==='k'?'k':'')+(mixSet?'all':String(ch))}
+function gkey(){return BPRE(book)+(mixSet?'all':String(ch))}
 function setupOf(k){if(!SETUP.has(k))SETUP.set(k,{count:mixSet?20:QALL,chs:new Set(NUMS),mix:true});return SETUP.get(k)}
 function poolOf(st){return mixSet?NUMS.filter(n=>st.chs.has(n)).reduce((a,n)=>a+CHX[n].quiz.length,0):CHX[ch].quiz.length}
 function draw(st){
@@ -448,7 +456,7 @@ function renderBook(){
  $('notes').hidden=mode!=='notes';$('quiz').hidden=mode!=='quiz';
  if(mode==='notes')renderNotes();else gameView();
 }
-function hash(){try{if(view==='home'){history.replaceState(null,'','#'+lang);return;}history.replaceState(null,'','#'+lang+'-'+(book==='k'?'k':'')+(mixSet?'mix':ch)+(mode==='quiz'&&!mixSet?'-quiz':''))}catch(e){}}
+function hash(){try{if(view==='home'){history.replaceState(null,'','#'+lang);return;}history.replaceState(null,'','#'+lang+'-'+BPRE(book)+(mixSet?'mix':ch)+(mode==='quiz'&&!mixSet?'-quiz':''))}catch(e){}}
 function goCh(c){
  if(c==='mix'){const all=[];NUMS.forEach(n=>CHX[n].quiz.forEach((x,i)=>all.push({c:n,i})));mixSet=true;mode='quiz';}
  else{mixSet=null;ch=+c;cur='all';q.value='';secOpen=true;}
@@ -476,31 +484,38 @@ BT.home={
   kick:'<a href="https://ph.yhb.org.il/en/">Peninei Halakha</a> · Rav Eliezer Melamed · not a psak',
   lede:'Choose a book. Every chapter has notes in English and Hebrew, plus a quiz to check what stuck.',
   open:'Open the notes →',back:'← All books',chs:(r,n,q)=>`Chapters ${r} · ${n} chapters · ${q} quiz questions`,
-  foot:'Source: Rav Eliezer Melamed, <em>Peninei Halakha</em>. Full text on Sefaria: <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Shabbat.1.1?lang=bi">Shabbat</a> · <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Kashrut.20.1?lang=he">Kashrut</a>.'},
+  foot:'Source: Rav Eliezer Melamed, <em>Peninei Halakha</em>. Full text on Sefaria: <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Shabbat.1.1?lang=bi">Shabbat</a> · <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Kashrut.20.1?lang=he">Kashrut</a> · <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Zemanim.11.1?lang=bi">Zemanim</a>.'},
  he:{doc:'סיכומי פניני הלכה',title:'פניני הלכה: הסיכומים שלי',
   kick:'<a href="https://ph.yhb.org.il/">פניני הלכה</a> · הרב אליעזר מלמד · לא פסק הלכה',
   lede:'בחרו ספר. לכל פרק סיכום בעברית ובאנגלית, ובוחן לבדוק מה נקלט.',
   open:'לסיכומים ←',back:'→ כל הספרים',chs:(r,n,q)=>`פרקים ${r} · ${n} פרקים · ${q} שאלות בחידון`,
-  foot:'מקור: הרב אליעזר מלמד, <em>פניני הלכה</em>. לטקסט המלא בספריא: <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Shabbat.1.1?lang=bi">שבת</a> · <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Kashrut.20.1?lang=he">כשרות</a>.'}};
+  foot:'מקור: הרב אליעזר מלמד, <em>פניני הלכה</em>. לטקסט המלא בספריא: <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Shabbat.1.1?lang=bi">שבת</a> · <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Kashrut.20.1?lang=he">כשרות</a> · <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Zemanim.11.1?lang=he">זמנים</a>.'}};
 const CARD={
  s:{heb:'שבת',icon:'<svg viewBox="0 0 32 32" aria-hidden="true"><rect x="8" y="13" width="5" height="14" rx="1" fill="#fbf1ee"/><rect x="19" y="13" width="5" height="14" rx="1" fill="#fbf1ee"/><path d="M10.5 4.5c2.2 3 2.2 5.2 0 6.8-2.2-1.6-2.2-3.8 0-6.8zM21.5 4.5c2.2 3 2.2 5.2 0 6.8-2.2-1.6-2.2-3.8 0-6.8z" fill="#e5ad3e"/><rect x="5" y="27" width="22" height="2.2" rx="1.1" fill="#e5ad3e"/></svg>',
   en:'The meaning of Shabbat, preparing for it, candles, kiddush and meals, havdala, the 39 melakhot, electricity, carrying and muktzeh.',
   he:'משמעות השבת, ההכנות, הדלקת נרות, קידוש וסעודות, הבדלה, ל"ט המלאכות, חשמל, הוצאה ומוקצה.'},
  k:{heb:'כשרות',icon:'<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 15h20v7a5 5 0 0 1-5 5H11a5 5 0 0 1-5-5z" fill="#fbf1ee"/><rect x="4" y="12.5" width="24" height="3" rx="1.5" fill="#e5ad3e"/><rect x="1.5" y="17" width="4.5" height="2.2" rx="1.1" fill="#fbf1ee"/><rect x="26" y="17" width="4.5" height="2.2" rx="1.1" fill="#fbf1ee"/><path d="M12 3.5c-1.6 2 1.6 3 0 5.3M16 2.5c-1.6 2 1.6 3 0 5.3M20 3.5c-1.6 2 1.6 3 0 5.3" stroke="#e5ad3e" stroke-width="1.7" fill="none" stroke-linecap="round"/></svg>',
   en:'Terefot, blood and salting, insects, meat and milk, gentiles’ food and wine, dairy, tevilat kelim, kashering a kitchen, mixtures and the food industry.',
-  he:'טריפות, דם ומליחה, שרצים, בשר בחלב, מאכלי גויים ויינם, חלב ומוצריו, טבילת כלים, הכשרת מטבח, תערובות ותעשיית המזון.'}};
+  he:'טריפות, דם ומליחה, שרצים, בשר בחלב, מאכלי גויים ויינם, חלב ומוצריו, טבילת כלים, הכשרת מטבח, תערובות ותעשיית המזון.'},
+ // Ḥanuka and Purim are one book (Zemanim, ch. 11-16) inside; only the home page shows them as two cards
+ ch:{b:'z',chs:[11,12,13],name:{en:'Ḥanuka',he:'חנוכה'},heb:'חנוכה',icon:'<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 9v5a11 4 0 0 0 22 0V9" stroke="#e5ad3e" stroke-width="1.6" fill="none"/><path d="M9.5 9v5.8M12.8 9v6.4M19.2 9v6.4M22.5 9v5.8" stroke="#e5ad3e" stroke-width="1.6"/><rect x="15" y="6.5" width="2" height="18" fill="#fbf1ee"/><rect x="11" y="24.5" width="10" height="2.4" rx="1.2" fill="#e5ad3e"/><path d="M5 3.4c1.2 1.5 1.2 2.6 0 3.5-1.2-.9-1.2-2 0-3.5zM9.5 3.4c1.2 1.5 1.2 2.6 0 3.5-1.2-.9-1.2-2 0-3.5zM12.8 3.4c1.2 1.5 1.2 2.6 0 3.5-1.2-.9-1.2-2 0-3.5zM16 1c1.2 1.5 1.2 2.6 0 3.5-1.2-.9-1.2-2 0-3.5zM19.2 3.4c1.2 1.5 1.2 2.6 0 3.5-1.2-.9-1.2-2 0-3.5zM22.5 3.4c1.2 1.5 1.2 2.6 0 3.5-1.2-.9-1.2-2 0-3.5zM27 3.4c1.2 1.5 1.2 2.6 0 3.5-1.2-.9-1.2-2 0-3.5z" fill="#fbf1ee"/></svg>',
+  en:'The story and meaning of Ḥanuka, Al Ha-nisim and Hallel, how many candles and who lights, the berakhot, the shamash, and where and when to light, at home or away.',
+  he:'סיפור החנוכה ומשמעותו, על הנסים והלל, מספר הנרות ומי מדליק, הברכות, השמש, ומקום וזמן ההדלקה, בבית ומחוץ לו.'},
+ pu:{b:'z',chs:[14,15,16],name:{en:'Purim',he:'פורים'},heb:'פורים',icon:'<svg viewBox="0 0 32 32" aria-hidden="true"><rect x="8" y="7" width="16" height="18" fill="#fbf1ee"/><path d="M11 11.5h10M11 15h10M11 18.5h7" stroke="#6a1d2c" stroke-width="1.4" opacity=".55"/><rect x="4" y="4" width="4.5" height="24" rx="2.2" fill="#e5ad3e"/><rect x="23.5" y="4" width="4.5" height="24" rx="2.2" fill="#e5ad3e"/><rect x="5.5" y="1.5" width="1.6" height="29" rx=".8" fill="#c98a3a"/><rect x="25" y="1.5" width="1.6" height="29" rx=".8" fill="#c98a3a"/></svg>',
+  en:'Adar and the four parshiyot, Amalek and Zakhor, Ta’anit Esther, reading the Megilla, mishlo’aḥ manot, gifts to the poor, the se’uda and drinking.',
+  he:'אדר וארבע הפרשיות, עמלק ופרשת זכור, תענית אסתר, מקרא מגילה, משלוח מנות, מתנות לאביונים, הסעודה והמשתה.'}};
 function homeCards(){const L=lang;$('hlede').textContent=BT.home[L].lede;
- $('cards').innerHTML=['s','k'].map(b=>{const n=numsOf(b),qs=n.reduce((a,c)=>a+BK[b][c].quiz.length,0),
-  r=L==='he'?HEB[n[0]]+'–'+HEB[n[n.length-1]]:n[0]+'–'+n[n.length-1];
-  return `<button class="card" data-b="${b}"><span class="cicon">${CARD[b].icon}</span><span class="cname">${BT[b][L].bk}${L==='en'?`<span class="cheb" lang="he">${CARD[b].heb}</span>`:''}</span><span class="cmeta">${BT.home[L].chs(r,n.length,qs)}</span><span class="cdesc">${CARD[b][L]}</span><span class="cgo">${BT.home[L].open}</span></button>`;}).join('');}
+ $('cards').innerHTML=['s','k','ch','pu'].map(id=>{const C=CARD[id],b=C.b||id,n=C.chs||numsOf(b),qs=n.reduce((a,c)=>a+BK[b][c].quiz.length,0),
+  r=L==='he'?HEB[n[0]]+'–'+HEB[n[n.length-1]]:n[0]+'–'+n[n.length-1],name=C.name?C.name[L]:BT[b][L].bk;
+  return `<button class="card" data-b="${b}" data-c="${n[0]}"><span class="cicon">${C.icon}</span><span class="cname">${name}${L==='en'?`<span class="cheb" lang="he">${C.heb}</span>`:''}</span><span class="cmeta">${BT.home[L].chs(r,n.length,qs)}</span><span class="cdesc">${C[L]}</span><span class="cgo">${BT.home[L].open}</span></button>`;}).join('');}
 function goHome(){view='home';mixSet=null;q.value='';render();hash();window.scrollTo(0,0);}
-$('cards').addEventListener('click',e=>{const c=e.target.closest('.card');if(!c)return;setBook(c.dataset.b);ch=NUMS[0];mixSet=null;mode='notes';cur='all';q.value='';view='book';render();hash();window.scrollTo(0,0);});
+$('cards').addEventListener('click',e=>{const c=e.target.closest('.card');if(!c)return;setBook(c.dataset.b);ch=+c.dataset.c||NUMS[0];mixSet=null;mode='notes';cur='all';q.value='';view='book';render();hash();window.scrollTo(0,0);});
 $('back').addEventListener('click',goHome);$('home-btn').addEventListener('click',goHome);
 document.querySelector('.hero h1').addEventListener('click',goHome);
 $('b-en').addEventListener('click',()=>{lang='en';render();hash();});
 $('b-he').addEventListener('click',()=>{lang='he';render();hash();});
-function route(){const h=location.hash||'',m=h.match(/^#(en|he)-(k?)(\d+|mix)(-quiz)?$/);
- if(m){view='book';lang=m[1];setBook(m[2]?'k':'s');if(m[3]==='mix'){mixSet=true;mode='quiz';}
+function route(){const h=location.hash||'',m=h.match(/^#(en|he)-([kz]?)(\d+|mix)(-quiz)?$/);
+ if(m){view='book';lang=m[1];setBook(m[2]||'s');if(m[3]==='mix'){mixSet=true;mode='quiz';}
   else if(CHX[m[3]]){ch=+m[3];mixSet=null;mode=m[4]?'quiz':'notes';}else{ch=NUMS[0];}}
  else{view='home';const l=h.match(/^#(en|he)$/);if(l)lang=l[1];}
  render();}
