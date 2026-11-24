@@ -1,0 +1,23 @@
+[
+{"q":{"en":"A non-Jewish guest turned on a light to read his own book. May you use the light?","he":"אורח גוי הדליק אור כדי לקרוא בספר שלו. מותר ליהנות מהאור?"},
+ "o":[{"en":"No, any melakha by a non-Jew on Shabbat is forbidden","he":"לא, כל מלאכת גוי בשבת אסורה"},{"en":"Yes, he did it for himself","he":"כן, הוא עשה לעצמו"},{"en":"Only after Shabbat","he":"רק במוצאי שבת"},{"en":"Only if you didn't see him do it","he":"רק אם לא ראית"}],
+ "a":1,"w":{"en":"The issur of benefit is only when the non-Jew did it for a Jew.","he":"איסור ההנאה הוא רק כשהגוי עשה בשביל יהודי."}},
+{"q":{"en":"Which is a permitted way to get a non-Jew to turn on a light?","he":"איזו דרך מותרת לגרום לגוי להדליק אור?"},
+ "o":[{"en":"\"Do me a favor, it's dark in here\"","he":"\"תעשה לי טובה, חשוך פה\""},{"en":"Pointing at the switch","he":"להצביע על המתג"},{"en":"\"It's hard for me to read when the light is so dim\"","he":"\"קשה לי לקרוא כשהאור כל כך חלש\""},{"en":"\"Whoever turns it on won't lose out\"","he":"\"מי שידליק לא יפסיד\""}],
+ "a":2,"w":{"en":"A plain description of the facts is allowed; hints that function as commands are not.","he":"תיאור עובדתי מותר; רמז שהוא בעצם ציווי – אסור."}},
+{"q":{"en":"The room was lit enough to eat but not to read. A non-Jew added a light for you. What may you do?","he":"בחדר היה מספיק אור לאכול אבל לא לקרוא. גוי הוסיף אור בשבילך. מה מותר?"},
+ "o":[{"en":"Eat, but not read","he":"לאכול, אבל לא לקרוא"},{"en":"Read, but not eat","he":"לקרוא, אבל לא לאכול"},{"en":"Anything","he":"הכול"},{"en":"Nothing; you must leave the room","he":"כלום; צריך לצאת מהחדר"}],
+ "a":0,"w":{"en":"You may only do what you could already do without the added melakha.","he":"מותר רק מה שהיה אפשר גם בלי המלאכה שנוספה."}},
+{"q":{"en":"Why may you ask a non-Jew to take a shofar down from a tree for Rosh Ha-shana?","he":"למה מותר לבקש מגוי להוריד שופר מעץ לראש השנה?"},
+ "o":[{"en":"Shofar overrides Shabbat","he":"שופר דוחה שבת"},{"en":"It's a shvut di-shvut (using a tree is d'rabbanan) for a mitzva","he":"זו שבות דשבות (שימוש באילן דרבנן) לצורך מצווה"},{"en":"Any melakha may be asked for a mitzva","he":"לצורך מצווה מותר לבקש כל מלאכה"},{"en":"Trees aren't muktzeh","he":"עצים אינם מוקצה"}],
+ "a":1,"w":{"en":"For a mitzva or great need, only d'rabbanan melakhot may be asked (with a few exceptions like a communal need).","he":"לצורך מצווה או צורך גדול מותר לבקש רק מלאכה דרבנן (חוץ מכמה חריגים כמו צורך ציבורי)."}},
+{"q":{"en":"For whom may you ask a non-Jew to do even a Torah-level melakha?","he":"עבור מי מותר לבקש מגוי אפילו מלאכה דאורייתא?"},
+ "o":[{"en":"Someone suffering from the heat","he":"מצטער מחום"},{"en":"A choleh she-ein bo sakana (or a child who really needs it)","he":"חולה שאין בו סכנה (או קטן שצריך מאוד)"},{"en":"Anyone who will lose a small amount of money","he":"כל מי שיפסיד סכום קטן"},{"en":"Nobody, ever","he":"לאף אחד"}],
+ "a":1,"w":{"en":"Suffering without illness allows only d'rabbanan, which is why an AC is turned on with a shinui.","he":"צער בלי חולי מתיר רק דרבנן, ולכן מזגן מפעילים בשינוי."}},
+{"q":{"en":"On Friday you leave your car at a non-Jew's garage, paid per job, no deadline. He fixes it on Shabbat. May you pick it up Motza'ei Shabbat?","he":"ביום שישי השארתם רכב במוסך של גוי, בקבלנות, בלי מועד. הוא תיקן בשבת. מותר לקחת במוצ\"ש?"},
+ "o":[{"en":"No, wait bi-khdei she-ya'asu","he":"לא, צריך להמתין בכדי שיעשו"},{"en":"Yes, a contractor working Shabbat is working for himself","he":"כן, קבלן שעובד בשבת עובד לעצמו"},{"en":"Only if he's a stranger","he":"רק אם אינו מכיר"},{"en":"Never; sell the car","he":"לעולם לא; למכור את הרכב"}],
+ "a":1,"w":{"en":"It's forbidden only if you set a deadline that requires Shabbat work.","he":"אסור רק אם קבעתם מועד שמחייב עבודה בשבת."}},
+{"q":{"en":"May a Jew buy stock in a non-Jewish company that operates on Shabbat?","he":"מותר ליהודי לקנות מניות בחברה של גויים שפועלת בשבת?"},
+ "o":[{"en":"Yes; they work for their own profit","he":"כן; הם עובדים לרווח עצמם"},{"en":"No, he profits from Shabbat work","he":"לא, הוא מרוויח מעבודת שבת"},{"en":"Only if he sells before Shabbat","he":"רק אם מוכר לפני שבת"},{"en":"Only in Israel","he":"רק בארץ"}],
+ "a":0,"w":{"en":"But not if the company is run by Jews or most Shabbat work is done by Jews.","he":"אבל לא אם החברה מנוהלת בידי יהודים או שרוב העבודה בשבת נעשית בידי יהודים."}}
+]

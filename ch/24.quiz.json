@@ -1,0 +1,23 @@
+[
+{"q":{"en":"From about what age must parents stop a child who is doing something forbidden on his own?","he":"מאיזה גיל בערך חייבים ההורים להפריש ילד שעושה איסור מעצמו?"},
+ "o":[{"en":"From birth","he":"מלידה"},{"en":"About 3, when he understands some things are always forbidden","he":"בערך 3, כשמבין שיש דברים אסורים תמיד"},{"en":"Only from 6–7","he":"רק מגיל 6–7"},{"en":"Only from bar/bat mitzva","he":"רק מבר/בת מצווה"}],
+ "a":1,"w":{"en":"Real ḥinukh with explanations starts at 6–7, but stopping issurim starts around 3.","he":"חינוך עם הסברים מתחיל ב־6–7, אבל הפרשה מאיסורים מתחילה בערך בגיל 3."}},
+{"q":{"en":"May an adult feed a baby non-kosher food?","he":"מותר למבוגר להאכיל תינוק מאכל אסור?"},
+ "o":[{"en":"Yes, the baby has no obligations","he":"כן, לתינוק אין חיובים"},{"en":"No, causing a child to sin is a Torah prohibition, even for a day-old baby","he":"לא, גרימת איסור לקטן אסורה מהתורה, אפילו לתינוק בן יומו"},{"en":"Only rabbinically prohibited food is allowed","he":"מותר רק איסור דרבנן"},{"en":"Yes, if the baby is under 3","he":"כן, אם הוא מתחת לגיל 3"}],
+ "a":1,"w":{"en":"Even rabbinic issur may not be fed to a child. Handing him something he might misuse (like paper) is fine.","he":"אפילו איסור דרבנן אסור להאכיל. לתת לו דבר שאולי ישתמש בו באיסור (כמו נייר) – מותר."}},
+{"q":{"en":"A 2-year-old understands his parents want the light on and goes to flip the switch. What do they do?","he":"ילד בן שנתיים מבין שההורים רוצים אור והולך ללחוץ על המתג. מה עושים?"},
+ "o":[{"en":"Nothing, he's under 3","he":"כלום, הוא מתחת לגיל 3"},{"en":"Stop him: he's doing melakha for them (\"you, your son\")","he":"למנוע: הוא עושה מלאכה בשבילם (\"אתה ובנך\")"},{"en":"Let him, then don't benefit from the light","he":"לתת לו ואחר כך לא ליהנות מהאור"},{"en":"Only stop him if a guest is watching","he":"למנוע רק אם אורח רואה"}],
+ "a":1,"w":{"en":"On Shabbat, melakha a child does because he knows it helps the adults must be stopped at any age.","he":"בשבת, מלאכה שקטן עושה כי מבין שזה עוזר למבוגרים – מונעים בכל גיל."}},
+{"q":{"en":"You see a neighbor's 8-year-old eating chicken with milk. Must you stop him?","he":"ראיתם ילד שכנים בן 8 אוכל עוף בחלב. חייבים להפריש?"},
+ "o":[{"en":"Yes, always","he":"כן, תמיד"},{"en":"No, it's d'rabbanan; but if he keeps doing it, tell his parents","he":"לא, זה דרבנן; אבל אם חוזר על כך – לספר להוריו"},{"en":"Only if he's a kohen","he":"רק אם הוא כהן"},{"en":"Only on Shabbat","he":"רק בשבת"}],
+ "a":1,"w":{"en":"For another's child, stop a Torah violation; a rabbinic one you don't have to (MB 343:7).","he":"בילד של אחרים מפרישים מאיסור תורה; בדרבנן אין חובה (מ\"ב שמג, ז)."}},
+{"q":{"en":"The light in a child's room was left on and he can't fall asleep. May you tell him to turn it off?","he":"נשאר אור בחדר הילד והוא לא מצליח להירדם. מותר לומר לו לכבות?"},
+ "o":[{"en":"Never","he":"לעולם לא"},{"en":"Yes, in a pressing situation, since it's d'rabbanan and for his own sake; better under 6, or with a shinui","he":"כן, בשעת הדחק, כי זה דרבנן ולצורכו; עדיף מתחת ל־6, או בשינוי"},{"en":"Only a non-Jew may","he":"רק גוי"},{"en":"Only after midnight","he":"רק אחרי חצות"}],
+ "a":1,"w":{"en":"You may never tell a child to do a d'oraita, but in pressing cases a d'rabbanan is allowed.","he":"לעולם אין לומר לקטן לעשות איסור תורה, אבל בשעת הדחק דרבנן מותר."}},
+{"q":{"en":"Which is permitted for children on Shabbat?","he":"מה מותר לילדים בשבת?"},
+ "o":[{"en":"Play-Doh","he":"פלסטלינה"},{"en":"A tricycle","he":"תלת־אופן"},{"en":"A bicycle with training wheels","he":"אופניים עם גלגלי עזר"},{"en":"Soccer in the yard","he":"כדורגל בחצר"}],
+ "a":1,"w":{"en":"Tricycles are only for little kids, so riding one isn't a weekday activity. Play-Doh is Memare'aḥ; bikes and soccer are uvda de-ḥol.","he":"תלת־אופן הוא רק לקטנים ולכן אינו עובדא דחול. פלסטלינה – ממרח; אופניים וכדורגל – עובדא דחול."}},
+{"q":{"en":"Kids want to make a tent from a blanket and chairs. How?","he":"הילדים רוצים לעשות אוהל משמיכה וכיסאות. איך?"},
+ "o":[{"en":"Drape the blanket over the chairs","he":"לפרוש את השמיכה על הכיסאות"},{"en":"Hold the blanket up first, then put the chairs under it","he":"להחזיק קודם את השמיכה ואחר כך להכניס כיסאות מתחת"},{"en":"It's never allowed","he":"אסור בכל מקרה"},{"en":"Only outdoors","he":"רק בחוץ"}],
+ "a":1,"w":{"en":"A temporary tent is allowed when built in a different order: roof first, supports after.","he":"אוהל עראי מותר כשעושים בסדר הפוך: קודם הגג ואחר כך המחיצות."}}
+]

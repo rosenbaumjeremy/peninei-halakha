@@ -1,0 +1,23 @@
+[
+{"q":{"en":"Someone has a migraine that weakens his whole body but he isn't lying down. What's his status?","he":"למישהו יש מיגרנה שמחלישה את כל גופו, אבל הוא לא שוכב. מה דינו?"},
+ "o":[{"en":"Healthy; he's walking around","he":"בריא; הוא מתהלך"},{"en":"A regular sick person (choleh she-ein bo sakana)","he":"חולה רגיל (חולה שאין בו סכנה)"},{"en":"Dangerously ill","he":"חולה שיש בו סכנה"},{"en":"A mild ailment","he":"מיחוש"}],
+ "a":1,"w":{"en":"Pain that weakens the whole body counts as sick even if he isn't in bed (SA 328:17).","he":"כאב שמחליש את כל הגוף נחשב חולי גם אם אינו שוכב (שו\"ע שכח, יז)."}},
+{"q":{"en":"For a regular sick person with no non-Jew around, how does a Jew turn on a light he needs?","he":"חולה רגיל, אין גוי. איך יהודי ידליק לו אור שהוא צריך?"},
+ "o":[{"en":"He can't","he":"אי אפשר"},{"en":"With a shinui, e.g., elbow or foot","he":"בשינוי, למשל במרפק או ברגל"},{"en":"Normally, it's like pikuaḥ nefesh","he":"כרגיל, זה כמו פיקוח נפש"},{"en":"Only via a child","he":"רק על ידי קטן"}],
+ "a":1,"w":{"en":"For him d'rabbanan is permitted (Rashba); the shinui reduces it to a shvut di-shvut.","he":"לחולה הותר דרבנן (רשב\"א); השינוי הופך זאת לשבות דשבות."}},
+{"q":{"en":"Sore throat, not really painful. What may he have?","he":"כאב גרון, לא ממש כואב. מה מותר לו?"},
+ "o":[{"en":"Throat lozenges","he":"סוכריות לגרון"},{"en":"Ordinary hard candies","he":"סוכריות קשות רגילות"},{"en":"Gargling with oil","he":"גרגור שמן"},{"en":"Nothing at all","he":"כלום"}],
+ "a":1,"w":{"en":"Things healthy people also eat are fine even as medicine; things only the sick use are not.","he":"מה שגם בריאים אוכלים – מותר אפילו לרפואה; מה שרק חולים – אסור."}},
+{"q":{"en":"According to the chapter, may someone with a real (but not dangerous) headache take a regular pill on Shabbat?","he":"לפי הפרק, מותר למי שיש לו כאב ראש ממשי (לא מסוכן) ליטול כדור רגיל בשבת?"},
+ "o":[{"en":"No, the gezeira still stands","he":"לא, הגזירה עומדת"},{"en":"Yes, mass-produced medicine is permitted when there's pain","he":"כן, תרופות מפעל מותרות כשיש צער"},{"en":"Only if he started before Shabbat","he":"רק אם התחיל לפני שבת"},{"en":"Only dissolved in water","he":"רק מומס במים"}],
+ "a":1,"w":{"en":"If it only annoys, be strict. Test: would he walk a kilometer to get it?","he":"אם רק מציק – להחמיר. מבחן: האם היה הולך קילומטר כדי להשיגו?"}},
+{"q":{"en":"How may you disinfect a wound with iodine on Shabbat?","he":"איך מחטאים פצע ביוד בשבת?"},
+ "o":[{"en":"Soak a cotton ball and dab it","he":"להספיג צמר גפן ולטפוח"},{"en":"Pour it directly onto the wound","he":"לשפוך ישירות על הפצע"},{"en":"Only a non-Jew may","he":"רק גוי"},{"en":"Not at all","he":"בכלל לא"}],
+ "a":1,"w":{"en":"Cotton or gauze would be squeezed (Seḥita); pour directly or use non-absorbent material.","he":"צמר גפן וגזה נסחטים (סחיטה); לשפוך ישירות או בחומר שאינו סופג."}},
+{"q":{"en":"An engorged nursing mother on Shabbat (baby doesn't specifically need pumped milk). What may she do?","he":"מניקה שחלבה גודש בשבת (התינוק אינו זקוק דווקא לחלב שאוב). מה מותר?"},
+ "o":[{"en":"Pump into a bottle for later","he":"לשאוב לבקבוק לאחר כך"},{"en":"Express so the milk goes to waste (sink, or a container with soap)","he":"לחלוב כך שהחלב הולך לאיבוד (כיור, או כלי עם סבון)"},{"en":"Nothing until after Shabbat","he":"כלום עד צאת השבת"},{"en":"Only with an electric pump turned on now","he":"רק במשאבה חשמלית שמדליקים עכשיו"}],
+ "a":1,"w":{"en":"For the baby it's Dash (d'oraita); to waste it's d'rabbanan, allowed for pain. A timer-set pump is fine.","he":"לתינוק – דש (דאורייתא); לאיבוד – דרבנן, מותר לצער. משאבה עם שעון שבת – מותר."}},
+{"q":{"en":"Why is acupuncture forbidden on Shabbat even for someone in pain?","he":"למה דיקור סיני אסור בשבת אפילו למצטער?"},
+ "o":[{"en":"It's Borer","he":"זה בורר"},{"en":"The needles are muktzeh machmat chesron kis","he":"המחטים מוקצה מחמת חסרון כיס"},{"en":"It's always d'oraita","he":"זה תמיד דאורייתא"},{"en":"It's a non-Jewish practice","he":"זה מנהג גויים"}],
+ "a":1,"w":{"en":"For a patient who badly needs it, it's allowed if it won't necessarily draw blood.","he":"לחולה שצריך מאוד – מותר, אם לא יוציא דם בהכרח."}}
+]
