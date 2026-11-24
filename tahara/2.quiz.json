@@ -1,0 +1,23 @@
+[
+{"q":{"en":"Today, which colors are treated as tamei?","he":"כיום, אילו גוונים נחשבים טמאים?"},
+ "o":[{"en":"Only the four Torah reds","he":"רק ארבעת האדומים שבתורה"},{"en":"Anything with the reddish tint of blood (and black); not yellow, gray or plain brown","he":"כל מה שיש בו אדמומית של דם (ושחור); לא צהוב, אפור או חום רגיל"},{"en":"Any color at all","he":"כל צבע"},{"en":"Only bright red","he":"רק אדום בוהק"}],
+ "a":1,"w":{"en":"After the tradition was lost, all reds and blacks were treated as tamei. In doubt, ask a rav.","he":"אחרי שאבדה המסורת החמירו בכל האדומים והשחורים. בספק – לשאול חכם."}},
+{"q":{"en":"A 3 cm stain is found on colored underwear. What's the status?","he":"נמצא כתם של 3 ס\"מ על תחתונים צבעוניים. מה הדין?"},
+ "o":[{"en":"Tamei","he":"טמאה"},{"en":"Tahor: the decree only covers white surfaces","he":"טהורה: הגזירה רק על משטח לבן"},{"en":"Tamei if found in the 7 clean days","he":"טמאה אם נמצא בשבעה נקיים"},{"en":"Ask whether it's over a gris","he":"תלוי אם יותר מגריס"}],
+ "a":1,"w":{"en":"That's why colored underwear is recommended in the days of tahara.","he":"לכן מומלץ ללבוש צבעוניים בימי הטהרה."}},
+{"q":{"en":"Blood is found on toilet paper after wiping. Per the practical ruling:","he":"נמצא דם על נייר טואלט בקינוח. להלכה למעשה:"},
+ "o":[{"en":"Tamei, it's surely from the canal","he":"טמאה, ודאי מהנרתיק"},{"en":"Tahor: a ketem without hargasha, on something that can't become tamei","he":"טהורה: כתם בלי הרגשה, על דבר שאינו מקבל טומאה"},{"en":"Tamei only if bigger than a gris","he":"טמאה רק אם יותר מגריס"},{"en":"Must do an internal bedika","he":"חייבת בדיקה פנימית"}],
+ "a":1,"w":{"en":"Some are strict and advise not looking at the first wipes.","he":"יש מחמירים, וממליצים לא להסתכל בקינוחים הראשונים."}},
+{"q":{"en":"A tiny drop of blood shows up on a colored cloth used for an internal bedika. Status?","he":"טיפה זעירה של דם בבדיקה פנימית בבד צבעוני. מה הדין?"},
+ "o":[{"en":"Tahor, it's colored","he":"טהורה, הבד צבעוני"},{"en":"Tamei: blood from deep in the canal may have come with sensation","he":"טמאה: דם מעומק הנרתיק שמא יצא בהרגשה"},{"en":"Tahor, it's smaller than a gris","he":"טהורה, פחות מגריס"},{"en":"Depends on the day","he":"תלוי ביום"}],
+ "a":1,"w":{"en":"The ketem leniencies don't apply to internal bedikot or tampons.","he":"היתרי כתמים אינם חלים על בדיקה פנימית או טמפון."}},
+{"q":{"en":"A white-underwear stain > 2 cm, but she had touched beets earlier. Status?","he":"כתם יותר מ־2 ס\"מ על לבנים, אבל קודם נגעה בסלק. מה הדין?"},
+ "o":[{"en":"Tamei, it's probably blood","he":"טמאה, כנראה דם"},{"en":"Tahor: any real chance it came from elsewhere","he":"טהורה: כל אפשרות ממשית שבא ממקום אחר"},{"en":"Ask a doctor","he":"לשאול רופא"},{"en":"Tamei only in the 7 clean days","he":"טמאה רק בשבעה נקיים"}],
+ "a":1,"w":{"en":"\"The Sages said this only to be lenient\" (Nidda 58b).","he":"\"לא אמרו חכמים הדבר להחמיר אלא להקל\" (נדה נח, ב)."}},
+{"q":{"en":"What counts as the Torah's hargasha, in practice?","he":"מה נחשב הרגשה מהתורה, למעשה?"},
+ "o":[{"en":"Only a feeling of the uterus opening","he":"רק תחושת פתיחת הרחם"},{"en":"She clearly knows from her body that her period is coming out, by whatever combination of signs","he":"היא יודעת בבירור מתוך גופה שיוצא ממנה דם וסת, באיזה צירוף תחושות שיהיה"},{"en":"Any wetness","he":"כל לחות"},{"en":"Only cramps","he":"רק התכווצויות"}],
+ "a":1,"w":{"en":"Without that knowledge, what she sees is judged as a ketem.","he":"בלי ידיעה כזו, מה שרואה נידון ככתם."}},
+{"q":{"en":"Bleeding right after an IUD is inserted during the 7 clean days:","he":"דימום מיד אחרי הכנסת התקן תוך רחמי בשבעה נקיים:"},
+ "o":[{"en":"Restart the count","he":"מתחילה לספור מחדש"},{"en":"It's wound blood; keep counting","he":"זה דם פצע; ממשיכה לספור"},{"en":"She's a zava","he":"היא זבה"},{"en":"Wait a month","he":"ממתינה חודש"}],
+ "a":1,"w":{"en":"Uterine wound blood isn't tamei.","he":"דם פצע ברחם אינו מטמא."}}
+]

@@ -1,0 +1,23 @@
+[
+{"q":{"en":"Once pregnancy is confirmed by a reliable test, does she keep onot perisha?","he":"אחרי שוידאה היריון בבדיקה אמינה, האם חוששת לעונות פרישה?"},
+ "o":[{"en":"Yes, as before","he":"כן, כמו קודם"},{"en":"No, she's mesuleket damim","he":"לא, היא מסולקת דמים"},{"en":"Only the beinonit","he":"רק בינונית"},{"en":"Only in the first trimester","he":"רק בשליש הראשון"}],
+ "a":1,"w":{"en":"Until the end of nursing or her first period.","he":"עד סוף ההנקה או הווסת הראשון."}},
+{"q":{"en":"Her waters broke but there's no blood. Is she tamei?","he":"ירדו מים אבל אין דם. האם טמאה?"},
+ "o":[{"en":"Yes, labor has begun","he":"כן, הלידה התחילה"},{"en":"No; without uterine blood she's tahor","he":"לא; בלי דם מהרחם טהורה"},{"en":"Only if it's a boy","he":"רק אם זה בן"},{"en":"Only after 24 hours","he":"רק אחרי 24 שעות"}],
+ "a":1,"w":{"en":"She becomes tamei when uterine blood leaves or when the baby's head emerges.","he":"נטמאת כשיוצא דם מהרחם או כשיוצא ראש התינוק."}},
+{"q":{"en":"Doctors recommend inducing labor for safety, but the couple heard a segula against changing the birth time. What should they do?","he":"הרופאים ממליצים לזרז את הלידה מטעמי בטיחות, אבל הזוג שמע סגולה נגד שינוי זמן הלידה. מה לעשות?"},
+ "o":[{"en":"Follow the segula","he":"לנהוג לפי הסגולה"},{"en":"Follow the medical advice (a second opinion if worried and there's time)","he":"לשמוע להמלצה הרפואית (חוות דעת נוספת אם חוששים ויש זמן)"},{"en":"Ask the midwife to wait a week","he":"לבקש מהמיילדת להמתין שבוע"},{"en":"Decide by lottery","he":"להטיל גורל"}],
+ "a":1,"w":{"en":"Protecting life is a mitzva; one who ignores medicine for segulot is held responsible.","he":"שמירת חיים מצווה; מי שמתעלם מהרפואה בגלל סגולות – ייתן את הדין."}},
+{"q":{"en":"By Torah law, after the birth of a girl, how long is she tamei?","he":"מהתורה, אחרי לידת בת, כמה זמן טמאה?"},
+ "o":[{"en":"7 days","he":"שבעה ימים"},{"en":"14 days, then 66 days of dam tohar","he":"ארבעה עשר יום, ואחר כך 66 ימי טוהר"},{"en":"40 days","he":"ארבעים יום"},{"en":"80 days","he":"שמונים יום"}],
+ "a":1,"w":{"en":"In practice all post-birth blood is treated as tamei; she needs 7 clean days after it stops.","he":"למעשה כל דם שאחרי הלידה נחשב טמא; צריכה שבעה נקיים אחרי שנפסק."}},
+{"q":{"en":"Labor begins on Shabbat. Which hospital?","he":"הלידה מתחילה בשבת. לאיזה בית חולים?"},
+ "o":[{"en":"The one she prefers, wherever","he":"זה שהיא מעדיפה, בכל מקום"},{"en":"The nearest, unless there's a special medical reason (or a slight detour to calm her)","he":"הקרוב, אלא אם יש סיבה רפואית מיוחדת (או מעט רחוק כדי להרגיעה)"},{"en":"Only one run according to halakha","he":"רק בית חולים שמתנהל לפי ההלכה"},{"en":"Wait until after Shabbat","he":"להמתין לצאת השבת"}],
+ "a":1,"w":{"en":"Preferring a more professional or halakhic hospital isn't pikuaḥ nefesh.","he":"העדפת בית חולים מקצועי יותר או הלכתי אינה פיקוח נפש."}},
+{"q":{"en":"A miscarriage at 6 weeks after conception (unknown sex). How long is she tamei?","he":"הפלה שישה שבועות אחרי ההפריה (מין לא ידוע). כמה זמן טמאה?"},
+ "o":[{"en":"Like nidda only","he":"כנידה בלבד"},{"en":"Birth tum'a; with unknown sex, 14 days","he":"טומאת לידה; כשהמין לא ידוע – ארבעה עשר יום"},{"en":"7 days","he":"שבעה ימים"},{"en":"40 days","he":"ארבעים יום"}],
+ "a":1,"w":{"en":"Before 40 days from conception it's only nidda.","he":"לפני ארבעים יום מההפריה – רק נידה."}},
+{"q":{"en":"What does Rav Melamed say about postpartum depression?","he":"מה אומר הרב מלמד על דיכאון אחרי לידה?"},
+ "o":[{"en":"It's normal; wait it out","he":"זה נורמלי; להמתין שיעבור"},{"en":"It's a dangerous illness: see a psychiatrist and take proper medication without delay","he":"זו מחלה מסוכנת: לפנות לפסיכיאטר וליטול תרופות מתאימות בלי להתמהמה"},{"en":"Only alternative treatments","he":"רק טיפולים אלטרנטיביים"},{"en":"Only prayer","he":"רק תפילה"}],
+ "a":1,"w":{"en":"Milder low mood: rest, sleep, family help, and the family doctor if it persists.","he":"דכדוך קל: מנוחה, שינה, עזרת המשפחה, ורופא משפחה אם נמשך."}}
+]

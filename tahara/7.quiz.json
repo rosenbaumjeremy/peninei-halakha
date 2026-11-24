@@ -1,0 +1,23 @@
+[
+{"q":{"en":"A bedika shows a borderline color and she isn't sure. What should she do?","he":"בבדיקה יש מראה גבולי והיא לא בטוחה. מה תעשה?"},
+ "o":[{"en":"Assume it's tamei to be safe","he":"להניח שטמא, ליתר ביטחון"},{"en":"Ask a ḥakham; needless strictness cancels ona","he":"לשאול חכם; חומרה בחינם מבטלת עונה"},{"en":"Assume it's tahor","he":"להניח שטהור"},{"en":"Ask a friend","he":"לשאול חברה"}],
+ "a":1,"w":{"en":"Any chance it's tahor (color, size, wound) → ask.","he":"כל סיכוי שטהור (צבע, גודל, פצע) ← לשאול."}},
+{"q":{"en":"Why is it better to have one fixed rav for tahara questions?","he":"למה עדיף רב קבוע לשאלות טהרה?"},
+ "o":[{"en":"It's cheaper","he":"זה זול יותר"},{"en":"You learn to think systematically, and he knows your background and can spot a medical issue","he":"לומדים לחשוב בשיטתיות, והוא מכיר את הרקע ויכול לזהות בעיה רפואית"},{"en":"Other rabbis aren't allowed to answer","he":"לרבנים אחרים אסור לענות"},{"en":"It's required by Torah law","he":"זו חובה מהתורה"}],
+ "a":1,"w":{"en":"\"Aseh lekha rav ve-histalek min ha-safek\" (Avot 1:16).","he":"\"עשה לך רב והסתלק מן הספק\" (אבות א, טז)."}},
+{"q":{"en":"Checking a cloth at night under a yellowish bulb, it looks reddish. What should she keep in mind?","he":"בודקת בלילה תחת נורה צהבהבה, והמראה נראה אדמדם. מה כדאי לזכור?"},
+ "o":[{"en":"Yellow light makes things look redder; recheck in daylight or balanced light","he":"אור צהוב מאדים; לבדוק שוב באור יום או באור מאוזן"},{"en":"Yellow light makes things look paler","he":"אור צהוב מחוויר"},{"en":"Lighting doesn't matter","he":"התאורה לא משנה"},{"en":"Only candlelight is valid","he":"רק אור נר כשר"}],
+ "a":0,"w":{"en":"White fluorescent does the opposite: tamei can look tahor.","he":"פלורסנט לבן הפוך: טמא עלול להיראות טהור."}},
+{"q":{"en":"One rav ruled a sample tamei. May she bring it to another rav?","he":"רב אחד טימא מראה. מותר להביא אותו לרב אחר?"},
+ "o":[{"en":"Yes, freely","he":"כן, בלי הגבלה"},{"en":"Not the same question, unless when really needed and she tells him the first forbade","he":"לא אותה שאלה, אלא בשעת הצורך ובתנאי שתספר שהראשון אסר"},{"en":"Only after 24 hours","he":"רק אחרי 24 שעות"},{"en":"Only to a greater rav","he":"רק לרב גדול יותר"}],
+ "a":1,"w":{"en":"If the first gave only an opinion, or said \"I can't permit,\" she may ask another.","he":"אם הראשון נתן רק חוות דעת, או אמר \"איני יכול להתיר\" – מותר לשאול אחר."}},
+{"q":{"en":"A routine gynecological exam without anesthesia, not at her ona, causes some bleeding. Status?","he":"בדיקה גינקולוגית שגרתית בלי הרדמה, שלא בעונתה, גרמה לדימום קל. מה הדין?"},
+ "o":[{"en":"Tamei","he":"טמאה"},{"en":"Tahor: it's wound blood from the exam","he":"טהורה: זה דם פצע מהבדיקה"},{"en":"Must ask the doctor and a rav","he":"חייבת לשאול רופא ורב"},{"en":"Tamei only if > a gris","he":"טמאה רק אם יותר מגריס"}],
+ "a":1,"w":{"en":"At her ona she's tahor only if sure the blood is from the exam.","he":"בעונתה טהורה רק אם ודאי שהדם מהבדיקה."}},
+{"q":{"en":"Which medical procedure surely makes her tamei?","he":"איזה טיפול רפואי מטמא בוודאות?"},
+ "o":[{"en":"IUD insertion","he":"הכנסת התקן"},{"en":"A Pap smear","he":"משטח צוואר הרחם"},{"en":"A D&C around a miscarriage","he":"גרידה סביב הפלה"},{"en":"An ultrasound","he":"אולטרסאונד"}],
+ "a":2,"w":{"en":"It removes the uterine lining, like a period.","he":"מסירים את רירית הרחם, כבווסת."}},
+{"q":{"en":"May a woman see a male gynecologist?","he":"מותר לאשה להיבדק אצל רופא נשים גבר?"},
+ "o":[{"en":"Never","he":"לעולם לא"},{"en":"Yes; just not alone in a locked room (or bring her husband, sister or mother if no one is around)","he":"כן; רק לא לבד בחדר נעול (או לבוא עם בעלה, אחותה או אמה כשאין אחרים)"},{"en":"Only in an emergency","he":"רק בחירום"},{"en":"Only if he's married","he":"רק אם הוא נשוי"}],
+ "a":1,"w":{"en":"His touch is professional. Prefer a God-fearing doctor and a fixed one.","he":"מגעו מקצועי. עדיף רופא ירא שמיים וקבוע."}}
+]

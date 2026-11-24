@@ -1,0 +1,23 @@
+[
+{"q":{"en":"May a wife wear makeup and jewelry during the days of issur?","he":"מותר לאשה להתאפר ולהתקשט בימי האיסור?"},
+ "o":[{"en":"No, nidda means distancing","he":"לא, נידה לשון ריחוק"},{"en":"Yes; per R. Akiva, otherwise she might become unattractive to her husband","he":"כן; לפי רבי עקיבא, אחרת תתגנה על בעלה"},{"en":"Only on Shabbat","he":"רק בשבת"},{"en":"Only outside the home","he":"רק מחוץ לבית"}],
+ "a":1,"w":{"en":"SA YD 195:9. The goal is a middle path: no arousal, no excessive distance.","he":"שו\"ע יו\"ד קצה, ט. המטרה דרך אמצע: בלי לעורר, בלי ריחוק יתר."}},
+{"q":{"en":"The couple eats alone at one table. What's required?","he":"בני הזוג אוכלים לבדם על שולחן אחד. מה צריך?"},
+ "o":[{"en":"Nothing","he":"כלום"},{"en":"A reminder: an unused object, separate placemats, or a changed seat","he":"היכר: חפץ שלא משתמשים בו, מפות נפרדות, או שינוי מקום"},{"en":"They must eat at different times","he":"חייבים לאכול בזמנים שונים"},{"en":"Only a third person present","he":"רק אם יש אדם שלישי"}],
+ "a":1,"w":{"en":"With another person present, or in a restaurant, no reminder is needed.","he":"כשיש אדם נוסף, או במסעדה, אין צורך בהיכר."}},
+{"q":{"en":"How far apart should the beds ideally be?","he":"כמה רצוי שיהיה בין המיטות?"},
+ "o":[{"en":"Touching is fine if clothed","he":"נגיעה מותרת אם לבושים"},{"en":"Any gap; ideally about half a meter","he":"הפרש כלשהו; רצוי כחצי מטר"},{"en":"Separate rooms","he":"חדרים נפרדים"},{"en":"Two meters","he":"שני מטרים"}],
+ "a":1,"w":{"en":"So that even stretching out in sleep they won't touch.","he":"כדי שגם בפישוט ידיים בשינה לא ייגעו."}},
+{"q":{"en":"There's a bowl of ḥummus between them. How do they eat?","he":"יש ביניהם קערת חומוס. איך אוכלים?"},
+ "o":[{"en":"Both dip from the bowl","he":"שניהם טובלים מהקערה"},{"en":"Each takes some onto their own plate","he":"כל אחד לוקח לצלחתו"},{"en":"Only one may eat it","he":"רק אחד מהם יאכל"},{"en":"It's forbidden entirely","he":"אסור לגמרי"}],
+ "a":1,"w":{"en":"Eating from one serving bowl is a sign of closeness.","he":"אכילה מקערה אחת היא ביטוי קרבה."}},
+{"q":{"en":"They need to carry a stroller up onto a bus and no one else can easily help. May they?","he":"צריכים להעלות עגלה לאוטובוס ואין אחר שיכול לעזור בקלות. מותר?"},
+ "o":[{"en":"No, never carry together","he":"לא, לעולם לא לשאת יחד"},{"en":"Yes, when needed, carefully not touching","he":"כן, בשעת הצורך, בזהירות שלא לגעת"},{"en":"Only if the baby is in it","he":"רק אם התינוק בתוכה"},{"en":"Only one of them may ride","he":"רק אחד מהם ייסע"}],
+ "a":1,"w":{"en":"Normally put things down rather than hand them over, but be lenient when needed.","he":"בדרך כלל מניחים ולא מושיטים, אבל בשעת הצורך מקילים."}},
+{"q":{"en":"The wife is sick (not dangerously) and needs physical care. What's the order of preference?","he":"האשה חולה (לא מסוכנת) וזקוקה לטיפול גופני. מה סדר העדיפות?"},
+ "o":[{"en":"Her husband, always","he":"בעלה, תמיד"},{"en":"A paid caregiver if they can afford it; otherwise, in great need, her husband with gloves","he":"מטפלת בתשלום אם אפשר; אחרת, לצורך גדול, בעלה בכפפות"},{"en":"Nobody may touch her","he":"אסור שמישהו ייגע בה"},{"en":"Only a doctor","he":"רק רופא"}],
+ "a":1,"w":{"en":"Stricter than when he's sick, since he's healthy and could be overcome by desire.","he":"חמור יותר מכשהוא חולה, כי הוא בריא ועלול להתגבר יצרו."}},
+{"q":{"en":"May she sing zemirot at the Shabbat table during the days of issur?","he":"מותר לה לשיר זמירות בשולחן שבת בימי האיסור?"},
+ "o":[{"en":"No, like before strangers","he":"לא, כמו בפני זרים"},{"en":"Yes, the main view is lenient","he":"כן, העיקר כמקילים"},{"en":"Only quietly","he":"רק בשקט"},{"en":"Only with guests present","he":"רק כשיש אורחים"}],
+ "a":1,"w":{"en":"Some are strict, but halakha follows the lenient view.","he":"יש מחמירים, אבל ההלכה כמקילים."}}
+]

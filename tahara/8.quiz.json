@@ -1,0 +1,23 @@
+[
+{"q":{"en":"Why must every bride count 7 clean days before the wedding, even with no period?","he":"למה כל כלה סופרת שבעה נקיים לפני החתונה, גם בלי וסת?"},
+ "o":[{"en":"It's the custom of the community only","he":"רק מנהג הקהילה"},{"en":"Dam ḥimud: excitement may cause a little blood that gets lost","he":"דם חימוד: מתוך ההתרגשות אולי ייצא מעט דם ויאבד"},{"en":"Because of the ketuba","he":"בגלל הכתובה"},{"en":"Only if she's under 18","he":"רק אם היא מתחת לשמונה עשרה"}],
+ "a":1,"w":{"en":"A rabbinic enactment, so she immerses with a berakha.","he":"תקנת חכמים, ולכן טובלת בברכה."}},
+{"q":{"en":"How does a bride (betula) do her bedikot?","he":"איך כלה בתולה בודקת?"},
+ "o":[{"en":"Deep internal bedikot like everyone","he":"בדיקות פנימיות בעומק ככל הנשים"},{"en":"Only at the opening, gently, without pain","he":"רק בפתח, בעדינות, בלי כאב"},{"en":"No bedikot at all","he":"בלי בדיקות כלל"},{"en":"A doctor does them","he":"רופאה בודקת"}],
+ "a":1,"w":{"en":"So the hymen isn't affected and no blood results.","he":"שלא תפגע בבתולים ולא ייצא דם."}},
+{"q":{"en":"When is the best time for the bride's tevila?","he":"מתי הזמן הטוב לטבילת הכלה?"},
+ "o":[{"en":"Two weeks before the wedding","he":"שבועיים לפני החתונה"},{"en":"1–2 days before (at most about 4)","he":"יום–יומיים לפני (עד כארבעה)"},{"en":"The morning of the wedding","he":"בבוקר החתונה"},{"en":"Right after the ḥuppa","he":"מיד אחרי החופה"}],
+ "a":1,"w":{"en":"The dam ḥimud concern grows as the wedding nears.","he":"חשש דם החימוד גובר ככל שהחתונה מתקרבת."}},
+{"q":{"en":"After the first full union no blood was seen. Is she tamei?","he":"אחרי החיבור הגמור הראשון לא נראה דם. האם טמאה?"},
+ "o":[{"en":"No, no blood","he":"לא, אין דם"},{"en":"Yes, if both are sure it was a full union","he":"כן, אם שניהם בטוחים שהיה חיבור גמור"},{"en":"Only if she's over 18","he":"רק אם מעל שמונה עשרה"},{"en":"Only on Shabbat","he":"רק בשבת"}],
+ "a":1,"w":{"en":"If unsure it was full, she's tamei only if blood was seen; dark sheets avoid the doubt.","he":"בספק אם היה גמור, טמאה רק אם ראו דם; סדינים כהים מונעים ספק."}},
+{"q":{"en":"There was a ḥuppat nidda. What about yiḥud?","he":"הייתה חופת נידה. מה לגבי ייחוד?"},
+ "o":[{"en":"Permitted, they're married","he":"מותר, הם נשואים"},{"en":"Forbidden until she's tahor and they've been together; stay with parents or host two children","he":"אסור עד שתיטהר ויתחברו; לגור אצל ההורים או לארח שני ילדים"},{"en":"Permitted with the door unlocked","he":"מותר כשהדלת לא נעולה"},{"en":"Only forbidden on Shabbat","he":"אסור רק בשבת"}],
+ "a":1,"w":{"en":"A married couple is trusted in nidda days only after they've been together.","he":"בני זוג נאמנים בימי נידה רק אחרי שכבר התחברו."}},
+{"q":{"en":"Is be'ilat mitzva permitted on Shabbat?","he":"האם בעילת מצווה מותרת בשבת?"},
+ "o":[{"en":"No, it's ḥovel","he":"לא, זה חובל"},{"en":"Yes: joy outweighs pain, it isn't ḥovel, and opening isn't a tikun","he":"כן: השמחה גוברת על הצער, אינה חובל, והפתיחה אינה תיקון"},{"en":"Only on Friday night","he":"רק בליל שבת"},{"en":"Only if it was postponed","he":"רק אם נדחתה"}],
+ "a":1,"w":{"en":"Ketubot 5b–7a; SA OḤ 280:2.","he":"כתובות ה, ב – ז, א; שו\"ע או\"ח רפ, ב."}},
+{"q":{"en":"What does Rav Melamed advise about the timing of be'ilat mitzva?","he":"מה ממליץ הרב מלמד על תזמון בעילת המצווה?"},
+ "o":[{"en":"The first night, always","he":"בלילה הראשון, תמיד"},{"en":"Postpone it to the end of the seven days of celebration and enjoy each other first","he":"לדחות לסוף שבעת ימי המשתה ולשמוח זה בזה קודם"},{"en":"After 30 days","he":"אחרי שלושים יום"},{"en":"Only after her first period","he":"רק אחרי הווסת הראשון"}],
+ "a":1,"w":{"en":"Others say to do it as soon as possible, and many follow them.","he":"יש אומרים להקדים, ורבים נוהגים כמותם."}}
+]

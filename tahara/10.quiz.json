@@ -1,0 +1,23 @@
+[
+{"q":{"en":"Can a large plastic pool filled with rain serve as a mikveh?","he":"האם בריכת פלסטיק גדולה מלאה מי גשמים כשרה למקווה?"},
+ "o":[{"en":"Yes, it's rain","he":"כן, אלה מי גשמים"},{"en":"No, it's a kli; it would need to be holed and attached to the ground","he":"לא, זה כלי; צריך לנקוב ולחבר לקרקע"},{"en":"Only if it holds 1,000 L","he":"רק אם מכילה אלף ליטר"},{"en":"Only in summer","he":"רק בקיץ"}],
+ "a":1,"w":{"en":"A concrete pool even on a top floor is fine: attached as a building.","he":"בריכת בטון אפילו בקומה עליונה כשרה: מחוברת כבניין."}},
+{"q":{"en":"What is the minimum size of a mikveh?","he":"מהו השיעור המינימלי של מקווה?"},
+ "o":[{"en":"Enough for the person immersing","he":"מספיק לאדם הטובל"},{"en":"40 se'a (main view ~310 L; in practice built ≥1,000 L)","he":"ארבעים סאה (לדעה העיקרית כ־310 ליטר; למעשה בונים ≥1,000)"},{"en":"100 L","he":"100 ליטר"},{"en":"Any amount of spring water","he":"כל כמות של מי מעיין"}],
+ "a":1,"w":{"en":"Even slightly less is invalid, even for a small person.","he":"חסר כלשהו – פסול, אפילו לאדם קטן."}},
+{"q":{"en":"Which may be immersed in while its water is flowing?","he":"באיזה מהם מותר לטבול כשהמים זורמים?"},
+ "o":[{"en":"A rainwater mikveh","he":"מקווה מי גשמים"},{"en":"A spring, the sea, or a spring-fed river","he":"מעיין, ים, או נהר שמקורו במעיין"},{"en":"A seasonal stream after rain","he":"נחל אכזב אחרי גשם"},{"en":"None","he":"אף אחד"}],
+ "a":1,"w":{"en":"A rain mikveh is kosher only when standing (ashboren).","he":"מקווה מי גשמים כשר רק באשבורן."}},
+{"q":{"en":"3 log of tap water fell into a mikveh with only 30 se'a of rain. What happened?","he":"שלושה לוגים מי ברז נפלו למקווה שיש בו רק שלושים סאה מי גשמים. מה קרה?"},
+ "o":[{"en":"Nothing","he":"כלום"},{"en":"The whole mikveh is invalid; drain it and wait for rain","he":"כל המקווה נפסל; לרוקן ולהמתין לגשמים"},{"en":"Add 10 se'a of rain to fix it","he":"להוסיף עשר סאה מי גשמים כדי לתקן"},{"en":"It's kosher for vessels only","he":"כשר רק לכלים"}],
+ "a":1,"w":{"en":"With 40 se'a already there, she'uvin wouldn't disqualify it.","he":"אילו היו כבר ארבעים סאה, השאובים לא היו פוסלים."}},
+{"q":{"en":"What is hamshakha?","he":"מהי המשכה?"},
+ "o":[{"en":"Pouring water directly in","he":"שפיכה ישירה פנימה"},{"en":"Water flowing at least 3 tefaḥim (~23 cm) over the ground before entering, so it becomes like ground water","he":"זרימת המים לפחות שלושה טפחים (כ־23 ס\"מ) על הקרקע לפני הכניסה, כך שנעשים כמי קרקע"},{"en":"Pumping water through a pipe","he":"שאיבת מים בצינור"},{"en":"Heating the water","he":"חימום המים"}],
+ "a":1,"w":{"en":"It works if rainwater is the majority of the 40 se'a.","he":"מועיל אם מי הגשמים הם רוב הארבעים סאה."}},
+{"q":{"en":"How does hashaka make a pool of tap water kosher?","he":"איך השקה מכשירה בריכת מי ברז?"},
+ "o":[{"en":"By boiling it","he":"ברתיחה"},{"en":"Its water touches a kosher mikveh through a hole of about 5 cm","he":"המים נוגעים במקווה כשר דרך נקב של כ־5 ס\"מ"},{"en":"By adding salt","he":"בהוספת מלח"},{"en":"By a berakha","he":"בברכה"}],
+ "a":1,"w":{"en":"Once touched, it stays kosher even after the hole is closed (halakha).","he":"אחרי שנגעו, נשארת כשרה גם אחרי שסוגרים את הנקב (להלכה)."}},
+{"q":{"en":"Why is household tap water treated as she'uvin?","he":"למה מי ברז נחשבים שאובים?"},
+ "o":[{"en":"It's desalinated","he":"כי הם מותפלים"},{"en":"The system usually passes through receptacles (meters, tanks, boilers), which are kelim","he":"המערכת עוברת בדרך כלל דרך בתי קיבול (מונים, מיכלים, דודים), שהם כלים"},{"en":"It's chlorinated","he":"כי יש בהם כלור"},{"en":"It isn't rain","he":"כי אינם מי גשמים"}],
+ "a":1,"w":{"en":"The sources themselves (groundwater, sea) are kosher in principle.","he":"המקורות עצמם (מי תהום, ים) בעיקרון כשרים."}}
+]
