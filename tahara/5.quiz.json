@@ -1,0 +1,23 @@
+[
+{"q":{"en":"After immersing, she realizes one finger stayed above the water. What now?","he":"אחרי הטבילה הבינה שאצבע אחת נשארה מעל המים. מה עכשיו?"},
+ "o":[{"en":"Dip just that finger","he":"לטבול רק את האצבע"},{"en":"Immerse the whole body again","he":"לטבול שוב את כל הגוף"},{"en":"It's fine be-di'avad","he":"בדיעבד כשר"},{"en":"Wait until tomorrow","he":"להמתין למחר"}],
+ "a":1,"w":{"en":"The whole body and hair must be in the water at once.","he":"כל הגוף והשיער צריכים להיות במים בבת אחת."}},
+{"q":{"en":"Intact, well-applied nail polish at tevila:","he":"לק שלם ועשוי היטב בטבילה:"},
+ "o":[{"en":"Always a ḥatzitza","he":"תמיד חוצץ"},{"en":"Not a ḥatzitza: she wants it, so it's part of the body (removing is a hiddur)","he":"אינו חוצץ: רוצה בו ולכן בטל לגוף (הסרה היא הידור)"},{"en":"Only clear polish is allowed","he":"רק לק שקוף מותר"},{"en":"Only on Friday night","he":"רק בליל שבת"}],
+ "a":1,"w":{"en":"Chipped to the point she'd redo it → ḥatzitza.","he":"פגום עד שהייתה מתקנת ← חוצץ."}},
+{"q":{"en":"By Torah law, when does a ḥatzitza invalidate?","he":"מהתורה, מתי חציצה פוסלת?"},
+ "o":[{"en":"Any ḥatzitza at all","he":"כל חציצה"},{"en":"On most of the body or hair AND she minds it","he":"על רוב הגוף או השיער וגם מקפידה עליה"},{"en":"Only on the hair","he":"רק בשיער"},{"en":"Only if visible","he":"רק אם נראית"}],
+ "a":1,"w":{"en":"The Sages made either condition enough.","he":"חכמים גזרו שאחד מהתנאים מספיק."}},
+{"q":{"en":"Which is the recommended position for immersing?","he":"מהי תנוחת הטבילה המומלצת?"},
+ "o":[{"en":"Standing straight, arms at the sides","he":"זקופה, ידיים צמודות"},{"en":"Knees bent, leaning forward, legs slightly apart, arms slightly out","he":"ברכיים כפופות, רכונה קדימה, רגליים מעט מפוסקות, ידיים מעט רחוקות"},{"en":"Curled up tightly","he":"מכווצת היטב"},{"en":"Lying on her back","he":"שוכבת על הגב"}],
+ "a":1,"w":{"en":"Any natural position is valid; clenching something tight is not.","he":"כל תנוחה טבעית כשרה; כיווץ בכוח – לא."}},
+{"q":{"en":"The night of tevila falls after a big argument. Should she delay?","he":"ליל הטבילה חל אחרי מריבה גדולה. לדחות?"},
+ "o":[{"en":"Yes, until they make up","he":"כן, עד שיתפייסו"},{"en":"No; immerse on time and make up","he":"לא; לטבול בזמן ולהתפייס"},{"en":"Only if he agrees","he":"רק אם הוא מסכים"},{"en":"Delay one night only","he":"לדחות רק לילה אחד"}],
+ "a":1,"w":{"en":"Delaying even one night without ones is forbidden (SA YD 197:2).","he":"אסור לדחות אפילו לילה אחד בלי אונס (שו\"ע יו\"ד קצז, ב)."}},
+{"q":{"en":"Tevila is on Friday night and Yom Tov falls on Friday. When does she do ḥafifa?","he":"הטבילה בליל שבת ויום טוב חל ביום שישי. מתי תחפוף?"},
+ "o":[{"en":"On Yom Tov","he":"ביום טוב"},{"en":"Thursday, then rinse, clean teeth and check everything Friday night before immersing","he":"ביום חמישי, ובליל שבת לשטוף, לנקות שיניים ולבדוק הכול לפני הטבילה"},{"en":"Motza'ei Shabbat, delaying tevila","he":"במוצאי שבת, ולדחות את הטבילה"},{"en":"No ḥafifa needed","he":"אין צורך בחפיפה"}],
+ "a":1,"w":{"en":"When needed, ḥafifa may precede tevila by up to two days.","he":"בשעת הצורך אפשר להרחיק את החפיפה מהטבילה עד יומיים."}},
+{"q":{"en":"She has a cast on her arm that can't get wet. How does she immerse?","he":"יש לה גבס ביד שאסור להרטיב. איך תטבול?"},
+ "o":[{"en":"She can't until it's removed","he":"אינה יכולה עד שיוסר"},{"en":"Wrap it in plastic sealed to the skin and immerse; the cast isn't a ḥatzitza since she needs it","he":"לעטוף בניילון מודבק לעור ולטבול; הגבס אינו חוצץ כי היא צריכה אותו"},{"en":"Immerse everything except the arm","he":"לטבול הכול חוץ מהיד"},{"en":"Shower instead","he":"להתקלח במקום"}],
+ "a":1,"w":{"en":"Some are strict, but Rav Melamed rules leniently (d'rabbanan; and strictness hurts ona).","he":"יש מחמירים, אבל הרב מלמד פוסק להקל (דרבנן; והחומרה פוגעת בעונה)."}}
+]

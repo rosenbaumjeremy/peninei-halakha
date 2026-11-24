@@ -1,0 +1,23 @@
+[
+{"q":{"en":"What are the three stages of tahara?","he":"מהם שלושת שלבי הטהרה?"},
+ "o":[{"en":"Bedika, mikveh, berakha","he":"בדיקה, מקווה, ברכה"},{"en":"Hefsek tahara, seven clean days, tevila","he":"הפסק טהרה, שבעה נקיים, טבילה"},{"en":"Five days, seven days, tevila","he":"חמישה ימים, שבעה ימים, טבילה"},{"en":"Ḥafifa, bedika, tevila","he":"חפיפה, בדיקה, טבילה"}],
+ "a":1,"w":{"en":"Without a hefsek tahara she's still considered as seeing blood.","he":"בלי הפסק טהרה היא עדיין בחזקת רואה דם."}},
+{"q":{"en":"She did the hefsek tahara at 11 a.m. (sunset is at 5 p.m.). Is it valid?","he":"עשתה הפסק טהרה ב־11 בבוקר (השקיעה ב־17:00). כשר?"},
+ "o":[{"en":"No, only within 2½ hours of sunset","he":"לא, רק בשעתיים וחצי שלפני השקיעה"},{"en":"Yes; near sunset is only the preferred time","he":"כן; סמוך לשקיעה הוא רק הזמן המובחר"},{"en":"Only if she also does a mokh daḥuk","he":"רק אם עושה גם מוך דחוק"},{"en":"Only on Friday","he":"רק ביום שישי"}],
+ "a":1,"w":{"en":"If she might forget later, morning is better than risking a day.","he":"אם עלולה לשכוח – עדיף בבוקר מאשר לסכן יום."}},
+{"q":{"en":"Per the Rema, when can an Ashkenazi woman whose period began Sunday start the 7 clean days at the earliest?","he":"לפי הרמ\"א, מתי לכל המוקדם אשה אשכנזייה שראתה ביום ראשון יכולה להתחיל שבעה נקיים?"},
+ "o":[{"en":"Sunday night","he":"בליל שני"},{"en":"Thursday night (hefsek Thursday before sunset)","he":"בליל שישי (הפסק ביום חמישי לפני השקיעה)"},{"en":"Wednesday night","he":"בליל חמישי"},{"en":"Shabbat night","he":"בליל שבת"}],
+ "a":1,"w":{"en":"5 days including the first: Sun–Thu; hefsek on Thursday, count from Thursday night.","he":"חמישה ימים כולל הראשון: א'–ה'; הפסק ביום חמישי, ספירה מליל שישי."}},
+{"q":{"en":"Per the Shulḥan Arukh, what can she do to start the 7 days sooner than 4 days after intimacy?","he":"לשיטת השו\"ע, מה אפשר לעשות כדי להתחיל לפני ארבעה ימים מהחיבור?"},
+ "o":[{"en":"Nothing","he":"כלום"},{"en":"Clean out the canal (cloth or warm bath), then do the hefsek","he":"לנקות את הנרתיק (בד או רחצה במים חמימים), ואז לפסוק"},{"en":"Do two hefsek checks","he":"לעשות שני הפסקים"},{"en":"Count 8 days instead","he":"לספור שמונה ימים"}],
+ "a":1,"w":{"en":"The Rema didn't want to rely on cleaning, so he set 5 days for all.","he":"הרמ\"א לא רצה לסמוך על ניקוי, ולכן קבע חמישה ימים לכולן."}},
+{"q":{"en":"How many bedikot are needed in the 7 clean days?","he":"כמה בדיקות צריך בשבעה נקיים?"},
+ "o":[{"en":"Exactly 14, no exceptions","he":"בדיוק 14, בלי חריגים"},{"en":"Ideally twice a day; at least once; when needed day 1 and day 7","he":"לכתחילה פעמיים ביום; לפחות פעם; בשעת הצורך ראשון ושביעי"},{"en":"Only on day 7","he":"רק ביום השביעי"},{"en":"None after the hefsek","he":"אין צורך אחרי ההפסק"}],
+ "a":1,"w":{"en":"In a pressing case even one bedika in the 7 days (besides the hefsek) suffices to immerse.","he":"בשעת הדחק אפילו בדיקה אחת בשבעה (מלבד ההפסק) מספיקה לטבילה."}},
+{"q":{"en":"She tends to get stains. What should she wear in the 7 clean days?","he":"היא נוטה לראות כתמים. מה תלבש בשבעה נקיים?"},
+ "o":[{"en":"White underwear, it's required","he":"תחתונים לבנים, חובה"},{"en":"Colored or black underwear","he":"תחתונים צבעוניים או שחורים"},{"en":"No underwear","he":"בלי תחתונים"},{"en":"Only a tampon","he":"רק טמפון"}],
+ "a":1,"w":{"en":"White is a proper custom, not an obligation. A white panty liner also works.","he":"לבנים הם מנהג כשר, לא חובה. אפשר גם תחתונית לבנה."}},
+{"q":{"en":"Must the 7 clean days be counted out loud?","he":"האם צריך לספור את שבעת הנקיים בפה?"},
+ "o":[{"en":"Yes, with a berakha","he":"כן, בברכה"},{"en":"Yes, without a berakha","he":"כן, בלי ברכה"},{"en":"No; she just needs to keep in mind she's in them","he":"לא; די שתזכור שהיא בשבעה נקיים"},{"en":"Only on day 1","he":"רק ביום הראשון"}],
+ "a":2,"w":{"en":"Unlike Sefirat Ha-omer.","he":"לא כספירת העומר."}}
+]

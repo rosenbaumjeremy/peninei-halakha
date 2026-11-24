@@ -1,0 +1,23 @@
+[
+{"q":{"en":"Should she do a bedika right before intimacy, to be sure?","he":"האם לבדוק לפני החיבור, ליתר ביטחון?"},
+ "o":[{"en":"Yes, always","he":"כן, תמיד"},{"en":"Better not; after tevila she's presumed tahor","he":"עדיף שלא; אחרי טבילה היא בחזקת טהורה"},{"en":"Only on Friday night","he":"רק בליל שבת"},{"en":"Only after a trip","he":"רק אחרי נסיעה"}],
+ "a":1,"w":{"en":"Checking could make him worry she felt something (Nidda 12a).","he":"בדיקה עלולה לגרום שלבו יהיה נוקפו (נדה יב, א)."}},
+{"q":{"en":"What is forbidden during an ona of perisha?","he":"מה אסור בעונת הפרישה?"},
+ "o":[{"en":"All touch, like nidda","he":"כל נגיעה, כמו בנידה"},{"en":"Only intimacy; hugging is permitted unless it may lead further","he":"רק החיבור; חיבוק מותר אלא אם יביא לאיסור"},{"en":"Sleeping in the same room","he":"לישון באותו חדר"},{"en":"Eating together","he":"לאכול יחד"}],
+ "a":1,"w":{"en":"The concern is only that her period might start during intimacy.","he":"החשש רק שהווסת יתחיל בשעת החיבור."}},
+{"q":{"en":"With no fixed cycle, which three onot does she keep?","he":"בלי וסת קבוע, לאילו שלוש עונות חוששת?"},
+ "o":[{"en":"Days 28, 29, 30","he":"ימים 28, 29, 30"},{"en":"Haflaga, beinonit (day 30), and the same Hebrew date","he":"הפלגה, בינונית (יום 30), ואותו תאריך עברי"},{"en":"The three days before her period","he":"שלושת הימים שלפני הווסת"},{"en":"Only the beinonit","he":"רק בינונית"}],
+ "a":1,"w":{"en":"All calculated from the last period only.","he":"כולן מחושבות רק מהווסת האחרון."}},
+{"q":{"en":"Her last period began Sunday afternoon. When is the ona beinonit?","he":"הווסת האחרון התחיל ביום ראשון אחר הצהריים. מתי העונה הבינונית?"},
+ "o":[{"en":"Sunday four weeks later, by day","he":"יום ראשון אחרי ארבעה שבועות, ביום"},{"en":"Monday four weeks later, by day","he":"יום שני אחרי ארבעה שבועות, ביום"},{"en":"Monday night four weeks later","he":"ליל שני אחרי ארבעה שבועות"},{"en":"30 days later, by night","he":"אחרי 30 יום, בלילה"}],
+ "a":1,"w":{"en":"Day 30 counting the first day = 4 weeks and a day; same ona (day).","he":"יום 30 כשהראשון נספר = ארבעה שבועות ויום; אותה עונה (יום)."}},
+{"q":{"en":"How is a fixed veset established?","he":"איך נקבע וסת קבוע?"},
+ "o":[{"en":"Once","he":"פעם אחת"},{"en":"Three times in a row in the same pattern","he":"שלוש פעמים רצופות באותה מחזוריות"},{"en":"Six months","he":"שישה חודשים"},{"en":"By a doctor's note","he":"באישור רופא"}],
+ "a":1,"w":{"en":"Off-pattern three times in a row uproots it.","he":"שלוש פעמים רצופות שלא כקביעותה – נעקר."}},
+{"q":{"en":"He's leaving on a several-day trip and tonight is an ona of perisha. Per most poskim:","he":"הוא נוסע לכמה ימים והלילה עונת פרישה. לרוב הפוסקים:"},
+ "o":[{"en":"They must separate","he":"חייבים לפרוש"},{"en":"They should be together; the Torah mitzva of ona overrides the rabbinic perisha","he":"יקיימו חיבור; מצוות עונה מהתורה דוחה פרישה מדרבנן"},{"en":"He must postpone the trip","he":"חייב לדחות את הנסיעה"},{"en":"Only a hug","he":"רק חיבוק"}],
+ "a":1,"w":{"en":"This is unique to a trip, not other nights. When possible, don't schedule a trip then.","he":"מיוחד ליוצא לדרך, לא לשאר לילות. כשאפשר – לא לקבוע נסיעה בעונה זו."}},
+{"q":{"en":"A nursing mother, 10 months postpartum, no period yet. Does she keep onot?","he":"מינקת, עשרה חודשים אחרי לידה, עוד לא ראתה וסת. חוששת לעונות?"},
+ "o":[{"en":"Yes, the three onot","he":"כן, שלוש עונות"},{"en":"No, she's mesuleket damim","he":"לא, היא מסולקת דמים"},{"en":"Only the beinonit","he":"רק בינונית"},{"en":"Only if she nurses less than once a day","he":"רק אם מניקה פחות מפעם ביום"}],
+ "a":1,"w":{"en":"Until she sees a period, stops nursing entirely, or 24 months pass.","he":"עד שתראה וסת, תפסיק להניק לגמרי, או יעברו 24 חודשים."}}
+]

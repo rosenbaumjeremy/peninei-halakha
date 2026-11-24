@@ -1,0 +1,23 @@
+[
+{"q":{"en":"By Torah law, how long is a nidda tamei?","he":"מהתורה, כמה זמן נידה טמאה?"},
+ "o":[{"en":"Until bleeding stops, then 7 clean days","he":"עד שהדם פוסק, ואז שבעה נקיים"},{"en":"7 days from the start of bleeding","he":"שבעה ימים מתחילת הראייה"},{"en":"11 days","he":"אחד עשר יום"},{"en":"Until she sees a clean bedika","he":"עד שתהיה בדיקה נקייה"}],
+ "a":1,"w":{"en":"The 7 clean days come from Rebbi's enactment and the women's custom.","he":"שבעת הנקיים באים מתקנת רבי וממנהג בנות ישראל."}},
+{"q":{"en":"Who decreed that nidda count clean days like a zava?","he":"מי תיקן שנידה תספור נקיים כזבה?"},
+ "o":[{"en":"Moshe Rabbeinu","he":"משה רבנו"},{"en":"Anshei Knesset Ha-gedola","he":"אנשי כנסת הגדולה"},{"en":"Rebbi Yehuda Ha-nasi","he":"רבי יהודה הנשיא"},{"en":"The Shulḥan Arukh","he":"השולחן ערוך"}],
+ "a":2,"w":{"en":"About 150 years after the Ḥurban: 1–2 days → 6 clean days; 3+ → 7. Women then took on 7 always.","he":"כ־150 שנה אחרי החורבן: יום–יומיים ← שישה; שלושה ומעלה ← שבעה. הנשים החמירו תמיד שבעה."}},
+{"q":{"en":"By Torah law, what makes a woman tamei from uterine blood?","he":"מהתורה, מה מטמא אשה מדם הרחם?"},
+ "o":[{"en":"Any blood at all","he":"כל דם"},{"en":"Blood of a tamei color that left with a hargasha (sensation)","he":"דם בגוון טמא שיצא בהרגשה"},{"en":"Only blood seen on a white cloth","he":"רק דם שנמצא על בד לבן"},{"en":"Only blood larger than a gris","he":"רק דם גדול מגריס"}],
+ "a":1,"w":{"en":"Without sensation it's a ketem, tamei only by the Sages' decree.","he":"בלי הרגשה זה כתם, שטמא רק מגזירת חכמים."}},
+{"q":{"en":"Which is NOT one of the conditions for a ketem to make her tamei?","he":"מה אינו מתנאי הכתם כדי שיטמא?"},
+ "o":[{"en":"Larger than a gris","he":"גדול מגריס"},{"en":"On something that can become tamei","he":"על דבר שמקבל טומאה"},{"en":"On a white surface","he":"על משטח לבן"},{"en":"Found within 24 hours","he":"נמצא תוך 24 שעות"}],
+ "a":3,"w":{"en":"The three conditions mirror when blood could make a garment tamei.","he":"שלושת התנאים מקבילים למצב שבו הדם יכול לטמא בגד."}},
+{"q":{"en":"Per R. Meir, why is nidda 7 days?","he":"לפי רבי מאיר, למה נידה שבעה ימים?"},
+ "o":[{"en":"To match the days of creation","he":"כנגד ימי הבריאה"},{"en":"So she'll be as dear to her husband as at the ḥuppa","he":"כדי שתהא חביבה על בעלה כשעת כניסתה לחופה"},{"en":"For health reasons","he":"מסיבות בריאות"},{"en":"To prepare for the mikveh","he":"כדי להתכונן למקווה"}],
+ "a":1,"w":{"en":"Nidda 31b. The separation renews love and gratitude.","he":"נדה לא, ב. הפרישה מחדשת את האהבה ואת הכרת הטובה."}},
+{"q":{"en":"Can we cancel the 7 clean days today, now that we're back in the Land?","he":"האם אפשר היום, כשחזרנו לארץ, לבטל את שבעת הנקיים?"},
+ "o":[{"en":"Yes, the reason no longer applies","he":"כן, הטעם בטל"},{"en":"No; we lack the authority, but wherever halakha permits a leniency we should use it","he":"לא; אין לנו סמכות, אבל בכל מקום שההלכה מקילה – נכון להקל"},{"en":"Only for Sefardim","he":"רק לספרדים"},{"en":"Only after the Mikdash is rebuilt by a beit din","he":"רק כשבית דין יחליט אחרי בניין המקדש"}],
+ "a":1,"w":{"en":"Strictness here blocks the Torah mitzva of ona and can cause stumbling.","he":"חומרה כאן מונעת את מצוות העונה מהתורה ועלולה להביא למכשולים."}},
+{"q":{"en":"Why does tevila specifically use water gathered in the ground?","he":"למה הטבילה דווקא במים מכונסים בקרקע?"},
+ "o":[{"en":"It's cleaner","he":"זה נקי יותר"},{"en":"It expresses returning to the primal, natural ḥesed that gives life to all","he":"זה מבטא חזרה לחסד הטבעי הראשוני שמעניק חיים לכל"},{"en":"Rain is warmer","he":"מי גשמים חמים יותר"},{"en":"It's a minhag only","he":"זה רק מנהג"}],
+ "a":1,"w":{"en":"Water = ḥesed, unity, Torah and da'at.","he":"המים = חסד, אחדות, תורה ודעת."}}
+]
