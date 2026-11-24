@@ -4,7 +4,9 @@ T={1:("Introduction","פתיחה"),2:("Preparing for Shabbat","הכנות לשב
 11:("Borer (Separating)","בורר"),12:("Food Preparation","הכנת מאכלים"),13:("Melakhot of Clothing","מלאכות הבגד"),
 14:("Personal Grooming","הטיפול בגוף"),15:("Boneh and Soter","בונה וסותר"),16:("Mav'ir and Mekhabeh","מבעיר ומכבה"),
 17:("Electricity","חשמל ומכשיריו"),18:("Kotev, Moḥek, Tzove'a","כותב, מוחק וצובע"),19:("Agricultural Melakhot","מלאכות שבצומח"),
-20:("Animals","בעלי חיים"),21:("Hotza'ah (Carrying)","הוצאה"),22:("The Spirit of Shabbat","צביון השבת"),23:("Muktzeh","מוקצה")}
+20:("Animals","בעלי חיים"),21:("Hotza'ah (Carrying)","הוצאה"),22:("The Spirit of Shabbat","צביון השבת"),23:("Muktzeh","מוקצה"),
+24:("Children","דיני קטן"),25:("A Non-Jew's Melakha","מלאכת גוי"),26:("Ma'aseh Shabbat and Lifnei Iver","מעשה שבת ולפני עיוור"),
+27:("Pikuaḥ Nefesh and the Dangerously Ill","פיקוח נפש וחולה"),28:("Illness That Is Not Life-Threatening","חולה שאינו מסוכן"),29:("Eruvin","עירובין"),30:("Teḥum Shabbat","תחומי שבת")}
 K={20:("Terefot","טריפות"),21:("Ḥelev and Gid Ha-nasheh","חלב וגיד הנשה"),22:("Blood and Kashering Meat","דם והכשרת הבשר"),
 23:("Sheratzim (Insects)","שרצים"),24:("Food from Live Animals","מזון מהחי"),25:("Meat and Milk","בשר בחלב"),
 26:("Waiting between Meat and Milk","דיני ההפסקה"),27:("Decrees on Gentiles' Food","הגזירות על מאכלי גויים"),28:("Pat and Bishul Akum","פת ובישולי גויים"),

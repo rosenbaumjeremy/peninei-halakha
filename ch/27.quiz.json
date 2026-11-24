@@ -1,0 +1,23 @@
+[
+{"q":{"en":"The patient says he feels he's in danger; the doctor thinks he isn't. What do we do?","he":"החולה אומר שהוא מרגיש בסכנה; הרופא חושב שלא. מה עושים?"},
+ "o":[{"en":"Follow the doctor","he":"שומעים לרופא"},{"en":"Desecrate Shabbat and take him to be checked: \"the heart knows its own bitterness\"","he":"מחללים שבת ולוקחים אותו להיבדק: \"לב יודע מרת נפשו\""},{"en":"Ask a rav first","he":"שואלים קודם רב"},{"en":"Wait until after Shabbat","he":"ממתינים לצאת השבת"}],
+ "a":1,"w":{"en":"Unless his claim makes no sense or he's a known hypochondriac and an expert is sure.","he":"אלא אם דבריו אינם מתקבלים על הדעת, או שהוא חרדתי ידוע ומומחה בטוח שאין סכנה."}},
+{"q":{"en":"A non-Jew is standing right there during a life-threatening emergency. Who should do the melakha?","he":"בשעת פיקוח נפש עומד שם גוי. מי צריך לעשות את המלאכה?"},
+ "o":[{"en":"The non-Jew, to reduce the issur","he":"הגוי, כדי למעט באיסור"},{"en":"An adult Jew, ideally the most respected one present","he":"יהודי גדול, ועדיף החשוב שבנוכחים"},{"en":"A child","he":"קטן"},{"en":"Whoever has a shinui ready","he":"מי שמוכן לעשות בשינוי"}],
+ "a":1,"w":{"en":"So no one hesitates or concludes that a Jew can't desecrate Shabbat to save a life (Yoma 84b).","he":"כדי שלא יתרשלו ולא יחשבו שיהודי אינו רשאי לחלל שבת להצלה (יומא פד, ב)."}},
+{"q":{"en":"You drove someone to the ER on Shabbat. What about turning off and locking the car?","he":"הסעתם מישהו למיון בשבת. מה לגבי כיבוי ונעילת הרכב?"},
+ "o":[{"en":"Leave it running all Shabbat","he":"להשאיר אותו פועל כל השבת"},{"en":"Ask a non-Jew; if none (or it'd delay), do it with a shinui","he":"לבקש מגוי; אם אין (או שיעכב) – בשינוי"},{"en":"Turn it off normally, like the drive","he":"לכבות כרגיל, כמו הנסיעה"},{"en":"Forbidden in every way","he":"אסור בכל אופן"}],
+ "a":1,"w":{"en":"Turning off is for the car, not the patient; the Sages allowed d'rabbanan at the end so people won't hesitate at the start.","he":"הכיבוי לצורך הרכב, לא החולה; חכמים התירו דרבנן בסוף ההצלה כדי שלא יהססו בתחילתה."}},
+{"q":{"en":"A woman in labor prefers a farther hospital because the rooms are nicer. May you drive there on Shabbat?","he":"יולדת מעדיפה בית חולים רחוק יותר כי החדרים נעימים יותר. מותר לנסוע לשם בשבת?"},
+ "o":[{"en":"Yes, whatever she wants","he":"כן, מה שהיא רוצה"},{"en":"No, only medical reasons justify a farther hospital","he":"לא, רק סיבה רפואית מצדיקה בית חולים רחוק"},{"en":"Only if it's in the same city","he":"רק אם באותה עיר"},{"en":"Only with a non-Jewish driver","he":"רק עם נהג גוי"}],
+ "a":1,"w":{"en":"Price, comfort, or convenience for visitors aren't medical considerations.","he":"מחיר, נוחות או קרבה למבקרים אינם שיקולים רפואיים."}},
+{"q":{"en":"After false labor, a woman is sent home on Shabbat. How does she get home?","he":"אחרי צירים מדומים שולחים יולדת הביתה בשבת. איך תחזור?"},
+ "o":[{"en":"Her husband drives her","he":"בעלה מסיע אותה"},{"en":"If she needs to lie down, with a non-Jewish driver, without her chaperone","he":"אם צריכה לשכב – עם נהג גוי, בלי המלווה"},{"en":"The ambulance takes her back","he":"האמבולנס מחזיר אותה"},{"en":"She must walk","he":"חייבת ללכת ברגל"}],
+ "a":1,"w":{"en":"Once there's no danger, Jews may not drive her home.","he":"כשאין סכנה, אסור ליהודי להסיע אותה הביתה."}},
+{"q":{"en":"Why may soldiers retrieve fallen soldiers' bodies on Shabbat?","he":"למה מותר לחיילים לחלץ גופות של חללים בשבת?"},
+ "o":[{"en":"Kevod ha-met overrides Shabbat","he":"כבוד המת דוחה שבת"},{"en":"Leaving them endangers lives: morale, and prisoner exchanges for bodies","he":"השארתן מסכנת חיים: מורל, ועסקאות שחרור תמורת גופות"},{"en":"It's only d'rabbanan","he":"זה רק דרבנן"},{"en":"It isn't allowed","he":"אסור"}],
+ "a":1,"w":{"en":"After the bodies are retrieved, no further ḥillul Shabbat for them.","he":"אחרי החילוץ אין לחלל שבת עוד לצורך הגופות."}},
+{"q":{"en":"A live electric wire fell nearby. Must you stand guard all Shabbat instead of calling the electric company?","he":"חוט חשמל חשוף נפל ליד הבית. חייבים לעמוד ולהזהיר כל השבת במקום להתקשר לחברת החשמל?"},
+ "o":[{"en":"Yes, to minimize ḥillul Shabbat","he":"כן, כדי למעט בחילול שבת"},{"en":"No; you don't have to give up your rest, so you may call","he":"לא; אינך חייב לוותר על מנוחתך, ולכן מותר להתקשר"},{"en":"Only a non-Jew may call","he":"רק גוי רשאי להתקשר"},{"en":"Ignore it until after Shabbat","he":"להתעלם עד צאת השבת"}],
+ "a":1,"w":{"en":"No one must give up something dear to reduce another's lifesaving melakha (RSZ Auerbach).","he":"אין חובה לוותר על דבר יקר כדי למעט במלאכת הצלה של אחר (רשז\"א)."}}
+]

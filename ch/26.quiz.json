@@ -1,0 +1,23 @@
+[
+{"q":{"en":"Someone knowingly cooked food on Shabbat for his family. Who may eat it after Shabbat?","he":"מישהו בישל במזיד בשבת בשביל משפחתו. מי רשאי לאכול במוצאי שבת?"},
+ "o":[{"en":"Everyone","he":"כולם"},{"en":"The family, but never the cook himself","he":"המשפחה, אבל המבשל עצמו לעולם לא"},{"en":"No one, ever","he":"אף אחד, לעולם"},{"en":"Only the cook","he":"רק המבשל"}],
+ "a":1,"w":{"en":"One who sinned be-mezid may never benefit; others may after Shabbat.","he":"מי שעשה במזיד לעולם לא ייהנה; אחרים – במוצאי שבת."}},
+{"q":{"en":"A stairwell light was turned on on Shabbat. You could have climbed in the dark. What may you do?","he":"הדליקו אור בחדר המדרגות בשבת. יכולתם לעלות גם בחושך. מה מותר?"},
+ "o":[{"en":"Nothing; wait until it's off","he":"כלום; לחכות שיכבה"},{"en":"Walk up normally, but don't run up using the light","he":"לעלות כרגיל, אבל לא לרוץ בזכות האור"},{"en":"Anything, since you didn't turn it on","he":"הכול, כי לא אתם הדלקתם"},{"en":"Only if a non-Jew turned it on","he":"רק אם גוי הדליק"}],
+ "a":1,"w":{"en":"What you could do without the melakha, even with difficulty, you may do with it.","he":"מה שאפשר היה בלי המלאכה, אפילו בקושי, מותר גם איתה."}},
+{"q":{"en":"Someone leaned against a switch without noticing and the light went on. May you use the light?","he":"מישהו נשען על מתג בלי לשים לב והאור נדלק. מותר ליהנות?"},
+ "o":[{"en":"No, it's a Torah melakha","he":"לא, זו מלאכה דאורייתא"},{"en":"Yes, he was a mitasek","he":"כן, הוא מתעסק"},{"en":"Only after Shabbat","he":"רק במוצאי שבת"},{"en":"Only for learning Torah","he":"רק ללימוד תורה"}],
+ "a":1,"w":{"en":"Mitasek is lighter than shogeg. But turning it on out of habit counts as shogeg.","he":"מתעסק קל משוגג. אבל הדלקה מתוך הרגל נחשבת שוגג."}},
+{"q":{"en":"Someone heated already-cooked cold soup on a plata on Shabbat. May it be eaten on Shabbat?","he":"מישהו חימם על פלטה בשבת מרק מבושל שהצטנן. מותר לאכול בשבת?"},
+ "o":[{"en":"No, it's bishul","he":"לא, זה בישול"},{"en":"Yes be-di'avad, since Rambam permits it, and ma'aseh Shabbat is d'rabbanan","he":"כן בדיעבד, כי הרמב\"ם מתיר, ומעשה שבת דרבנן"},{"en":"Only after it cools","he":"רק אחרי שיצטנן"},{"en":"Only for Sefardim","he":"רק לספרדים"}],
+ "a":1,"w":{"en":"When the melakha is disputed, we're lenient about benefit be-di'avad.","he":"כשהמלאכה שנויה במחלוקת, מקילים בהנאה בדיעבד."}},
+{"q":{"en":"When may you listen to news produced by Jews in Israel after Shabbat?","he":"מתי מותר לשמוע חדשות של יהודים בארץ אחרי שבת?"},
+ "o":[{"en":"Right away","he":"מיד"},{"en":"From 15 minutes after","he":"מרבע שעה אחרי"},{"en":"From half an hour after","he":"מחצי שעה אחרי"},{"en":"Only the next morning","he":"רק למחרת בבוקר"}],
+ "a":2,"w":{"en":"News needs time to be gathered and written after Shabbat; other programs from 15 minutes.","he":"חדשות צריכות זמן לאיסוף וכתיבה אחרי שבת; תוכניות אחרות – מרבע שעה."}},
+{"q":{"en":"May you buy bread on Motza'ei Shabbat from a Jewish baker who regularly bakes on Shabbat to sell afterward?","he":"מותר לקנות במוצ\"ש לחם מאופה יהודי שאופה בקביעות בשבת כדי למכור אחריה?"},
+ "o":[{"en":"Yes, if the ingredients are kosher","he":"כן, אם המרכיבים כשרים"},{"en":"No; buying encourages his regular ḥillul Shabbat","he":"לא; הקנייה מעודדת את חילול השבת הקבוע שלו"},{"en":"Yes, after bi-khdei she-ya'asu","he":"כן, אחרי בכדי שיעשו"},{"en":"Only if you're not the one he baked for","he":"רק אם לא אפה בשבילך"}],
+ "a":1,"w":{"en":"When melakha is done regularly for others, they may never benefit from it.","he":"מלאכה שנעשית בקביעות בשביל אחרים – אסור להם ליהנות ממנה לעולם."}},
+{"q":{"en":"A Jewish driver stops on Shabbat and asks you for directions. What do you do?","he":"נהג יהודי עוצר בשבת ושואל אתכם על הדרך. מה עושים?"},
+ "o":[{"en":"Give directions so he drives less","he":"להכווין, כדי שייסע פחות"},{"en":"Politely apologize and explain you can't on Shabbat","he":"להתנצל בנימוס ולהסביר שבשבת אי אפשר"},{"en":"Point without speaking","he":"להצביע בלי לדבר"},{"en":"Write it down for him","he":"לכתוב לו"}],
+ "a":1,"w":{"en":"Giving directions is aiding a transgressor (mesayei'a) and talking about forbidden things.","he":"הכוונה היא סיוע לעובר עבירה (מסייע) ודיבור בדברים האסורים."}}
+]

@@ -265,8 +265,8 @@ let book='s',view='home',CHX=CH,NUMS=numsOf('s');
 function setBook(b){book=b;CHX=BK[b];NUMS=numsOf(b);}
 const HEB=['','א','ב','ג','ד','ה','ו','ז','ח','ט','י','יא','יב','יג','יד','טו','טז','יז','יח','יט','כ','כא','כב','כג','כד','כה','כו','כז','כח','כט','ל','לא','לב','לג','לד','לה','לו','לז'];
 const T={
- en:{kick:'<a href="https://ph.yhb.org.il/en/">Peninei Halakha</a> · Shabbat, chapters 1–23 · not a psak',title:"Hilchot Shabbat: my study notes",
-  lede:"From the meaning of Shabbat through Muktzeh, summarized section by section, with a quiz for every chapter to check what stuck.",
+ en:{kick:'<a href="https://ph.yhb.org.il/en/">Peninei Halakha</a> · Shabbat, chapters 1–30 · not a psak',title:"Hilchot Shabbat: my study notes",
+  lede:"From the meaning of Shabbat through Muktzeh, children, the sick, eruvin and teḥumin, summarized section by section, with a quiz for every chapter to check what stuck.",
   note:"These are a student's notes in my own words, not a psak. For a practical question, ask a rav.",
   q:"Search all chapters…",all:"All",jump:"Jump to section…",empty:"Nothing matches that search.",notes:"Notes",quiz:"Quiz",
   ch:n=>"Chapter "+n,mix:"Quiz on all chapters",mixT:"Quiz on all chapters",
@@ -278,9 +278,9 @@ const T={
   again:"Play again",change:"Change settings",right:["Correct!","Very good!","Excellent!","Exactly!","Well done!","Champion!"],wrong:["Not quite.","Almost.","Not this time.","A small slip."],
   howMany:"How many questions?",allN:n=>`All (${n})`,from:"From which chapters?",none:"None",order:"Order",mixed:"Mixed",inOrder:"In order",inChOrder:"In chapter order",
   willDraw:(n,m)=>`${n} questions will be drawn at random from the ${m} in the bank.`,pick:"Choose at least one chapter.",start:"Start the quiz",
-  foot:'Source: Rav Eliezer Melamed, <em>Peninei Halakha – Shabbat</em>, chapters 1–23. Read the full text on Sefaria: <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Shabbat.1.1?lang=bi">Peninei Halakhah, Shabbat</a> (English translation by Yeshivat Har Bracha).'},
- he:{kick:'<a href="https://ph.yhb.org.il/">פניני הלכה</a> · שבת, פרקים א–כג · לא פסק הלכה',title:"הלכות שבת: הסיכומים שלי",
-  lede:"ממשמעות השבת ועד מוקצה, בסיכום סעיף אחר סעיף, עם בוחן לכל פרק כדי לבדוק מה נקלט.",
+  foot:'Source: Rav Eliezer Melamed, <em>Peninei Halakha – Shabbat</em>, chapters 1–30. Read the full text on Sefaria: <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Shabbat.1.1?lang=bi">Peninei Halakhah, Shabbat</a> (English translation by Yeshivat Har Bracha).'},
+ he:{kick:'<a href="https://ph.yhb.org.il/">פניני הלכה</a> · שבת, פרקים א–ל · לא פסק הלכה',title:"הלכות שבת: הסיכומים שלי",
+  lede:"ממשמעות השבת, דרך מוקצה, קטנים וחולים, ועד עירובין ותחומין, בסיכום סעיף אחר סעיף, עם בוחן לכל פרק כדי לבדוק מה נקלט.",
   note:"אלו סיכומים של תלמיד בלשוני, לא פסק הלכה. לשאלה למעשה – לשאול רב.",
   q:"חיפוש בכל הפרקים…",all:"הכול",jump:"מעבר לסעיף…",empty:"אין תוצאות לחיפוש הזה.",notes:"סיכום",quiz:"חידון",
   ch:n=>"פרק "+HEB[n],mix:"חידון על כל הפרקים",mixT:"חידון על כל הפרקים",
@@ -292,7 +292,7 @@ const T={
   again:"לשחק שוב",change:"לשנות הגדרות",right:["נכון!","יפה מאוד!","מצוין!","בדיוק!","כל הכבוד!","אלוף!"],wrong:["לא בדיוק.","כמעט.","לא הפעם.","טעות קטנה."],
   howMany:"כמה שאלות?",allN:n=>`כולן (${n})`,from:"מאילו פרקים?",none:"אף אחד",order:"סדר השאלות",mixed:"מעורבב",inOrder:"לפי הסדר",inChOrder:"לפי סדר הפרקים",
   willDraw:(n,m)=>`ייבחרו ${n} שאלות באקראי מתוך ${m} שבמאגר.`,pick:"בחרו לפחות פרק אחד.",start:"להתחלת החידון",
-  foot:'מקור: הרב אליעזר מלמד, <em>פניני הלכה – שבת</em>, פרקים א–כג. לטקסט המלא בספריא: <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Shabbat.1.1?lang=bi">פניני הלכה, שבת</a>.'}};
+  foot:'מקור: הרב אליעזר מלמד, <em>פניני הלכה – שבת</em>, פרקים א–ל. לטקסט המלא בספריא: <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Shabbat.1.1?lang=bi">פניני הלכה, שבת</a>.'}};
 const BT={s:{en:{doc:'Hilchot Shabbat Notes',bk:'Shabbat'},he:{doc:'סיכומי הלכות שבת',bk:'שבת'}},
  k:{en:{doc:'Hilchot Kashrut Notes',bk:'Kashrut',title:'Hilchot Kashrut: my study notes',
   kick:'<a href="https://ph.yhb.org.il/en/">Peninei Halakha</a> · Kashrut, chapters 20–37 · not a psak',
@@ -512,8 +512,8 @@ BT.home={
   foot:'מקור: הרב אליעזר מלמד, <em>פניני הלכה</em>. לטקסט המלא בספריא: <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Shabbat.1.1?lang=bi">שבת</a> · <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Kashrut.20.1?lang=he">כשרות</a> · <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Zemanim.11.1?lang=he">זמנים</a>.'}};
 const CARD={
  s:{heb:'שבת',icon:'<svg viewBox="0 0 32 32" aria-hidden="true"><rect x="8" y="13" width="5" height="14" rx="1" fill="#fbf1ee"/><rect x="19" y="13" width="5" height="14" rx="1" fill="#fbf1ee"/><path d="M10.5 4.5c2.2 3 2.2 5.2 0 6.8-2.2-1.6-2.2-3.8 0-6.8zM21.5 4.5c2.2 3 2.2 5.2 0 6.8-2.2-1.6-2.2-3.8 0-6.8z" fill="#e5ad3e"/><rect x="5" y="27" width="22" height="2.2" rx="1.1" fill="#e5ad3e"/></svg>',
-  en:'The meaning of Shabbat, preparing for it, candles, kiddush and meals, havdala, the 39 melakhot, electricity, carrying and muktzeh.',
-  he:'משמעות השבת, ההכנות, הדלקת נרות, קידוש וסעודות, הבדלה, ל"ט המלאכות, חשמל, הוצאה ומוקצה.'},
+  en:'The meaning of Shabbat, preparing for it, candles, kiddush and meals, havdala, the 39 melakhot, electricity, carrying, muktzeh, a non-Jew’s melakha, the sick, eruvin and teḥumin.',
+  he:'משמעות השבת, ההכנות, הדלקת נרות, קידוש וסעודות, הבדלה, ל"ט המלאכות, חשמל, הוצאה, מוקצה, מלאכת גוי, חולים, עירובין ותחומין.'},
  k:{heb:'כשרות',icon:'<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 15h20v7a5 5 0 0 1-5 5H11a5 5 0 0 1-5-5z" fill="#fbf1ee"/><rect x="4" y="12.5" width="24" height="3" rx="1.5" fill="#e5ad3e"/><rect x="1.5" y="17" width="4.5" height="2.2" rx="1.1" fill="#fbf1ee"/><rect x="26" y="17" width="4.5" height="2.2" rx="1.1" fill="#fbf1ee"/><path d="M12 3.5c-1.6 2 1.6 3 0 5.3M16 2.5c-1.6 2 1.6 3 0 5.3M20 3.5c-1.6 2 1.6 3 0 5.3" stroke="#e5ad3e" stroke-width="1.7" fill="none" stroke-linecap="round"/></svg>',
   en:'Terefot, blood and salting, insects, meat and milk, gentiles’ food and wine, dairy, tevilat kelim, kashering a kitchen, mixtures and the food industry.',
   he:'טריפות, דם ומליחה, שרצים, בשר בחלב, מאכלי גויים ויינם, חלב ומוצריו, טבילת כלים, הכשרת מטבח, תערובות ותעשיית המזון.'},

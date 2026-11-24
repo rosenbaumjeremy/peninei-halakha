@@ -1,0 +1,23 @@
+[
+{"q":{"en":"How far is the standard teḥum Shabbat beyond one's mekom shevita?","he":"כמה הוא תחום שבת הרגיל ממקום השביתה?"},
+ "o":[{"en":"4 amot","he":"4 אמות"},{"en":"2,000 amot (~912 m)","he":"2,000 אמה (כ־912 מ')"},{"en":"12 mil","he":"12 מיל"},{"en":"Unlimited inside Eretz Yisrael","he":"ללא הגבלה בארץ ישראל"}],
+ "a":1,"w":{"en":"Rambam holds 12 mil is the Torah limit; most Rishonim say all teḥumin are d'rabbanan.","he":"לרמב\"ם 12 מיל הוא הגבול מהתורה; לרוב הראשונים כל התחומין מדרבנן."}},
+{"q":{"en":"Why is the teḥum square and not a circle?","he":"למה התחום מרובע ולא עגול?"},
+ "o":[{"en":"Because the camp in the desert was square","he":"כי מחנה ישראל במדבר היה מרובע"},{"en":"Learned from the Levite cities; and a square is easy to measure and gives a framework","he":"נלמד מערי הלוויים; וריבוע קל למדוד ונותן מסגרת"},{"en":"Because streets are straight","he":"כי הרחובות ישרים"},{"en":"It's a minhag only","he":"זה רק מנהג"}],
+ "a":1,"w":{"en":"Bamidbar 35:5. Squaring adds the corners.","he":"במדבר לה, ה. הריבוע מוסיף את הקרנות."}},
+{"q":{"en":"Two neighborhoods are 50 m apart. How is the teḥum calculated?","he":"שתי שכונות במרחק 50 מ' זו מזו. איך מחשבים את התחום?"},
+ "o":[{"en":"Separately for each","he":"לכל אחת לחוד"},{"en":"Together, as one area (≤ 64 m)","he":"יחד, כשטח אחד (≤ 64 מ')"},{"en":"Only if there's an eruv","he":"רק אם יש עירוב"},{"en":"From the shul","he":"מבית הכנסת"}],
+ "a":1,"w":{"en":"More than two karpifs (64 m) apart → separate towns.","he":"יותר משני קרפיפות (64 מ') ← עיירות נפרדות."}},
+{"q":{"en":"Someone unknowingly walked beyond his teḥum into a fenced town. What may he do there?","he":"מישהו יצא בשוגג מחוץ לתחום ונכנס לעיירה מגודרת. מה מותר לו שם?"},
+ "o":[{"en":"Only 4 amot","he":"רק 4 אמות"},{"en":"Walk throughout the enclosed area","he":"להלך בכל השטח המוקף"},{"en":"Walk 2,000 amot from where he is","he":"ללכת 2,000 אמה ממקומו"},{"en":"Must walk straight back","he":"חייב לחזור מיד"}],
+ "a":1,"w":{"en":"Shogeg or forced → the enclosure. Be-mezid → only 4 amot even inside a house.","he":"בשוגג או באונס ← כל המקום המוקף. במזיד ← רק 4 אמות אפילו בתוך בית."}},
+{"q":{"en":"You place an eruv teḥumin 2,000 amot east of home. Where may you walk?","he":"הנחתם עירוב תחומין 2,000 אמה מזרחית לבית. לאן מותר ללכת?"},
+ "o":[{"en":"2,000 amot in every direction from home, plus 2,000 east of the eruv","he":"2,000 אמה לכל כיוון מהבית, ועוד 2,000 מזרחית לעירוב"},{"en":"Up to 4,000 amot east, but not west of home at all","he":"עד 4,000 אמה מזרחה, ובכלל לא מערבה מהבית"},{"en":"Only to the eruv","he":"רק עד העירוב"},{"en":"Anywhere in the city","he":"לכל מקום בעיר"}],
+ "a":1,"w":{"en":"What you gain in one direction you lose in the other.","he":"מה שמרוויחים לכיוון אחד מפסידים בשני."}},
+{"q":{"en":"Which of these can NOT be used as the food for an eruv teḥumin?","he":"במה אי אפשר להשתמש כמזון לעירוב תחומין?"},
+ "o":[{"en":"Bread","he":"לחם"},{"en":"Peanut butter","he":"חמאת בוטנים"},{"en":"Salt and water","he":"מלח ומים"},{"en":"A drink, two revi'iyot per person","he":"משקה, שתי רביעיות לאדם"}],
+ "a":2,"w":{"en":"Eruvin 26a. Spreads are efficient for many people since little is eaten with a lot of bread.","he":"עירובין כו, א. ממרחים יעילים לרבים כי אוכלים מעט מהם עם הרבה לחם."}},
+{"q":{"en":"A plane lands at an unfenced airport on Shabbat and taxis more than 2,000 amot (not a mitzva trip). What's the rule?","he":"מטוס נוחת בשבת בשדה לא מגודר ונוסע על המסלול יותר מ־2,000 אמה (לא לדבר מצווה). מה הדין?"},
+ "o":[{"en":"He may walk 2,000 amot from the gate","he":"מותר ללכת 2,000 אמה מהשער"},{"en":"He's left his teḥum; stays on the plane unless forced off","he":"יצא מתחומו; נשאר במטוס אלא אם מוציאים אותו באונס"},{"en":"The whole airport is his 4 amot","he":"כל השדה הוא ארבע אמותיו"},{"en":"Teḥum doesn't apply to flights","he":"תחום לא חל בטיסות"}],
+ "a":1,"w":{"en":"His mekom shevita was set at touchdown. If forced off into an enclosure, he may walk within it.","he":"מקום שביתתו נקבע בנגיעה בקרקע. אם הוציאוהו באונס למקום מוקף – מהלך בכולו."}}
+]

@@ -1,0 +1,23 @@
+[
+{"q":{"en":"What, strictly speaking, is the \"eruv\"?","he":"מה, בדיוק, הוא ה\"עירוב\"?"},
+ "o":[{"en":"The wire around the city","he":"החוט שמסביב לעיר"},{"en":"The jointly owned food that merges all residents into one domain","he":"המזון המשותף שמאחד את כל התושבים לרשות אחת"},{"en":"The rav's declaration","he":"הכרזת הרב"},{"en":"The poles","he":"העמודים"}],
+ "a":1,"w":{"en":"An eruv needs both an enclosure and the shared food; the name really belongs to the food.","he":"עירוב צריך גם מחיצה וגם מזון משותף; השם שייך בעצם למזון."}},
+{"q":{"en":"A utility pole has cables running alongside it, not over it. Does it count as a tzurat ha-petaḥ?","he":"עמוד חשמל שהכבלים עוברים לצדו ולא מעליו. נחשב צורת הפתח?"},
+ "o":[{"en":"Yes, any wire between poles works","he":"כן, כל חוט בין עמודים מועיל"},{"en":"No; add ~1 m posts directly under the cables","he":"לא; צריך להוסיף עמודים של כמטר בדיוק מתחת לכבלים"},{"en":"Only if the cable is taut","he":"רק אם הכבל מתוח"},{"en":"Only for a karmelit","he":"רק בכרמלית"}],
+ "a":1,"w":{"en":"The lintel must sit over the doorposts, even if far above them.","he":"המשקוף צריך להיות מעל המזוזות, אפילו גבוה מהן הרבה."}},
+{"q":{"en":"How big a gap disqualifies the whole eruv on its own?","he":"פרצה בגודל כמה פוסלת לבדה את כל העירוב?"},
+ "o":[{"en":"More than 3 tefaḥim","he":"יותר מ־3 טפחים"},{"en":"More than 4 amot","he":"יותר מ־4 אמות"},{"en":"More than 10 amot","he":"יותר מ־10 אמות"},{"en":"More than 100 amot","he":"יותר מ־100 אמות"}],
+ "a":2,"w":{"en":"Also invalid if, on any side, the open parts exceed the standing parts.","he":"פסול גם אם ברוח אחת הפרוץ מרובה על העומד."}},
+{"q":{"en":"The eruv matza was eaten on Shabbat afternoon. May people keep carrying?","he":"מצת העירוב נאכלה בשבת אחר הצהריים. מותר להמשיך לטלטל?"},
+ "o":[{"en":"No, stop immediately","he":"לא, להפסיק מיד"},{"en":"Yes, all that Shabbat, since it existed at bein ha-shmashot","he":"כן, כל אותה שבת, כי היה קיים בבין השמשות"},{"en":"Only until sunset","he":"רק עד השקיעה"},{"en":"Only if a new one is set out","he":"רק אם מניחים חדש"}],
+ "a":1,"w":{"en":"For next Shabbat a new eruv is needed.","he":"לשבת הבאה צריך עירוב חדש."}},
+{"q":{"en":"How do eruvin deal with non-observant residents who don't want to be partners?","he":"איך העירוב מתמודד עם תושבים שאינם שומרי שבת ואינם רוצים להיות שותפים?"},
+ "o":[{"en":"They're ignored","he":"מתעלמים מהם"},{"en":"Renting their homes' share from an authority who can enter homes (e.g., Home Front Command)","he":"שוכרים את חלקם בבתים מבעל סמכות שרשאי להיכנס לבתים (כמו פיקוד העורף)"},{"en":"Building a separate eruv around their homes","he":"בונים עירוב נפרד סביב בתיהם"},{"en":"Not possible; no eruv in mixed cities","he":"אי אפשר; אין עירוב בערים מעורבות"}],
+ "a":1,"w":{"en":"One non-participating resident invalidates the eruv, so we rent from a city official.","he":"תושב אחד שאינו משתתף מבטל את העירוב, ולכן שוכרים מבעל סמכות."}},
+{"q":{"en":"The eruv wire snapped on Shabbat and no non-Jew is around. What may a Jew do?","he":"חוט העירוב נקרע בשבת ואין גוי. מה יהודי רשאי לעשות?"},
+ "o":[{"en":"Tie a regular double knot","he":"לקשור קשר כפול רגיל"},{"en":"Tie it with a bow (that's the custom)","he":"לקשור בעניבה (כך המנהג)"},{"en":"Nothing at all","he":"כלום"},{"en":"Replace the pole","he":"להחליף את העמוד"}],
+ "a":1,"w":{"en":"Some forbid even a bow (meḥitza ha-materet), but custom permits it to save the public from sin.","he":"יש אוסרים אפילו עניבה (מחיצה המתרת), אבל המנהג להתיר כדי להציל את הרבים מחטא."}},
+{"q":{"en":"The eruv is down and can't be fixed. Should it be announced in shul?","he":"העירוב נפל ואי אפשר לתקן. להכריז בבית הכנסת?"},
+ "o":[{"en":"Yes, everyone must know","he":"כן, כולם צריכים לדעת"},{"en":"No; tell only those who will surely stop carrying, so others sin be-shogeg rather than be-mezid","he":"לא; לספר רק למי שבוודאי יפסיק, כדי שאחרים יהיו שוגגים ולא מזידים"},{"en":"Only after Musaf","he":"רק אחרי מוסף"},{"en":"Only to the rav","he":"רק לרב"}],
+ "a":1,"w":{"en":"\"Mutav she-yihyu shogegin ve-al yihyu mezidin.\"","he":"מוטב שיהיו שוגגין ואל יהיו מזידין."}}
+]

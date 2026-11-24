@@ -1,10 +1,10 @@
 # Peninei Halakha Notes
 
-Study notes on Shabbat ch. 1–23, Kashrut ch. 20–37, and Zemanim ch. 11–16 (Ḥanuka and Purim). Live site: https://peninei-halakha.dailylearning.workers.dev/
+Study notes on Shabbat ch. 1–30, Kashrut ch. 20–37, and Zemanim ch. 11–16 (Ḥanuka and Purim). Live site: https://peninei-halakha.dailylearning.workers.dev/
 
 Bilingual (English / עברית) student notes and review quizzes on Rav Eliezer Melamed's *Peninei Halakha*:
 
-- **Shabbat**, chapters 1–23 (from the meaning of Shabbat through Muktzeh)
+- **Shabbat**, chapters 1–30 (from the meaning of Shabbat through Muktzeh, children, a non-Jew's melakha, ma'aseh Shabbat, the sick, eruvin and teḥumin)
 - **Kashrut**, chapters 20–37 (from Terefot through the food industry), summarized from the Hebrew
 - **Zemanim**, chapters 11–16: Ḥanuka (11–13) and Purim (14–16)
 
