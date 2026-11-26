@@ -202,6 +202,10 @@ footer a{color:var(--gold)}
  #rail{display:none}
  .side #chsel{display:block;flex:1 1 100%;color:var(--ink);background:var(--bg);border-color:var(--line)}
 }
+.mode a.askl{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;font-weight:600;font-size:15px;color:var(--ink);text-decoration:none;border-inline-start:1px solid var(--line)}
+.mode a.askl:hover{background:var(--panel)}
+@media(max-width:600px){.bar-in{flex-wrap:wrap}.bar-in #q{flex:1 1 100%;order:3}}
+.homeask{margin:0 0 18px}.homeask a{display:inline-flex;align-items:center;min-height:44px;padding:0 20px;border-radius:10px;background:var(--wine);color:#fff;font-weight:700;text-decoration:none}
 </style>
 </head>
 <body>
@@ -224,7 +228,7 @@ footer a{color:var(--gold)}
   <a class="homelink" href="https://home-site.dailylearning.workers.dev" rel="noopener" title="לימוד יומי — דף הבית" aria-label="לימוד יומי — דף הבית"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#16305c"/><path d="M16 12.5 C13.3 10.6 10.4 10.1 7.5 10.8 V21.6 C10.4 20.9 13.3 21.4 16 23.3 C18.7 21.4 21.6 20.9 24.5 21.6 V10.8 C21.6 10.1 18.7 10.6 16 12.5 Z" fill="#faf6ec" stroke="#b8924a" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M16 12.5 V23.3" stroke="#b8924a" stroke-width="1.3" stroke-linecap="round"/><path d="M16 5 C15.3 6.6 14.3 7.2 13.2 7.6 C14.3 8 15.3 8.7 16 10.3 C16.7 8.7 17.7 8 18.8 7.6 C17.7 7.2 16.7 6.6 16 5 Z" fill="#b8924a"/></svg></a>
  </div>
 </header>
-<section id="homeview" class="homeview" hidden><div class="home-in"><p class="hlede" id="hlede"></p><div class="cards" id="cards"></div></div></section>
+<section id="homeview" class="homeview" hidden><div class="home-in"><p class="hlede" id="hlede"></p><p class="homeask"><a id="home-ask" target="_blank" rel="noopener"></a></p><div class="cards" id="cards"></div></div></section>
 <div class="layout" id="bookview" hidden>
 <aside class="side" aria-label="Chapters"><div class="side-in"><button class="back" id="back"></button><p class="sbook" id="sbook"></p><select id="chsel" aria-label="Chapter"></select><nav id="rail"></nav></div></aside>
 <div class="content">
@@ -233,6 +237,7 @@ footer a{color:var(--gold)}
   <div class="mode" role="group">
    <button id="m-notes" aria-pressed="true"></button>
    <button id="m-quiz" aria-pressed="false"></button>
+   <a class="askl" id="m-ask" target="_blank" rel="noopener"></a>
   </div>
   <input id="q" type="search" autocomplete="off">
   <select id="jump"></select>
@@ -20724,6 +20729,9 @@ const BT={s:{en:{doc:'Hilchot Shabbat Notes',bk:'Shabbat'},he:{doc:'סיכומי
   kick:'<a href="https://ph.yhb.org.il/">פניני הלכה</a> · זמנים, פרקים יא–טז · לא פסק הלכה',
   foot:'מקור: הרב אליעזר מלמד, <em>פניני הלכה – זמנים</em>, פרקים יא–טז (חנוכה יא–יג, פורים יד–טז). לטקסט המלא בספריא: <a href="https://www.sefaria.org/Peninei_Halakhah%2C_Zemanim.11.1?lang=he">פניני הלכה, זמנים</a>.'}}};
 const $=id=>document.getElementById(id);
+// "Ask Claude" opens the Q&A page hosted in Claude; it answers only from these notes, on each visitor's own Claude account
+const ASKURL='https://claude.ai/artifact/19fuVKsU6KzQwpgDiHKbXK';
+function askLinks(){const t=lang==='he'?'שאלו את Claude ↗':'Ask Claude ↗';['m-ask','home-ask'].forEach(i=>{const a=$(i);if(a){a.textContent=t;a.href=ASKURL+'#'+lang;}});}
 const q=$('q'),jump=$('jump'),empty=$('empty');
 let lang='he',ch=1,mode='notes',cur='all',mixSet=null,secOpen=true;
 // phone tables
@@ -20859,13 +20867,13 @@ function render(){
  document.documentElement.lang=lang;document.documentElement.dir=lang==='he'?'rtl':'ltr';
  document.querySelectorAll('[data-t]').forEach(e=>e.innerHTML=BT.home[lang][e.dataset.t]??T[lang][e.dataset.t]);
  $('b-en').setAttribute('aria-pressed',lang==='en');$('b-he').setAttribute('aria-pressed',lang==='he');
- document.title=BT.home[lang].doc;homeCards();}
+ document.title=BT.home[lang].doc;askLinks();homeCards();}
 function renderBook(){
  document.documentElement.lang=lang;document.documentElement.dir=lang==='he'?'rtl':'ltr';
  document.querySelectorAll('[data-t]').forEach(e=>e.innerHTML=BT[book][lang][e.dataset.t]??T[lang][e.dataset.t]);
  $('back').textContent=BT.home[lang].back;$('sbook').textContent=BT[book][lang].bk;
  $('b-en').setAttribute('aria-pressed',lang==='en');$('b-he').setAttribute('aria-pressed',lang==='he');
- $('m-notes').textContent=T[lang].notes;$('m-quiz').textContent=T[lang].quiz;
+ askLinks();$('m-notes').textContent=T[lang].notes;$('m-quiz').textContent=T[lang].quiz;
  $('m-notes').setAttribute('aria-pressed',mode==='notes');$('m-quiz').setAttribute('aria-pressed',mode==='quiz');
  q.placeholder=T[lang].q;q.setAttribute('aria-label',T[lang].q);q.hidden=mode!=='notes';
  document.title=BT[book][lang].doc;
